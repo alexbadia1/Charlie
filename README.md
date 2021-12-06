@@ -2,9 +2,11 @@
 
 An old Windows 7 styled Blackjack Game
 
+![Charlie Thumbnail](screenshots/thumbnail.png)
+
 ## Walkthrough
 
-Due to grading, this project structure is Plugin Based. BadiaCharliePlugins and Charlie are interdependent on each other. This makes grading easiear as all I have to submit is BadiaCharliePlugins for each assignment.
+Due to grading, this project structure is Plugin Based. BadiaCharliePlugins and Charlie are interdependent on each other. This makes grading easier as all I have to submit is BadiaCharliePlugins for each assignment.
 
   - Charlie/
       - The base of the project where the GameFrame and Server Side coded is.
