@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk-14.0.1\bin\java" -jar "C:\cyvis-0.9-bin\cyvis-0.9\cyvis-0.9.jar"

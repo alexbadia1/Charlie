@@ -1,0 +1,17 @@
+charlie\client\HiLoCounter.class
+charlie\server\bot\Dewey.class
+charlie\sidebet\test\Shoe.class
+charlie\sidebet\view\SideBetView$Outcome.class
+charlie\server\MyShoe01.class
+charlie\server\bot\Huey$1.class
+charlie\client\CountingTrap.class
+charlie\client\BasicStrategy.class
+charlie\sidebet\rule\SideBetRule$Outcome.class
+charlie\bot\test\MyShoe.class
+charlie\client\BotBasicStrategy.class
+charlie\client\HumanAdvisor.class
+charlie\server\bot\Huey.class
+charlie\client\Advisor.class
+charlie\server\bot\HueyStay.class
+charlie\sidebet\rule\SideBetRule.class
+charlie\sidebet\view\SideBetView.class

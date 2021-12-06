@@ -1,0 +1,1144 @@
+18:34:57 INFO  AWT-EventQueue-0 0 GameFrame:107 - client started
+18:34:57 INFO  AWT-EventQueue-0 161 SideBetView:104 - side bet view constructed
+18:34:57 INFO  AWT-EventQueue-0 161 ATable:1025 - [ATable.loadSideBetSystem()] successfully loaded side bet view
+18:34:57 INFO  AWT-EventQueue-0 161 ATable:1065 - [ATable.loadCardCounter()] card counter plugin detected: charlie.client.HiLoCounter
+18:34:57 INFO  AWT-EventQueue-0 163 ATable:1070 - [ATable.loadCardCounter()] successfully loaded card counter
+18:34:57 INFO  AWT-EventQueue-0 166 GameFrame:247 - [GameFrame.loadAdvisor()] advisor plugin detected: charlie.client.Advisor
+18:34:57 INFO  AWT-EventQueue-0 169 GameFrame:252 - [GameFrame.loadAdvisor()] loaded advisor successfully
+18:34:57 INFO  AWT-EventQueue-0 169 GameFrame:276 - [GameFrame.loadCardCounter()] card counter plugin detected: charlie.client.HiLoCounter
+18:34:57 INFO  AWT-EventQueue-0 170 GameFrame:281 - [GameFrame.loadCardCounter()] loaded card counter successfully
+18:34:57 INFO  AWT-EventQueue-0 170 GameFrame:219 - [GameFrame.loadMinimumBet()] Minimum Bet detected: 25
+18:34:57 INFO  AWT-EventQueue-0 172 GameFrame:229 - [GameFrame.loadMinimumBet()] Minimum Bet successfully
+18:34:57 INFO  AWT-EventQueue-0 172 GameFrame:113 - init done
+18:38:25 INFO  AWT-EventQueue-0 207723 ClientAuthenticator:66 - sent login request
+18:38:25 INFO  AWT-EventQueue-0 207749 ClientAuthenticator:73 - received ticket BB20B45FD4D95138
+18:38:25 INFO  AWT-EventQueue-0 207749 GameFrame:352 - login successful
+18:38:25 INFO  AWT-EventQueue-0 207755 Actor:185 - Courier trap installed successfully: CountingTrap
+18:38:25 INFO  Thread-2 207758 Actor:185 - Courier waiting for connection on port 8001
+18:38:25 INFO  AWT-EventQueue-0 207759 Actor:185 - Arriver sending Arrival to 127.0.0.1:1235
+18:38:25 INFO  AWT-EventQueue-0 207777 Actor:185 - Arriver sent successfully Arrival to 127.0.0.1:1235
+18:38:25 INFO  AWT-EventQueue-0 207777 Actor:185 - Arriver sent arrival message
+18:38:25 INFO  Thread-2 207826 Actor:185 - Courier accepted connection on port 8001
+18:38:25 INFO  Thread-2 207828 Actor:185 - Courier received message Ready
+18:38:25 INFO  Thread-2 207829 Actor:185 - Courier invoking listener for Ready
+18:38:25 INFO  Thread-2 207829 Courier:234 - received Ready from LAPTOP-MR10D0GP/10.96.235.23
+18:38:25 INFO  Thread-2 207829 CountingTrap:91 - [CountingTrap.onReceive()] - Ready: 
+18:38:25 INFO  AWT-EventQueue-0 207829 GameFrame:371 - connected to courier with bankroll = 1000.0
+18:38:25 INFO  Thread-2 207832 Actor:185 - Courier waiting for connection on port 8001
+18:38:36 INFO  Thread-8 218775 ATable:260 - side bet = 0
+18:38:36 INFO  Thread-8 218775 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:38:36 INFO  Thread-8 218780 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:38:36 INFO  Thread-2 218805 Actor:185 - Courier accepted connection on port 8001
+18:38:36 INFO  Thread-2 218805 Actor:185 - Courier received message GameStart
+18:38:36 INFO  Thread-2 218805 Actor:185 - Courier invoking listener for GameStart
+18:38:36 INFO  Thread-2 218805 Courier:246 - receive starting shoe size = 52
+18:38:36 INFO  Thread-2 218805 Courier:249 - starting hand: UNKNOWN:RIGHT:2BFABAB66DAB4F5F
+18:38:36 INFO  Thread-2 218805 Courier:249 - starting hand: UNKNOWN:YOU:63DE7DB6B4C2E39B
+18:38:36 INFO  Thread-2 218805 Courier:249 - starting hand: UNKNOWN:LEFT:3D0AA8B857EFEA9E
+18:38:36 INFO  Thread-2 218805 Courier:249 - starting hand: UNKNOWN:DEALER:38B3CF4E706FF5AA
+18:38:36 INFO  Thread-2 218805 CountingTrap:91 - [CountingTrap.onReceive()] - GameStart: Shoe: 52
+18:38:36 INFO  Thread-2 218805 Actor:185 - Courier waiting for connection on port 8001
+18:38:37 INFO  Thread-2 219827 Actor:185 - Courier accepted connection on port 8001
+18:38:37 INFO  Thread-2 219831 Actor:185 - Courier received message Deal
+18:38:37 INFO  Thread-2 219831 Actor:185 - Courier invoking listener for Deal
+18:38:37 INFO  Thread-2 219836 Courier:280 - received card = C6 values = 6/6 hid = UNKNOWN:RIGHT:2BFABAB66DAB4F5F
+18:38:37 INFO  Thread-2 219838 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 1, True Count: 1, Bet:  2
+18:38:37 INFO  Thread-2 219839 Actor:185 - Courier waiting for connection on port 8001
+18:38:38 INFO  Thread-2 220584 Actor:185 - Courier accepted connection on port 8001
+18:38:38 INFO  Thread-2 220585 Actor:185 - Courier received message Deal
+18:38:38 INFO  Thread-2 220586 Actor:185 - Courier invoking listener for Deal
+18:38:38 INFO  Thread-2 220586 Courier:280 - received card = S6 values = 6/6 hid = UNKNOWN:YOU:63DE7DB6B4C2E39B
+18:38:38 INFO  Thread-2 220588 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 2, True Count: 2, Bet:  3
+18:38:38 INFO  Thread-2 220588 Actor:185 - Courier waiting for connection on port 8001
+18:38:38 INFO  Thread-2 221338 Actor:185 - Courier accepted connection on port 8001
+18:38:38 INFO  Thread-2 221340 Actor:185 - Courier received message Deal
+18:38:38 INFO  Thread-2 221340 Actor:185 - Courier invoking listener for Deal
+18:38:38 INFO  Thread-2 221340 Courier:280 - received card = D8 values = 8/8 hid = UNKNOWN:LEFT:3D0AA8B857EFEA9E
+18:38:38 INFO  Thread-2 221342 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 2, True Count: 2, Bet:  3
+18:38:38 INFO  Thread-2 221343 Actor:185 - Courier waiting for connection on port 8001
+18:38:39 INFO  Thread-2 222093 Actor:185 - Courier accepted connection on port 8001
+18:38:39 INFO  Thread-2 222094 Actor:185 - Courier received message Deal
+18:38:39 INFO  Thread-2 222094 Actor:185 - Courier invoking listener for Deal
+18:38:39 INFO  Thread-2 222094 Courier:280 - received card = SK values = 0/0 hid = UNKNOWN:DEALER:38B3CF4E706FF5AA
+18:38:39 INFO  Thread-2 222100 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 1, True Count: 1, Bet:  2
+18:38:39 INFO  Thread-2 222101 Actor:185 - Courier waiting for connection on port 8001
+18:38:40 INFO  Thread-2 222846 Actor:185 - Courier accepted connection on port 8001
+18:38:40 INFO  Thread-2 222847 Actor:185 - Courier received message Deal
+18:38:40 INFO  Thread-2 222847 Actor:185 - Courier invoking listener for Deal
+18:38:40 INFO  Thread-2 222847 Courier:280 - received card = D9 values = 15/15 hid = UNKNOWN:RIGHT:2BFABAB66DAB4F5F
+18:38:40 INFO  Thread-2 222849 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 1, True Count: 1, Bet:  2
+18:38:40 INFO  Thread-2 222849 Actor:185 - Courier waiting for connection on port 8001
+18:38:41 INFO  Thread-2 223600 Actor:185 - Courier accepted connection on port 8001
+18:38:41 INFO  Thread-2 223601 Actor:185 - Courier received message Deal
+18:38:41 INFO  Thread-2 223602 Actor:185 - Courier invoking listener for Deal
+18:38:41 INFO  Thread-2 223602 Courier:280 - received card = D3 values = 9/9 hid = UNKNOWN:YOU:63DE7DB6B4C2E39B
+18:38:41 INFO  Thread-2 223603 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 2, True Count: 2, Bet:  3
+18:38:41 INFO  Thread-2 223604 Actor:185 - Courier waiting for connection on port 8001
+18:38:41 INFO  Thread-2 224354 Actor:185 - Courier accepted connection on port 8001
+18:38:41 INFO  Thread-2 224355 Actor:185 - Courier received message Deal
+18:38:41 INFO  Thread-2 224355 Actor:185 - Courier invoking listener for Deal
+18:38:41 INFO  Thread-2 224355 Courier:280 - received card = HA values = 9/19 hid = UNKNOWN:LEFT:3D0AA8B857EFEA9E
+18:38:41 INFO  Thread-2 224357 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 1, True Count: 1, Bet:  2
+18:38:41 INFO  Thread-2 224357 Actor:185 - Courier waiting for connection on port 8001
+18:38:42 INFO  Thread-2 225108 Actor:185 - Courier accepted connection on port 8001
+18:38:42 INFO  Thread-2 225110 Actor:185 - Courier received message Deal
+18:38:42 INFO  Thread-2 225110 Actor:185 - Courier invoking listener for Deal
+18:38:42 INFO  Thread-2 225110 Courier:280 - received card = SQ values = 10/10 hid = UNKNOWN:DEALER:38B3CF4E706FF5AA
+18:38:42 INFO  Thread-2 225119 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 0, True Count: 0, Bet:  1
+18:38:42 INFO  Thread-2 225119 Actor:185 - Courier waiting for connection on port 8001
+18:38:42 INFO  Thread-2 225119 Actor:185 - Courier accepted connection on port 8001
+18:38:42 INFO  Thread-2 225121 Actor:185 - Courier received message Play
+18:38:42 INFO  Thread-2 225121 Actor:185 - Courier invoking listener for Play
+18:38:42 INFO  Thread-2 225122 Courier:289 - got turn = UNKNOWN:RIGHT:2BFABAB66DAB4F5F
+18:38:43 INFO  Thread-2 225812 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:38:43 INFO  Thread-2 225812 Actor:185 - Courier waiting for connection on port 8001
+18:38:44 INFO  Thread-2 226942 Actor:185 - Courier accepted connection on port 8001
+18:38:44 INFO  Thread-2 226943 Actor:185 - Courier received message Play
+18:38:44 INFO  Thread-2 226944 Actor:185 - Courier invoking listener for Play
+18:38:44 INFO  Thread-2 226944 Courier:289 - got turn = UNKNOWN:YOU:63DE7DB6B4C2E39B
+18:38:45 INFO  Thread-2 227645 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:38:45 INFO  Thread-2 227645 Actor:185 - Courier waiting for connection on port 8001
+18:38:45 INFO  AWT-EventQueue-0 227835 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+18:38:45 INFO  AWT-EventQueue-0 227835 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+18:38:45 INFO  Thread-2 227842 Actor:185 - Courier accepted connection on port 8001
+18:38:45 INFO  Thread-2 227843 Actor:185 - Courier received message Play
+18:38:45 INFO  Thread-2 227843 Actor:185 - Courier invoking listener for Play
+18:38:45 INFO  Thread-2 227843 Courier:289 - got turn = UNKNOWN:LEFT:3D0AA8B857EFEA9E
+18:38:46 INFO  Thread-2 228537 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:38:46 INFO  Thread-2 228537 Actor:185 - Courier waiting for connection on port 8001
+18:38:49 INFO  Thread-2 232123 Actor:185 - Courier accepted connection on port 8001
+18:38:49 INFO  Thread-2 232125 Actor:185 - Courier received message Play
+18:38:49 INFO  Thread-2 232125 Actor:185 - Courier invoking listener for Play
+18:38:49 INFO  Thread-2 232125 Courier:289 - got turn = UNKNOWN:DEALER:38B3CF4E706FF5AA
+18:38:49 INFO  Thread-2 232125 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:38:49 INFO  Thread-2 232125 Actor:185 - Courier waiting for connection on port 8001
+18:38:49 INFO  Thread-2 232126 Actor:185 - Courier accepted connection on port 8001
+18:38:49 INFO  Thread-2 232126 Actor:185 - Courier received message Deal
+18:38:49 INFO  Thread-2 232127 Actor:185 - Courier invoking listener for Deal
+18:38:49 INFO  Thread-2 232127 Courier:280 - received card = null values = 20/20 hid = UNKNOWN:DEALER:38B3CF4E706FF5AA
+18:38:49 INFO  Thread-2 232127 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Null Card
+18:38:49 INFO  Thread-2 232127 Actor:185 - Courier waiting for connection on port 8001
+18:38:49 INFO  Thread-2 232128 Actor:185 - Courier accepted connection on port 8001
+18:38:49 INFO  Thread-2 232132 Actor:185 - Courier received message Lose
+18:38:49 INFO  Thread-2 232132 Actor:185 - Courier invoking listener for Lose
+18:38:49 INFO  Thread-2 232132 Courier:209 - received outcome = Lose
+18:38:49 INFO  Thread-2 232136 ATable:640 - LOSE for hid = UNKNOWN:RIGHT:2BFABAB66DAB4F5F amt = 5.0
+18:38:49 INFO  Thread-2 232136 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:38:49 INFO  Thread-2 232136 Actor:185 - Courier waiting for connection on port 8001
+18:38:49 INFO  Thread-2 232136 Actor:185 - Courier accepted connection on port 8001
+18:38:49 INFO  Thread-2 232137 Actor:185 - Courier received message Lose
+18:38:49 INFO  Thread-2 232137 Actor:185 - Courier invoking listener for Lose
+18:38:49 INFO  Thread-2 232137 Courier:209 - received outcome = Lose
+18:38:49 INFO  Thread-2 232137 ATable:640 - LOSE for hid = UNKNOWN:YOU:63DE7DB6B4C2E39B amt = 25.0
+18:38:49 INFO  Thread-2 232137 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:38:49 INFO  Thread-2 232137 Actor:185 - Courier waiting for connection on port 8001
+18:38:49 INFO  Thread-2 232138 Actor:185 - Courier accepted connection on port 8001
+18:38:49 INFO  Thread-2 232138 Actor:185 - Courier received message Lose
+18:38:49 INFO  Thread-2 232138 Actor:185 - Courier invoking listener for Lose
+18:38:49 INFO  Thread-2 232138 Courier:209 - received outcome = Lose
+18:38:49 INFO  Thread-2 232138 ATable:640 - LOSE for hid = UNKNOWN:LEFT:3D0AA8B857EFEA9E amt = 5.0
+18:38:49 INFO  Thread-2 232138 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:38:49 INFO  Thread-2 232139 Actor:185 - Courier waiting for connection on port 8001
+18:38:49 INFO  Thread-2 232139 Actor:185 - Courier accepted connection on port 8001
+18:38:49 INFO  Thread-2 232140 Actor:185 - Courier received message GameOver
+18:38:49 INFO  Thread-2 232140 Actor:185 - Courier invoking listener for GameOver
+18:38:49 INFO  Thread-2 232140 Courier:300 - received ending shoe size = 44
+18:38:49 INFO  Thread-2 232143 ATable:807 - num hands = 4 wins = 0 loses = 3 pushes = 0
+18:38:52 INFO  Thread-2 234797 CountingTrap:91 - [CountingTrap.onReceive()] - GameOver: 
+18:38:52 INFO  Thread-2 234797 Actor:185 - Courier waiting for connection on port 8001
+18:38:58 INFO  Thread-19 240595 ATable:260 - side bet = 0
+18:38:58 INFO  Thread-19 240595 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:38:58 INFO  Thread-19 240596 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:38:58 INFO  Thread-2 240600 Actor:185 - Courier accepted connection on port 8001
+18:38:58 INFO  Thread-2 240601 Actor:185 - Courier received message GameStart
+18:38:58 INFO  Thread-2 240601 Actor:185 - Courier invoking listener for GameStart
+18:38:58 INFO  Thread-2 240601 Courier:246 - receive starting shoe size = 44
+18:38:58 INFO  Thread-2 240601 Courier:249 - starting hand: UNKNOWN:RIGHT:443692430551D431
+18:38:58 INFO  Thread-2 240601 Courier:249 - starting hand: UNKNOWN:YOU:507AB77A694C052A
+18:38:58 INFO  Thread-2 240601 Courier:249 - starting hand: UNKNOWN:LEFT:4E33FCCBED27E96C
+18:38:58 INFO  Thread-2 240601 Courier:249 - starting hand: UNKNOWN:DEALER:1DF73DEFE536B4F5
+18:38:58 INFO  Thread-2 240601 CountingTrap:91 - [CountingTrap.onReceive()] - GameStart: Shoe: 44
+18:38:58 INFO  Thread-2 240602 Actor:185 - Courier waiting for connection on port 8001
+18:38:59 INFO  Thread-2 241625 Actor:185 - Courier accepted connection on port 8001
+18:38:59 INFO  Thread-2 241626 Actor:185 - Courier received message Deal
+18:38:59 INFO  Thread-2 241626 Actor:185 - Courier invoking listener for Deal
+18:38:59 INFO  Thread-2 241626 Courier:280 - received card = C7 values = 7/7 hid = UNKNOWN:RIGHT:443692430551D431
+18:38:59 INFO  Thread-2 241628 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: 0, True Count: 0, Bet:  1
+18:38:59 INFO  Thread-2 241628 Actor:185 - Courier waiting for connection on port 8001
+18:38:59 INFO  Thread-2 242378 Actor:185 - Courier accepted connection on port 8001
+18:38:59 INFO  Thread-2 242379 Actor:185 - Courier received message Deal
+18:38:59 INFO  Thread-2 242379 Actor:185 - Courier invoking listener for Deal
+18:38:59 INFO  Thread-2 242379 Courier:280 - received card = CJ values = 10/10 hid = UNKNOWN:YOU:507AB77A694C052A
+18:38:59 INFO  Thread-2 242381 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: -1, True Count: -1.2, Bet:  1
+18:38:59 INFO  Thread-2 242381 Actor:185 - Courier waiting for connection on port 8001
+18:39:00 INFO  Thread-2 243130 Actor:185 - Courier accepted connection on port 8001
+18:39:00 INFO  Thread-2 243131 Actor:185 - Courier received message Deal
+18:39:00 INFO  Thread-2 243131 Actor:185 - Courier invoking listener for Deal
+18:39:00 INFO  Thread-2 243131 Courier:280 - received card = HQ values = 10/10 hid = UNKNOWN:LEFT:4E33FCCBED27E96C
+18:39:00 INFO  Thread-2 243138 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: -2, True Count: -2.4, Bet:  1
+18:39:00 INFO  Thread-2 243139 Actor:185 - Courier waiting for connection on port 8001
+18:39:01 INFO  Thread-2 243883 Actor:185 - Courier accepted connection on port 8001
+18:39:01 INFO  Thread-2 243884 Actor:185 - Courier received message Deal
+18:39:01 INFO  Thread-2 243884 Actor:185 - Courier invoking listener for Deal
+18:39:01 INFO  Thread-2 243884 Courier:280 - received card = D7 values = 0/0 hid = UNKNOWN:DEALER:1DF73DEFE536B4F5
+18:39:01 INFO  Thread-2 243885 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: -2, True Count: -2.4, Bet:  1
+18:39:01 INFO  Thread-2 243886 Actor:185 - Courier waiting for connection on port 8001
+18:39:02 INFO  Thread-2 244635 Actor:185 - Courier accepted connection on port 8001
+18:39:02 INFO  Thread-2 244636 Actor:185 - Courier received message Deal
+18:39:02 INFO  Thread-2 244636 Actor:185 - Courier invoking listener for Deal
+18:39:02 INFO  Thread-2 244637 Courier:280 - received card = C4 values = 11/11 hid = UNKNOWN:RIGHT:443692430551D431
+18:39:02 INFO  Thread-2 244638 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: -1, True Count: -1.2, Bet:  1
+18:39:02 INFO  Thread-2 244638 Actor:185 - Courier waiting for connection on port 8001
+18:39:02 INFO  Thread-2 245388 Actor:185 - Courier accepted connection on port 8001
+18:39:02 INFO  Thread-2 245390 Actor:185 - Courier received message Deal
+18:39:02 INFO  Thread-2 245390 Actor:185 - Courier invoking listener for Deal
+18:39:02 INFO  Thread-2 245390 Courier:280 - received card = S3 values = 13/13 hid = UNKNOWN:YOU:507AB77A694C052A
+18:39:02 INFO  Thread-2 245392 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: 0, True Count: 0, Bet:  1
+18:39:02 INFO  Thread-2 245393 Actor:185 - Courier waiting for connection on port 8001
+18:39:03 INFO  Thread-2 246141 Actor:185 - Courier accepted connection on port 8001
+18:39:03 INFO  Thread-2 246143 Actor:185 - Courier received message Deal
+18:39:03 INFO  Thread-2 246143 Actor:185 - Courier invoking listener for Deal
+18:39:03 INFO  Thread-2 246143 Courier:280 - received card = H2 values = 12/12 hid = UNKNOWN:LEFT:4E33FCCBED27E96C
+18:39:03 INFO  Thread-2 246144 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: 1, True Count: 1.2, Bet:  2
+18:39:03 INFO  Thread-2 246145 Actor:185 - Courier waiting for connection on port 8001
+18:39:04 INFO  Thread-2 246896 Actor:185 - Courier accepted connection on port 8001
+18:39:04 INFO  Thread-2 246897 Actor:185 - Courier received message Deal
+18:39:04 INFO  Thread-2 246897 Actor:185 - Courier invoking listener for Deal
+18:39:04 INFO  Thread-2 246897 Courier:280 - received card = S5 values = 5/5 hid = UNKNOWN:DEALER:1DF73DEFE536B4F5
+18:39:04 INFO  Thread-2 246898 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: 2, True Count: 2.4, Bet:  3
+18:39:04 INFO  Thread-2 246899 Actor:185 - Courier waiting for connection on port 8001
+18:39:04 INFO  Thread-2 246899 Actor:185 - Courier accepted connection on port 8001
+18:39:04 INFO  Thread-2 246899 Actor:185 - Courier received message Play
+18:39:04 INFO  Thread-2 246899 Actor:185 - Courier invoking listener for Play
+18:39:04 INFO  Thread-2 246900 Courier:289 - got turn = UNKNOWN:RIGHT:443692430551D431
+18:39:05 INFO  Thread-2 247587 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:39:05 INFO  Thread-2 247587 Actor:185 - Courier waiting for connection on port 8001
+18:39:05 INFO  Thread-2 247587 Actor:185 - Courier accepted connection on port 8001
+18:39:05 INFO  Thread-2 247588 Actor:185 - Courier received message Deal
+18:39:05 INFO  Thread-2 247588 Actor:185 - Courier invoking listener for Deal
+18:39:05 INFO  Thread-2 247588 Courier:280 - received card = DK values = 21/21 hid = UNKNOWN:RIGHT:443692430551D431
+18:39:05 INFO  Thread-2 247598 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: 1, True Count: 1.2, Bet:  2
+18:39:05 INFO  Thread-2 247599 Actor:185 - Courier waiting for connection on port 8001
+18:39:05 INFO  Thread-2 247599 Actor:185 - Courier accepted connection on port 8001
+18:39:05 INFO  Thread-2 247600 Actor:185 - Courier received message Play
+18:39:05 INFO  Thread-2 247600 Actor:185 - Courier invoking listener for Play
+18:39:05 INFO  Thread-2 247600 Courier:289 - got turn = UNKNOWN:YOU:507AB77A694C052A
+18:39:05 INFO  Thread-2 248288 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:39:05 INFO  Thread-2 248288 Actor:185 - Courier waiting for connection on port 8001
+18:39:06 INFO  AWT-EventQueue-0 249181 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+18:39:06 INFO  AWT-EventQueue-0 249183 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+18:39:06 INFO  Thread-2 249186 Actor:185 - Courier accepted connection on port 8001
+18:39:06 INFO  Thread-2 249187 Actor:185 - Courier received message Deal
+18:39:06 INFO  Thread-2 249187 Actor:185 - Courier invoking listener for Deal
+18:39:06 INFO  Thread-2 249187 Courier:280 - received card = S10 values = 23/23 hid = UNKNOWN:YOU:507AB77A694C052A
+18:39:06 INFO  Thread-2 249189 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: 0, True Count: 0, Bet:  1
+18:39:06 INFO  Thread-2 249190 Actor:185 - Courier waiting for connection on port 8001
+18:39:06 INFO  Thread-2 249190 Actor:185 - Courier accepted connection on port 8001
+18:39:06 INFO  Thread-2 249192 Actor:185 - Courier received message Bust
+18:39:06 INFO  Thread-2 249192 Actor:185 - Courier invoking listener for Bust
+18:39:06 INFO  Thread-2 249192 Courier:209 - received outcome = Bust
+18:39:06 INFO  Thread-2 249193 ATable:578 - BUST for hid = UNKNOWN:YOU:507AB77A694C052A amt = 25.0
+18:39:08 INFO  Thread-2 251375 CountingTrap:91 - [CountingTrap.onReceive()] - Bust: 
+18:39:08 INFO  Thread-2 251375 Actor:185 - Courier waiting for connection on port 8001
+18:39:08 INFO  Thread-2 251375 Actor:185 - Courier accepted connection on port 8001
+18:39:08 INFO  Thread-2 251376 Actor:185 - Courier received message Play
+18:39:08 INFO  Thread-2 251377 Actor:185 - Courier invoking listener for Play
+18:39:08 INFO  Thread-2 251377 Courier:289 - got turn = UNKNOWN:LEFT:4E33FCCBED27E96C
+18:39:09 INFO  Thread-2 252075 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:39:09 INFO  Thread-2 252075 Actor:185 - Courier waiting for connection on port 8001
+18:39:09 INFO  Thread-2 252075 Actor:185 - Courier accepted connection on port 8001
+18:39:09 INFO  Thread-2 252076 Actor:185 - Courier received message Play
+18:39:09 INFO  Thread-2 252076 Actor:185 - Courier invoking listener for Play
+18:39:09 INFO  Thread-2 252076 Courier:289 - got turn = UNKNOWN:DEALER:1DF73DEFE536B4F5
+18:39:09 INFO  Thread-2 252076 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:39:09 INFO  Thread-2 252076 Actor:185 - Courier waiting for connection on port 8001
+18:39:09 INFO  Thread-2 252076 Actor:185 - Courier accepted connection on port 8001
+18:39:09 INFO  Thread-2 252077 Actor:185 - Courier received message Deal
+18:39:09 INFO  Thread-2 252077 Actor:185 - Courier invoking listener for Deal
+18:39:09 INFO  Thread-2 252077 Courier:280 - received card = null values = 12/12 hid = UNKNOWN:DEALER:1DF73DEFE536B4F5
+18:39:09 INFO  Thread-2 252077 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Null Card
+18:39:09 INFO  Thread-2 252077 Actor:185 - Courier waiting for connection on port 8001
+18:39:09 INFO  Thread-2 252078 Actor:185 - Courier accepted connection on port 8001
+18:39:09 INFO  Thread-2 252079 Actor:185 - Courier received message Deal
+18:39:09 INFO  Thread-2 252079 Actor:185 - Courier invoking listener for Deal
+18:39:09 INFO  Thread-2 252079 Courier:280 - received card = D2 values = 14/14 hid = UNKNOWN:DEALER:1DF73DEFE536B4F5
+18:39:09 INFO  Thread-2 252080 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: 1, True Count: 1.2, Bet:  2
+18:39:09 INFO  Thread-2 252080 Actor:185 - Courier waiting for connection on port 8001
+18:39:09 INFO  Thread-2 252081 Actor:185 - Courier accepted connection on port 8001
+18:39:09 INFO  Thread-2 252081 Actor:185 - Courier received message Deal
+18:39:09 INFO  Thread-2 252081 Actor:185 - Courier invoking listener for Deal
+18:39:09 INFO  Thread-2 252081 Courier:280 - received card = HJ values = 24/24 hid = UNKNOWN:DEALER:1DF73DEFE536B4F5
+18:39:09 INFO  Thread-2 252083 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 44, Running Count: 0, True Count: 0, Bet:  1
+18:39:09 INFO  Thread-2 252083 Actor:185 - Courier waiting for connection on port 8001
+18:39:09 INFO  Thread-2 252083 Actor:185 - Courier accepted connection on port 8001
+18:39:09 INFO  Thread-2 252085 Actor:185 - Courier received message Win
+18:39:09 INFO  Thread-2 252085 Actor:185 - Courier invoking listener for Win
+18:39:09 INFO  Thread-2 252085 Courier:209 - received outcome = Win
+18:39:09 INFO  Thread-2 252085 ATable:610 - WIN for hid = UNKNOWN:RIGHT:443692430551D431 amt = 10.0
+18:39:09 INFO  Thread-2 252085 CountingTrap:91 - [CountingTrap.onReceive()] - Win: 
+18:39:09 INFO  Thread-2 252085 Actor:185 - Courier waiting for connection on port 8001
+18:39:09 INFO  Thread-2 252086 Actor:185 - Courier accepted connection on port 8001
+18:39:09 INFO  Thread-2 252086 Actor:185 - Courier received message Win
+18:39:09 INFO  Thread-2 252087 Actor:185 - Courier invoking listener for Win
+18:39:09 INFO  Thread-2 252087 Courier:209 - received outcome = Win
+18:39:09 INFO  Thread-2 252087 ATable:610 - WIN for hid = UNKNOWN:LEFT:4E33FCCBED27E96C amt = 5.0
+18:39:09 INFO  Thread-2 252087 CountingTrap:91 - [CountingTrap.onReceive()] - Win: 
+18:39:09 INFO  Thread-2 252087 Actor:185 - Courier waiting for connection on port 8001
+18:39:09 INFO  Thread-2 252087 Actor:185 - Courier accepted connection on port 8001
+18:39:09 INFO  Thread-2 252088 Actor:185 - Courier received message GameOver
+18:39:09 INFO  Thread-2 252088 Actor:185 - Courier invoking listener for GameOver
+18:39:09 INFO  Thread-2 252088 Courier:300 - received ending shoe size = 32
+18:39:09 INFO  Thread-2 252088 ATable:807 - num hands = 4 wins = 2 loses = 1 pushes = 0
+18:39:09 INFO  Thread-2 252089 CountingTrap:91 - [CountingTrap.onReceive()] - GameOver: 
+18:39:09 INFO  Thread-2 252089 Actor:185 - Courier waiting for connection on port 8001
+18:39:10 INFO  Thread-34 253257 ATable:260 - side bet = 0
+18:39:10 INFO  Thread-34 253257 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:39:10 INFO  Thread-34 253259 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:39:10 INFO  Thread-2 253261 Actor:185 - Courier accepted connection on port 8001
+18:39:10 INFO  Thread-2 253263 Actor:185 - Courier received message GameStart
+18:39:10 INFO  Thread-2 253263 Actor:185 - Courier invoking listener for GameStart
+18:39:10 INFO  Thread-2 253263 Courier:246 - receive starting shoe size = 32
+18:39:10 INFO  Thread-2 253263 Courier:249 - starting hand: UNKNOWN:RIGHT:3956AFED044E2160
+18:39:10 INFO  Thread-2 253263 Courier:249 - starting hand: UNKNOWN:YOU:5A27C4A8E0FD64A6
+18:39:10 INFO  Thread-2 253263 Courier:249 - starting hand: UNKNOWN:LEFT:52045D69502239F0
+18:39:10 INFO  Thread-2 253263 Courier:249 - starting hand: UNKNOWN:DEALER:67AB5605AE4BDF4
+18:39:10 INFO  Thread-2 253263 CountingTrap:91 - [CountingTrap.onReceive()] - GameStart: Shoe: 32
+18:39:10 INFO  Thread-2 253264 Actor:185 - Courier waiting for connection on port 8001
+18:39:11 INFO  Thread-2 254293 Actor:185 - Courier accepted connection on port 8001
+18:39:11 INFO  Thread-2 254294 Actor:185 - Courier received message Deal
+18:39:11 INFO  Thread-2 254294 Actor:185 - Courier invoking listener for Deal
+18:39:11 INFO  Thread-2 254294 Courier:280 - received card = H7 values = 7/7 hid = UNKNOWN:RIGHT:3956AFED044E2160
+18:39:11 INFO  Thread-2 254296 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 32, Running Count: 0, True Count: 0, Bet:  1
+18:39:11 INFO  Thread-2 254297 Actor:185 - Courier waiting for connection on port 8001
+18:39:12 INFO  Thread-2 255047 Actor:185 - Courier accepted connection on port 8001
+18:39:12 INFO  Thread-2 255048 Actor:185 - Courier received message Deal
+18:39:12 INFO  Thread-2 255048 Actor:185 - Courier invoking listener for Deal
+18:39:12 INFO  Thread-2 255048 Courier:280 - received card = C2 values = 2/2 hid = UNKNOWN:YOU:5A27C4A8E0FD64A6
+18:39:12 INFO  Thread-2 255049 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 32, Running Count: 1, True Count: 1.6, Bet:  3
+18:39:12 INFO  Thread-2 255050 Actor:185 - Courier waiting for connection on port 8001
+18:39:13 INFO  Thread-2 255801 Actor:185 - Courier accepted connection on port 8001
+18:39:13 INFO  Thread-2 255802 Actor:185 - Courier received message Deal
+18:39:13 INFO  Thread-2 255802 Actor:185 - Courier invoking listener for Deal
+18:39:13 INFO  Thread-2 255802 Courier:280 - received card = CK values = 10/10 hid = UNKNOWN:LEFT:52045D69502239F0
+18:39:13 INFO  Thread-2 255810 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 32, Running Count: 0, True Count: 0, Bet:  1
+18:39:13 INFO  Thread-2 255810 Actor:185 - Courier waiting for connection on port 8001
+18:39:14 INFO  Thread-2 256553 Actor:185 - Courier accepted connection on port 8001
+18:39:14 INFO  Thread-2 256554 Actor:185 - Courier received message Deal
+18:39:14 INFO  Thread-2 256554 Actor:185 - Courier invoking listener for Deal
+18:39:14 INFO  Thread-2 256554 Courier:280 - received card = CA values = 0/0 hid = UNKNOWN:DEALER:67AB5605AE4BDF4
+18:39:14 INFO  Thread-2 256556 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 32, Running Count: -1, True Count: -1.6, Bet:  1
+18:39:14 INFO  Thread-2 256556 Actor:185 - Courier waiting for connection on port 8001
+18:39:14 INFO  Thread-2 257306 Actor:185 - Courier accepted connection on port 8001
+18:39:14 INFO  Thread-2 257307 Actor:185 - Courier received message Deal
+18:39:14 INFO  Thread-2 257308 Actor:185 - Courier invoking listener for Deal
+18:39:14 INFO  Thread-2 257308 Courier:280 - received card = CQ values = 17/17 hid = UNKNOWN:RIGHT:3956AFED044E2160
+18:39:14 INFO  Thread-2 257315 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 32, Running Count: -2, True Count: -3.2, Bet:  1
+18:39:14 INFO  Thread-2 257315 Actor:185 - Courier waiting for connection on port 8001
+18:39:15 INFO  Thread-2 258059 Actor:185 - Courier accepted connection on port 8001
+18:39:15 INFO  Thread-2 258060 Actor:185 - Courier received message Deal
+18:39:15 INFO  Thread-2 258060 Actor:185 - Courier invoking listener for Deal
+18:39:15 INFO  Thread-2 258060 Courier:280 - received card = H9 values = 11/11 hid = UNKNOWN:YOU:5A27C4A8E0FD64A6
+18:39:15 INFO  Thread-2 258062 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 32, Running Count: -2, True Count: -3.2, Bet:  1
+18:39:15 INFO  Thread-2 258062 Actor:185 - Courier waiting for connection on port 8001
+18:39:16 INFO  Thread-2 258811 Actor:185 - Courier accepted connection on port 8001
+18:39:16 INFO  Thread-2 258812 Actor:185 - Courier received message Deal
+18:39:16 INFO  Thread-2 258812 Actor:185 - Courier invoking listener for Deal
+18:39:16 INFO  Thread-2 258812 Courier:280 - received card = D4 values = 14/14 hid = UNKNOWN:LEFT:52045D69502239F0
+18:39:16 INFO  Thread-2 258814 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 32, Running Count: -1, True Count: -1.6, Bet:  1
+18:39:16 INFO  Thread-2 258814 Actor:185 - Courier waiting for connection on port 8001
+18:39:17 INFO  Thread-2 259565 Actor:185 - Courier accepted connection on port 8001
+18:39:17 INFO  Thread-2 259567 Actor:185 - Courier received message Deal
+18:39:17 INFO  Thread-2 259567 Actor:185 - Courier invoking listener for Deal
+18:39:17 INFO  Thread-2 259567 Courier:280 - received card = HK values = 10/10 hid = UNKNOWN:DEALER:67AB5605AE4BDF4
+18:39:17 INFO  Thread-2 259574 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 32, Running Count: -2, True Count: -3.2, Bet:  1
+18:39:17 INFO  Thread-2 259574 Actor:185 - Courier waiting for connection on port 8001
+18:39:17 INFO  Thread-2 259575 Actor:185 - Courier accepted connection on port 8001
+18:39:17 INFO  Thread-2 259575 Actor:185 - Courier received message Play
+18:39:17 INFO  Thread-2 259575 Actor:185 - Courier invoking listener for Play
+18:39:17 INFO  Thread-2 259575 Courier:289 - got turn = UNKNOWN:DEALER:67AB5605AE4BDF4
+18:39:17 INFO  Thread-2 259575 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:39:17 INFO  Thread-2 259576 Actor:185 - Courier waiting for connection on port 8001
+18:39:17 INFO  Thread-2 259576 Actor:185 - Courier accepted connection on port 8001
+18:39:17 INFO  Thread-2 259576 Actor:185 - Courier received message Deal
+18:39:17 INFO  Thread-2 259577 Actor:185 - Courier invoking listener for Deal
+18:39:17 INFO  Thread-2 259577 Courier:280 - received card = null values = 11/21 hid = UNKNOWN:DEALER:67AB5605AE4BDF4
+18:39:17 INFO  Thread-2 259577 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 32, Null Card
+18:39:17 INFO  Thread-2 259577 Actor:185 - Courier waiting for connection on port 8001
+18:39:17 INFO  Thread-2 259577 Actor:185 - Courier accepted connection on port 8001
+18:39:17 INFO  Thread-2 259578 Actor:185 - Courier received message Lose
+18:39:17 INFO  Thread-2 259578 Actor:185 - Courier invoking listener for Lose
+18:39:17 INFO  Thread-2 259578 Courier:209 - received outcome = Lose
+18:39:17 INFO  Thread-2 259578 ATable:640 - LOSE for hid = UNKNOWN:RIGHT:3956AFED044E2160 amt = 5.0
+18:39:17 INFO  Thread-2 259578 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:39:17 INFO  Thread-2 259578 Actor:185 - Courier waiting for connection on port 8001
+18:39:17 INFO  Thread-2 259578 Actor:185 - Courier accepted connection on port 8001
+18:39:17 INFO  Thread-2 259579 Actor:185 - Courier received message Lose
+18:39:17 INFO  Thread-2 259579 Actor:185 - Courier invoking listener for Lose
+18:39:17 INFO  Thread-2 259579 Courier:209 - received outcome = Lose
+18:39:17 INFO  Thread-2 259579 ATable:640 - LOSE for hid = UNKNOWN:YOU:5A27C4A8E0FD64A6 amt = 25.0
+18:39:17 INFO  Thread-2 259579 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:39:17 INFO  Thread-2 259579 Actor:185 - Courier waiting for connection on port 8001
+18:39:17 INFO  Thread-2 259579 Actor:185 - Courier accepted connection on port 8001
+18:39:17 INFO  Thread-2 259579 Actor:185 - Courier received message Lose
+18:39:17 INFO  Thread-2 259580 Actor:185 - Courier invoking listener for Lose
+18:39:17 INFO  Thread-2 259580 Courier:209 - received outcome = Lose
+18:39:17 INFO  Thread-2 259580 ATable:640 - LOSE for hid = UNKNOWN:LEFT:52045D69502239F0 amt = 5.0
+18:39:17 INFO  Thread-2 259580 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:39:17 INFO  Thread-2 259580 Actor:185 - Courier waiting for connection on port 8001
+18:39:17 INFO  Thread-2 259580 Actor:185 - Courier accepted connection on port 8001
+18:39:17 INFO  Thread-2 259581 Actor:185 - Courier received message GameOver
+18:39:17 INFO  Thread-2 259581 Actor:185 - Courier invoking listener for GameOver
+18:39:17 INFO  Thread-2 259581 Courier:300 - received ending shoe size = 24
+18:39:17 INFO  Thread-2 259581 ATable:807 - num hands = 4 wins = 0 loses = 3 pushes = 0
+18:39:18 INFO  Thread-2 261330 CountingTrap:91 - [CountingTrap.onReceive()] - GameOver: 
+18:39:18 INFO  Thread-2 261331 Actor:185 - Courier waiting for connection on port 8001
+18:39:22 INFO  Thread-44 265339 ATable:260 - side bet = 0
+18:39:22 INFO  Thread-44 265339 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:39:22 INFO  Thread-44 265340 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:39:22 INFO  Thread-2 265343 Actor:185 - Courier accepted connection on port 8001
+18:39:22 INFO  Thread-2 265344 Actor:185 - Courier received message GameStart
+18:39:22 INFO  Thread-2 265344 Actor:185 - Courier invoking listener for GameStart
+18:39:22 INFO  Thread-2 265344 Courier:246 - receive starting shoe size = 24
+18:39:22 INFO  Thread-2 265344 Courier:249 - starting hand: UNKNOWN:RIGHT:54477242BAFB1A2A
+18:39:22 INFO  Thread-2 265344 Courier:249 - starting hand: UNKNOWN:YOU:5E0617905657A113
+18:39:22 INFO  Thread-2 265344 Courier:249 - starting hand: UNKNOWN:LEFT:501495D7F74BA9C5
+18:39:22 INFO  Thread-2 265345 Courier:249 - starting hand: UNKNOWN:DEALER:3F4F48D16D24A21B
+18:39:22 INFO  Thread-2 265345 CountingTrap:91 - [CountingTrap.onReceive()] - GameStart: Shoe: 24
+18:39:22 INFO  Thread-2 265345 Actor:185 - Courier waiting for connection on port 8001
+18:39:23 INFO  Thread-2 266374 Actor:185 - Courier accepted connection on port 8001
+18:39:23 INFO  Thread-2 266375 Actor:185 - Courier received message Deal
+18:39:23 INFO  Thread-2 266375 Actor:185 - Courier invoking listener for Deal
+18:39:23 INFO  Thread-2 266375 Courier:280 - received card = H4 values = 4/4 hid = UNKNOWN:RIGHT:54477242BAFB1A2A
+18:39:23 INFO  Thread-2 266377 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: -1, True Count: -2.2, Bet:  1
+18:39:23 INFO  Thread-2 266377 Actor:185 - Courier waiting for connection on port 8001
+18:39:24 INFO  Thread-2 267126 Actor:185 - Courier accepted connection on port 8001
+18:39:24 INFO  Thread-2 267127 Actor:185 - Courier received message Deal
+18:39:24 INFO  Thread-2 267127 Actor:185 - Courier invoking listener for Deal
+18:39:24 INFO  Thread-2 267127 Courier:280 - received card = S4 values = 4/4 hid = UNKNOWN:YOU:5E0617905657A113
+18:39:24 INFO  Thread-2 267128 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 0, True Count: 0, Bet:  1
+18:39:24 INFO  Thread-2 267129 Actor:185 - Courier waiting for connection on port 8001
+18:39:25 INFO  Thread-2 267879 Actor:185 - Courier accepted connection on port 8001
+18:39:25 INFO  Thread-2 267880 Actor:185 - Courier received message Deal
+18:39:25 INFO  Thread-2 267881 Actor:185 - Courier invoking listener for Deal
+18:39:25 INFO  Thread-2 267881 Courier:280 - received card = S9 values = 9/9 hid = UNKNOWN:LEFT:501495D7F74BA9C5
+18:39:25 INFO  Thread-2 267882 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 0, True Count: 0, Bet:  1
+18:39:25 INFO  Thread-2 267882 Actor:185 - Courier waiting for connection on port 8001
+18:39:26 INFO  Thread-2 268632 Actor:185 - Courier accepted connection on port 8001
+18:39:26 INFO  Thread-2 268633 Actor:185 - Courier received message Deal
+18:39:26 INFO  Thread-2 268633 Actor:185 - Courier invoking listener for Deal
+18:39:26 INFO  Thread-2 268633 Courier:280 - received card = C3 values = 0/0 hid = UNKNOWN:DEALER:3F4F48D16D24A21B
+18:39:26 INFO  Thread-2 268635 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 1, True Count: 2.2, Bet:  3
+18:39:26 INFO  Thread-2 268635 Actor:185 - Courier waiting for connection on port 8001
+18:39:26 INFO  Thread-2 269385 Actor:185 - Courier accepted connection on port 8001
+18:39:26 INFO  Thread-2 269385 Actor:185 - Courier received message Deal
+18:39:26 INFO  Thread-2 269386 Actor:185 - Courier invoking listener for Deal
+18:39:26 INFO  Thread-2 269386 Courier:280 - received card = SJ values = 14/14 hid = UNKNOWN:RIGHT:54477242BAFB1A2A
+18:39:26 INFO  Thread-2 269393 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 0, True Count: 0, Bet:  1
+18:39:26 INFO  Thread-2 269394 Actor:185 - Courier waiting for connection on port 8001
+18:39:27 INFO  Thread-2 270138 Actor:185 - Courier accepted connection on port 8001
+18:39:27 INFO  Thread-2 270139 Actor:185 - Courier received message Deal
+18:39:27 INFO  Thread-2 270139 Actor:185 - Courier invoking listener for Deal
+18:39:27 INFO  Thread-2 270139 Courier:280 - received card = C9 values = 13/13 hid = UNKNOWN:YOU:5E0617905657A113
+18:39:27 INFO  Thread-2 270141 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 0, True Count: 0, Bet:  1
+18:39:27 INFO  Thread-2 270141 Actor:185 - Courier waiting for connection on port 8001
+18:39:27 INFO  Thread-2 270141 Actor:185 - Courier accepted connection on port 8001
+18:39:27 INFO  Thread-2 270142 Actor:185 - Courier received message Shuffle
+18:39:27 INFO  Thread-2 270142 Actor:185 - Courier invoking listener for Shuffle
+18:39:27 INFO  Thread-2 270142 Courier:309 - received shuffle
+18:39:27 INFO  Thread-2 270142 CountingTrap:91 - [CountingTrap.onReceive()] - Shuffle: 
+18:39:27 INFO  Thread-2 270142 Actor:185 - Courier waiting for connection on port 8001
+18:39:28 INFO  Thread-2 270892 Actor:185 - Courier accepted connection on port 8001
+18:39:28 INFO  Thread-2 270893 Actor:185 - Courier received message Deal
+18:39:28 INFO  Thread-2 270893 Actor:185 - Courier invoking listener for Deal
+18:39:28 INFO  Thread-2 270893 Courier:280 - received card = H6 values = 15/15 hid = UNKNOWN:LEFT:501495D7F74BA9C5
+18:39:28 INFO  Thread-2 270895 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 1, True Count: 2.2, Bet:  3
+18:39:28 INFO  Thread-2 270895 Actor:185 - Courier waiting for connection on port 8001
+18:39:29 INFO  Thread-2 271648 Actor:185 - Courier accepted connection on port 8001
+18:39:29 INFO  Thread-2 271649 Actor:185 - Courier received message Deal
+18:39:29 INFO  Thread-2 271649 Actor:185 - Courier invoking listener for Deal
+18:39:29 INFO  Thread-2 271649 Courier:280 - received card = DA values = 1/11 hid = UNKNOWN:DEALER:3F4F48D16D24A21B
+18:39:29 INFO  Thread-2 271652 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 0, True Count: 0, Bet:  1
+18:39:29 INFO  Thread-2 271652 Actor:185 - Courier waiting for connection on port 8001
+18:39:29 INFO  Thread-2 271652 Actor:185 - Courier accepted connection on port 8001
+18:39:29 INFO  Thread-2 271653 Actor:185 - Courier received message Play
+18:39:29 INFO  Thread-2 271653 Actor:185 - Courier invoking listener for Play
+18:39:29 INFO  Thread-2 271653 Courier:289 - got turn = UNKNOWN:RIGHT:54477242BAFB1A2A
+18:39:29 INFO  Thread-2 272349 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:39:29 INFO  Thread-2 272349 Actor:185 - Courier waiting for connection on port 8001
+18:39:31 INFO  Thread-2 273802 Actor:185 - Courier accepted connection on port 8001
+18:39:31 INFO  Thread-2 273803 Actor:185 - Courier received message Play
+18:39:31 INFO  Thread-2 273803 Actor:185 - Courier invoking listener for Play
+18:39:31 INFO  Thread-2 273803 Courier:289 - got turn = UNKNOWN:YOU:5E0617905657A113
+18:39:31 INFO  AWT-EventQueue-0 274476 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+18:39:31 INFO  AWT-EventQueue-0 274477 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+18:39:32 INFO  Thread-2 274517 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:39:32 INFO  Thread-2 274517 Actor:185 - Courier waiting for connection on port 8001
+18:39:32 INFO  Thread-2 274517 Actor:185 - Courier accepted connection on port 8001
+18:39:32 INFO  Thread-2 274517 Actor:185 - Courier received message Deal
+18:39:32 INFO  Thread-2 274517 Actor:185 - Courier invoking listener for Deal
+18:39:32 INFO  Thread-2 274517 Courier:280 - received card = S2 values = 15/15 hid = UNKNOWN:YOU:5E0617905657A113
+18:39:32 INFO  Thread-2 274521 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 1, True Count: 2.2, Bet:  3
+18:39:32 INFO  Thread-2 274521 Actor:185 - Courier waiting for connection on port 8001
+18:39:33 INFO  AWT-EventQueue-0 275900 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+18:39:33 INFO  AWT-EventQueue-0 275901 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+18:39:33 INFO  Thread-2 275903 Actor:185 - Courier accepted connection on port 8001
+18:39:33 INFO  Thread-2 275904 Actor:185 - Courier received message Deal
+18:39:33 INFO  Thread-2 275904 Actor:185 - Courier invoking listener for Deal
+18:39:33 INFO  Thread-2 275904 Courier:280 - received card = DJ values = 25/25 hid = UNKNOWN:YOU:5E0617905657A113
+18:39:33 INFO  Thread-2 275911 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 0, True Count: 0, Bet:  1
+18:39:33 INFO  Thread-2 275912 Actor:185 - Courier waiting for connection on port 8001
+18:39:33 INFO  Thread-2 275912 Actor:185 - Courier accepted connection on port 8001
+18:39:33 INFO  Thread-2 275912 Actor:185 - Courier received message Bust
+18:39:33 INFO  Thread-2 275912 Actor:185 - Courier invoking listener for Bust
+18:39:33 INFO  Thread-2 275912 Courier:209 - received outcome = Bust
+18:39:33 INFO  Thread-2 275912 ATable:578 - BUST for hid = UNKNOWN:YOU:5E0617905657A113 amt = 50.0
+18:39:34 INFO  Thread-2 277122 CountingTrap:91 - [CountingTrap.onReceive()] - Bust: 
+18:39:34 INFO  Thread-2 277122 Actor:185 - Courier waiting for connection on port 8001
+18:39:34 INFO  Thread-2 277123 Actor:185 - Courier accepted connection on port 8001
+18:39:34 INFO  Thread-2 277123 Actor:185 - Courier received message Play
+18:39:34 INFO  Thread-2 277123 Actor:185 - Courier invoking listener for Play
+18:39:34 INFO  Thread-2 277123 Courier:289 - got turn = UNKNOWN:LEFT:501495D7F74BA9C5
+18:39:35 INFO  Thread-2 277811 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:39:35 INFO  Thread-2 277811 Actor:185 - Courier waiting for connection on port 8001
+18:39:36 INFO  Thread-2 278639 Actor:185 - Courier accepted connection on port 8001
+18:39:36 INFO  Thread-2 278641 Actor:185 - Courier received message Deal
+18:39:36 INFO  Thread-2 278641 Actor:185 - Courier invoking listener for Deal
+18:39:36 INFO  Thread-2 278641 Courier:280 - received card = D5 values = 20/20 hid = UNKNOWN:LEFT:501495D7F74BA9C5
+18:39:36 INFO  Thread-2 278645 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 1, True Count: 2.2, Bet:  3
+18:39:36 INFO  Thread-2 278645 Actor:185 - Courier waiting for connection on port 8001
+18:39:38 INFO  Thread-2 281028 Actor:185 - Courier accepted connection on port 8001
+18:39:38 INFO  Thread-2 281029 Actor:185 - Courier received message Play
+18:39:38 INFO  Thread-2 281029 Actor:185 - Courier invoking listener for Play
+18:39:38 INFO  Thread-2 281029 Courier:289 - got turn = UNKNOWN:DEALER:3F4F48D16D24A21B
+18:39:38 INFO  Thread-2 281029 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:39:38 INFO  Thread-2 281030 Actor:185 - Courier waiting for connection on port 8001
+18:39:38 INFO  Thread-2 281030 Actor:185 - Courier accepted connection on port 8001
+18:39:38 INFO  Thread-2 281031 Actor:185 - Courier received message Deal
+18:39:38 INFO  Thread-2 281031 Actor:185 - Courier invoking listener for Deal
+18:39:38 INFO  Thread-2 281031 Courier:280 - received card = null values = 4/14 hid = UNKNOWN:DEALER:3F4F48D16D24A21B
+18:39:38 INFO  Thread-2 281031 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Null Card
+18:39:38 INFO  Thread-2 281031 Actor:185 - Courier waiting for connection on port 8001
+18:39:39 INFO  Thread-2 281784 Actor:185 - Courier accepted connection on port 8001
+18:39:39 INFO  Thread-2 281785 Actor:185 - Courier received message Deal
+18:39:39 INFO  Thread-2 281785 Actor:185 - Courier invoking listener for Deal
+18:39:39 INFO  Thread-2 281785 Courier:280 - received card = D6 values = 10/20 hid = UNKNOWN:DEALER:3F4F48D16D24A21B
+18:39:39 INFO  Thread-2 281786 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 24, Running Count: 2, True Count: 4.3, Bet:  5
+18:39:39 INFO  Thread-2 281787 Actor:185 - Courier waiting for connection on port 8001
+18:39:39 INFO  Thread-2 281787 Actor:185 - Courier accepted connection on port 8001
+18:39:39 INFO  Thread-2 281787 Actor:185 - Courier received message Lose
+18:39:39 INFO  Thread-2 281787 Actor:185 - Courier invoking listener for Lose
+18:39:39 INFO  Thread-2 281787 Courier:209 - received outcome = Lose
+18:39:39 INFO  Thread-2 281787 ATable:640 - LOSE for hid = UNKNOWN:RIGHT:54477242BAFB1A2A amt = 5.0
+18:39:39 INFO  Thread-2 281787 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:39:39 INFO  Thread-2 281787 Actor:185 - Courier waiting for connection on port 8001
+18:39:39 INFO  Thread-2 281788 Actor:185 - Courier accepted connection on port 8001
+18:39:39 INFO  Thread-2 281789 Actor:185 - Courier received message Push
+18:39:39 INFO  Thread-2 281789 Actor:185 - Courier invoking listener for Push
+18:39:39 INFO  Thread-2 281789 Courier:209 - received outcome = Push
+18:39:39 INFO  Thread-2 281789 ATable:670 - PUSH for hid = UNKNOWN:LEFT:501495D7F74BA9C5 amt = 5.0
+18:39:40 INFO  Thread-2 282517 CountingTrap:91 - [CountingTrap.onReceive()] - Push: 
+18:39:40 INFO  Thread-2 282517 Actor:185 - Courier waiting for connection on port 8001
+18:39:40 INFO  Thread-2 282518 Actor:185 - Courier accepted connection on port 8001
+18:39:40 INFO  Thread-2 282518 Actor:185 - Courier received message GameOver
+18:39:40 INFO  Thread-2 282518 Actor:185 - Courier invoking listener for GameOver
+18:39:40 INFO  Thread-2 282518 Courier:300 - received ending shoe size = 52
+18:39:40 INFO  Thread-2 282518 ATable:807 - num hands = 4 wins = 0 loses = 2 pushes = 1
+18:39:40 INFO  Thread-2 282518 CountingTrap:91 - [CountingTrap.onReceive()] - GameOver: 
+18:39:40 INFO  Thread-2 282518 Actor:185 - Courier waiting for connection on port 8001
+18:39:58 INFO  Thread-65 301451 ATable:260 - side bet = 0
+18:39:58 INFO  Thread-65 301451 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:39:58 INFO  Thread-65 301453 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:39:58 INFO  Thread-2 301454 Actor:185 - Courier accepted connection on port 8001
+18:39:58 INFO  Thread-2 301458 Actor:185 - Courier received message GameStart
+18:39:58 INFO  Thread-2 301458 Actor:185 - Courier invoking listener for GameStart
+18:39:58 INFO  Thread-2 301458 Courier:246 - receive starting shoe size = 52
+18:39:58 INFO  Thread-2 301458 Courier:249 - starting hand: UNKNOWN:RIGHT:5FB4AB87B4AA6A9C
+18:39:58 INFO  Thread-2 301458 Courier:249 - starting hand: UNKNOWN:YOU:5D462CB933F1A58B
+18:39:58 INFO  Thread-2 301458 Courier:249 - starting hand: UNKNOWN:LEFT:339030FD006A6AFC
+18:39:58 INFO  Thread-2 301458 Courier:249 - starting hand: UNKNOWN:DEALER:17A6DCB1560D2586
+18:39:58 INFO  Thread-2 301459 CountingTrap:91 - [CountingTrap.onReceive()] - GameStart: Shoe: 52
+18:39:58 INFO  Thread-2 301460 Actor:185 - Courier waiting for connection on port 8001
+18:39:59 INFO  Thread-2 302489 Actor:185 - Courier accepted connection on port 8001
+18:39:59 INFO  Thread-2 302490 Actor:185 - Courier received message Deal
+18:39:59 INFO  Thread-2 302490 Actor:185 - Courier invoking listener for Deal
+18:39:59 INFO  Thread-2 302490 Courier:280 - received card = C8 values = 8/8 hid = UNKNOWN:RIGHT:5FB4AB87B4AA6A9C
+18:40:00 INFO  Thread-2 302492 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 0, True Count: 0, Bet:  1
+18:40:00 INFO  Thread-2 302492 Actor:185 - Courier waiting for connection on port 8001
+18:40:00 INFO  Thread-2 303241 Actor:185 - Courier accepted connection on port 8001
+18:40:00 INFO  Thread-2 303241 Actor:185 - Courier received message Deal
+18:40:00 INFO  Thread-2 303242 Actor:185 - Courier invoking listener for Deal
+18:40:00 INFO  Thread-2 303242 Courier:280 - received card = D3 values = 3/3 hid = UNKNOWN:YOU:5D462CB933F1A58B
+18:40:00 INFO  Thread-2 303242 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 1, True Count: 1, Bet:  2
+18:40:00 INFO  Thread-2 303242 Actor:185 - Courier waiting for connection on port 8001
+18:40:01 INFO  Thread-2 303994 Actor:185 - Courier accepted connection on port 8001
+18:40:01 INFO  Thread-2 303995 Actor:185 - Courier received message Deal
+18:40:01 INFO  Thread-2 303995 Actor:185 - Courier invoking listener for Deal
+18:40:01 INFO  Thread-2 303995 Courier:280 - received card = CQ values = 10/10 hid = UNKNOWN:LEFT:339030FD006A6AFC
+18:40:01 INFO  Thread-2 303996 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 0, True Count: 0, Bet:  1
+18:40:01 INFO  Thread-2 303996 Actor:185 - Courier waiting for connection on port 8001
+18:40:02 INFO  Thread-2 304761 Actor:185 - Courier accepted connection on port 8001
+18:40:02 INFO  Thread-2 304761 Actor:185 - Courier received message Deal
+18:40:02 INFO  Thread-2 304761 Actor:185 - Courier invoking listener for Deal
+18:40:02 INFO  Thread-2 304761 Courier:280 - received card = DJ values = 0/0 hid = UNKNOWN:DEALER:17A6DCB1560D2586
+18:40:02 INFO  Thread-2 304762 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -1, True Count: -1, Bet:  1
+18:40:02 INFO  Thread-2 304762 Actor:185 - Courier waiting for connection on port 8001
+18:40:03 INFO  Thread-2 305513 Actor:185 - Courier accepted connection on port 8001
+18:40:03 INFO  Thread-2 305514 Actor:185 - Courier received message Deal
+18:40:03 INFO  Thread-2 305514 Actor:185 - Courier invoking listener for Deal
+18:40:03 INFO  Thread-2 305514 Courier:280 - received card = DK values = 18/18 hid = UNKNOWN:RIGHT:5FB4AB87B4AA6A9C
+18:40:03 INFO  Thread-2 305514 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -2, True Count: -2, Bet:  1
+18:40:03 INFO  Thread-2 305514 Actor:185 - Courier waiting for connection on port 8001
+18:40:03 INFO  Thread-2 306267 Actor:185 - Courier accepted connection on port 8001
+18:40:03 INFO  Thread-2 306268 Actor:185 - Courier received message Deal
+18:40:03 INFO  Thread-2 306268 Actor:185 - Courier invoking listener for Deal
+18:40:03 INFO  Thread-2 306268 Courier:280 - received card = SJ values = 13/13 hid = UNKNOWN:YOU:5D462CB933F1A58B
+18:40:03 INFO  Thread-2 306268 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -3, True Count: -3, Bet:  1
+18:40:03 INFO  Thread-2 306269 Actor:185 - Courier waiting for connection on port 8001
+18:40:04 INFO  Thread-2 307028 Actor:185 - Courier accepted connection on port 8001
+18:40:04 INFO  Thread-2 307028 Actor:185 - Courier received message Deal
+18:40:04 INFO  Thread-2 307028 Actor:185 - Courier invoking listener for Deal
+18:40:04 INFO  Thread-2 307028 Courier:280 - received card = S7 values = 17/17 hid = UNKNOWN:LEFT:339030FD006A6AFC
+18:40:04 INFO  Thread-2 307030 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -3, True Count: -3, Bet:  1
+18:40:04 INFO  Thread-2 307031 Actor:185 - Courier waiting for connection on port 8001
+18:40:05 INFO  Thread-2 307779 Actor:185 - Courier accepted connection on port 8001
+18:40:05 INFO  Thread-2 307780 Actor:185 - Courier received message Deal
+18:40:05 INFO  Thread-2 307780 Actor:185 - Courier invoking listener for Deal
+18:40:05 INFO  Thread-2 307780 Courier:280 - received card = S5 values = 5/5 hid = UNKNOWN:DEALER:17A6DCB1560D2586
+18:40:05 INFO  Thread-2 307780 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -2, True Count: -2, Bet:  1
+18:40:05 INFO  Thread-2 307781 Actor:185 - Courier waiting for connection on port 8001
+18:40:05 INFO  Thread-2 307782 Actor:185 - Courier accepted connection on port 8001
+18:40:05 INFO  Thread-2 307782 Actor:185 - Courier received message Play
+18:40:05 INFO  Thread-2 307782 Actor:185 - Courier invoking listener for Play
+18:40:05 INFO  Thread-2 307782 Courier:289 - got turn = UNKNOWN:RIGHT:5FB4AB87B4AA6A9C
+18:40:05 INFO  Thread-2 308480 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:05 INFO  Thread-2 308480 Actor:185 - Courier waiting for connection on port 8001
+18:40:06 INFO  Thread-2 309187 Actor:185 - Courier accepted connection on port 8001
+18:40:06 INFO  Thread-2 309188 Actor:185 - Courier received message Play
+18:40:06 INFO  Thread-2 309189 Actor:185 - Courier invoking listener for Play
+18:40:06 INFO  Thread-2 309189 Courier:289 - got turn = UNKNOWN:YOU:5D462CB933F1A58B
+18:40:07 INFO  AWT-EventQueue-0 309716 Actor:185 - Courier sending DoubleDown to 127.0.0.1:8501
+18:40:07 INFO  AWT-EventQueue-0 309718 Actor:185 - Courier sent successfully DoubleDown to 127.0.0.1:8501
+18:40:07 INFO  Thread-2 309885 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:07 INFO  Thread-2 309885 Actor:185 - Courier waiting for connection on port 8001
+18:40:07 INFO  Thread-2 309885 Actor:185 - Courier accepted connection on port 8001
+18:40:07 INFO  Thread-2 309886 Actor:185 - Courier received message Deal
+18:40:07 INFO  Thread-2 309886 Actor:185 - Courier invoking listener for Deal
+18:40:07 INFO  Thread-2 309886 Courier:280 - received card = HJ values = 23/23 hid = UNKNOWN:YOU:5D462CB933F1A58B
+18:40:07 INFO  Thread-2 309886 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -3, True Count: -3, Bet:  1
+18:40:07 INFO  Thread-2 309886 Actor:185 - Courier waiting for connection on port 8001
+18:40:07 INFO  Thread-2 309886 Actor:185 - Courier accepted connection on port 8001
+18:40:07 INFO  Thread-2 309887 Actor:185 - Courier received message Bust
+18:40:07 INFO  Thread-2 309887 Actor:185 - Courier invoking listener for Bust
+18:40:07 INFO  Thread-2 309887 Courier:209 - received outcome = Bust
+18:40:07 INFO  Thread-2 309887 ATable:578 - BUST for hid = UNKNOWN:YOU:5D462CB933F1A58B amt = 250.0
+18:40:09 INFO  Thread-2 312150 CountingTrap:91 - [CountingTrap.onReceive()] - Bust: 
+18:40:09 INFO  Thread-2 312151 Actor:185 - Courier waiting for connection on port 8001
+18:40:09 INFO  Thread-2 312151 Actor:185 - Courier accepted connection on port 8001
+18:40:09 INFO  Thread-2 312152 Actor:185 - Courier received message Play
+18:40:09 INFO  Thread-2 312152 Actor:185 - Courier invoking listener for Play
+18:40:09 INFO  Thread-2 312152 Courier:289 - got turn = UNKNOWN:LEFT:339030FD006A6AFC
+18:40:10 INFO  Thread-2 312840 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:10 INFO  Thread-2 312840 Actor:185 - Courier waiting for connection on port 8001
+18:40:10 INFO  Thread-2 312841 Actor:185 - Courier accepted connection on port 8001
+18:40:10 INFO  Thread-2 312841 Actor:185 - Courier received message Play
+18:40:10 INFO  Thread-2 312841 Actor:185 - Courier invoking listener for Play
+18:40:10 INFO  Thread-2 312841 Courier:289 - got turn = UNKNOWN:DEALER:17A6DCB1560D2586
+18:40:10 INFO  Thread-2 312841 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:10 INFO  Thread-2 312841 Actor:185 - Courier waiting for connection on port 8001
+18:40:10 INFO  Thread-2 312841 Actor:185 - Courier accepted connection on port 8001
+18:40:10 INFO  Thread-2 312842 Actor:185 - Courier received message Deal
+18:40:10 INFO  Thread-2 312842 Actor:185 - Courier invoking listener for Deal
+18:40:10 INFO  Thread-2 312842 Courier:280 - received card = null values = 15/15 hid = UNKNOWN:DEALER:17A6DCB1560D2586
+18:40:10 INFO  Thread-2 312842 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Null Card
+18:40:10 INFO  Thread-2 312842 Actor:185 - Courier waiting for connection on port 8001
+18:40:10 INFO  Thread-2 312842 Actor:185 - Courier accepted connection on port 8001
+18:40:10 INFO  Thread-2 312842 Actor:185 - Courier received message Deal
+18:40:10 INFO  Thread-2 312842 Actor:185 - Courier invoking listener for Deal
+18:40:10 INFO  Thread-2 312842 Courier:280 - received card = DQ values = 25/25 hid = UNKNOWN:DEALER:17A6DCB1560D2586
+18:40:10 INFO  Thread-2 312850 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -4, True Count: -4, Bet:  1
+18:40:10 INFO  Thread-2 312851 Actor:185 - Courier waiting for connection on port 8001
+18:40:10 INFO  Thread-2 312851 Actor:185 - Courier accepted connection on port 8001
+18:40:10 INFO  Thread-2 312851 Actor:185 - Courier received message Win
+18:40:10 INFO  Thread-2 312851 Actor:185 - Courier invoking listener for Win
+18:40:10 INFO  Thread-2 312851 Courier:209 - received outcome = Win
+18:40:10 INFO  Thread-2 312851 ATable:610 - WIN for hid = UNKNOWN:RIGHT:5FB4AB87B4AA6A9C amt = 5.0
+18:40:10 INFO  Thread-2 312851 CountingTrap:91 - [CountingTrap.onReceive()] - Win: 
+18:40:10 INFO  Thread-2 312851 Actor:185 - Courier waiting for connection on port 8001
+18:40:10 INFO  Thread-2 312851 Actor:185 - Courier accepted connection on port 8001
+18:40:10 INFO  Thread-2 312852 Actor:185 - Courier received message Win
+18:40:10 INFO  Thread-2 312852 Actor:185 - Courier invoking listener for Win
+18:40:10 INFO  Thread-2 312852 Courier:209 - received outcome = Win
+18:40:10 INFO  Thread-2 312852 ATable:610 - WIN for hid = UNKNOWN:LEFT:339030FD006A6AFC amt = 5.0
+18:40:10 INFO  Thread-2 312852 CountingTrap:91 - [CountingTrap.onReceive()] - Win: 
+18:40:10 INFO  Thread-2 312852 Actor:185 - Courier waiting for connection on port 8001
+18:40:10 INFO  Thread-2 312852 Actor:185 - Courier accepted connection on port 8001
+18:40:10 INFO  Thread-2 312852 Actor:185 - Courier received message GameOver
+18:40:10 INFO  Thread-2 312852 Actor:185 - Courier invoking listener for GameOver
+18:40:10 INFO  Thread-2 312852 Courier:300 - received ending shoe size = 42
+18:40:10 INFO  Thread-2 312853 ATable:807 - num hands = 4 wins = 2 loses = 1 pushes = 0
+18:40:10 INFO  Thread-2 312853 CountingTrap:91 - [CountingTrap.onReceive()] - GameOver: 
+18:40:10 INFO  Thread-2 312853 Actor:185 - Courier waiting for connection on port 8001
+18:40:13 INFO  Thread-81 316340 ATable:260 - side bet = 0
+18:40:13 INFO  Thread-81 316340 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:40:13 INFO  Thread-81 316341 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:40:13 INFO  Thread-2 316344 Actor:185 - Courier accepted connection on port 8001
+18:40:13 INFO  Thread-2 316345 Actor:185 - Courier received message GameStart
+18:40:13 INFO  Thread-2 316345 Actor:185 - Courier invoking listener for GameStart
+18:40:13 INFO  Thread-2 316345 Courier:246 - receive starting shoe size = 42
+18:40:13 INFO  Thread-2 316345 Courier:249 - starting hand: UNKNOWN:RIGHT:DE3A2B919E68B31
+18:40:13 INFO  Thread-2 316345 Courier:249 - starting hand: UNKNOWN:YOU:3E672CF69722472F
+18:40:13 INFO  Thread-2 316345 Courier:249 - starting hand: UNKNOWN:LEFT:6D912703793F4EAF
+18:40:13 INFO  Thread-2 316345 Courier:249 - starting hand: UNKNOWN:DEALER:4F160A6986604CCA
+18:40:13 INFO  Thread-2 316345 CountingTrap:91 - [CountingTrap.onReceive()] - GameStart: Shoe: 42
+18:40:13 INFO  Thread-2 316345 Actor:185 - Courier waiting for connection on port 8001
+18:40:14 INFO  Thread-2 317366 Actor:185 - Courier accepted connection on port 8001
+18:40:14 INFO  Thread-2 317366 Actor:185 - Courier received message Deal
+18:40:14 INFO  Thread-2 317366 Actor:185 - Courier invoking listener for Deal
+18:40:14 INFO  Thread-2 317366 Courier:280 - received card = SQ values = 10/10 hid = UNKNOWN:RIGHT:DE3A2B919E68B31
+18:40:14 INFO  Thread-2 317367 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Running Count: -5, True Count: -6.2, Bet:  1
+18:40:14 INFO  Thread-2 317367 Actor:185 - Courier waiting for connection on port 8001
+18:40:15 INFO  Thread-2 318118 Actor:185 - Courier accepted connection on port 8001
+18:40:15 INFO  Thread-2 318119 Actor:185 - Courier received message Deal
+18:40:15 INFO  Thread-2 318119 Actor:185 - Courier invoking listener for Deal
+18:40:15 INFO  Thread-2 318119 Courier:280 - received card = CA values = 1/11 hid = UNKNOWN:YOU:3E672CF69722472F
+18:40:15 INFO  Thread-2 318120 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Running Count: -6, True Count: -7.4, Bet:  1
+18:40:15 INFO  Thread-2 318120 Actor:185 - Courier waiting for connection on port 8001
+18:40:16 INFO  Thread-2 318873 Actor:185 - Courier accepted connection on port 8001
+18:40:16 INFO  Thread-2 318874 Actor:185 - Courier received message Deal
+18:40:16 INFO  Thread-2 318874 Actor:185 - Courier invoking listener for Deal
+18:40:16 INFO  Thread-2 318874 Courier:280 - received card = D6 values = 6/6 hid = UNKNOWN:LEFT:6D912703793F4EAF
+18:40:16 INFO  Thread-2 318874 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Running Count: -5, True Count: -6.2, Bet:  1
+18:40:16 INFO  Thread-2 318874 Actor:185 - Courier waiting for connection on port 8001
+18:40:17 INFO  Thread-2 319626 Actor:185 - Courier accepted connection on port 8001
+18:40:17 INFO  Thread-2 319628 Actor:185 - Courier received message Deal
+18:40:17 INFO  Thread-2 319628 Actor:185 - Courier invoking listener for Deal
+18:40:17 INFO  Thread-2 319628 Courier:280 - received card = H10 values = 0/0 hid = UNKNOWN:DEALER:4F160A6986604CCA
+18:40:17 INFO  Thread-2 319629 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Running Count: -6, True Count: -7.4, Bet:  1
+18:40:17 INFO  Thread-2 319630 Actor:185 - Courier waiting for connection on port 8001
+18:40:17 INFO  Thread-2 320380 Actor:185 - Courier accepted connection on port 8001
+18:40:17 INFO  Thread-2 320381 Actor:185 - Courier received message Deal
+18:40:17 INFO  Thread-2 320381 Actor:185 - Courier invoking listener for Deal
+18:40:17 INFO  Thread-2 320381 Courier:280 - received card = SA values = 11/21 hid = UNKNOWN:RIGHT:DE3A2B919E68B31
+18:40:17 INFO  Thread-2 320384 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Running Count: -7, True Count: -8.7, Bet:  1
+18:40:17 INFO  Thread-2 320384 Actor:185 - Courier waiting for connection on port 8001
+18:40:17 INFO  Thread-2 320384 Actor:185 - Courier accepted connection on port 8001
+18:40:17 INFO  Thread-2 320385 Actor:185 - Courier received message Blackjack
+18:40:17 INFO  Thread-2 320385 Actor:185 - Courier invoking listener for Blackjack
+18:40:17 INFO  Thread-2 320385 Courier:209 - received outcome = Blackjack
+18:40:17 INFO  Thread-2 320385 ATable:698 - BJ for hid = UNKNOWN:RIGHT:DE3A2B919E68B31 amt = 7.5
+18:40:18 INFO  Thread-2 321229 CountingTrap:91 - [CountingTrap.onReceive()] - Blackjack: 
+18:40:18 INFO  Thread-2 321229 Actor:185 - Courier waiting for connection on port 8001
+18:40:18 INFO  Thread-2 321229 Actor:185 - Courier accepted connection on port 8001
+18:40:18 INFO  Thread-2 321230 Actor:185 - Courier received message Deal
+18:40:18 INFO  Thread-2 321230 Actor:185 - Courier invoking listener for Deal
+18:40:18 INFO  Thread-2 321230 Courier:280 - received card = SK values = 11/21 hid = UNKNOWN:YOU:3E672CF69722472F
+18:40:18 INFO  Thread-2 321233 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Running Count: -8, True Count: -9.9, Bet:  1
+18:40:18 INFO  Thread-2 321233 Actor:185 - Courier waiting for connection on port 8001
+18:40:18 INFO  Thread-2 321234 Actor:185 - Courier accepted connection on port 8001
+18:40:18 INFO  Thread-2 321234 Actor:185 - Courier received message Blackjack
+18:40:18 INFO  Thread-2 321234 Actor:185 - Courier invoking listener for Blackjack
+18:40:18 INFO  Thread-2 321234 Courier:209 - received outcome = Blackjack
+18:40:18 INFO  Thread-2 321234 ATable:698 - BJ for hid = UNKNOWN:YOU:3E672CF69722472F amt = 37.5
+18:40:19 INFO  Thread-2 322080 CountingTrap:91 - [CountingTrap.onReceive()] - Blackjack: 
+18:40:19 INFO  Thread-2 322080 Actor:185 - Courier waiting for connection on port 8001
+18:40:19 INFO  Thread-2 322080 Actor:185 - Courier accepted connection on port 8001
+18:40:19 INFO  Thread-2 322081 Actor:185 - Courier received message Deal
+18:40:19 INFO  Thread-2 322081 Actor:185 - Courier invoking listener for Deal
+18:40:19 INFO  Thread-2 322081 Courier:280 - received card = D2 values = 8/8 hid = UNKNOWN:LEFT:6D912703793F4EAF
+18:40:19 INFO  Thread-2 322081 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Running Count: -7, True Count: -8.7, Bet:  1
+18:40:19 INFO  Thread-2 322082 Actor:185 - Courier waiting for connection on port 8001
+18:40:20 INFO  Thread-2 322657 Actor:185 - Courier accepted connection on port 8001
+18:40:20 INFO  Thread-2 322657 Actor:185 - Courier received message Deal
+18:40:20 INFO  Thread-2 322658 Actor:185 - Courier invoking listener for Deal
+18:40:20 INFO  Thread-2 322658 Courier:280 - received card = D10 values = 10/10 hid = UNKNOWN:DEALER:4F160A6986604CCA
+18:40:20 INFO  Thread-2 322661 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Running Count: -8, True Count: -9.9, Bet:  1
+18:40:20 INFO  Thread-2 322661 Actor:185 - Courier waiting for connection on port 8001
+18:40:20 INFO  Thread-2 322661 Actor:185 - Courier accepted connection on port 8001
+18:40:20 INFO  Thread-2 322662 Actor:185 - Courier received message Play
+18:40:20 INFO  Thread-2 322662 Actor:185 - Courier invoking listener for Play
+18:40:20 INFO  Thread-2 322662 Courier:289 - got turn = UNKNOWN:LEFT:6D912703793F4EAF
+18:40:20 INFO  Thread-2 323354 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:20 INFO  Thread-2 323354 Actor:185 - Courier waiting for connection on port 8001
+18:40:22 INFO  Thread-2 324699 Actor:185 - Courier accepted connection on port 8001
+18:40:22 INFO  Thread-2 324699 Actor:185 - Courier received message Deal
+18:40:22 INFO  Thread-2 324700 Actor:185 - Courier invoking listener for Deal
+18:40:22 INFO  Thread-2 324700 Courier:280 - received card = S10 values = 18/18 hid = UNKNOWN:LEFT:6D912703793F4EAF
+18:40:22 INFO  Thread-2 324700 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Running Count: -9, True Count: -11.1, Bet:  1
+18:40:22 INFO  Thread-2 324700 Actor:185 - Courier waiting for connection on port 8001
+18:40:23 INFO  Thread-2 325596 Actor:185 - Courier accepted connection on port 8001
+18:40:23 INFO  Thread-2 325597 Actor:185 - Courier received message Play
+18:40:23 INFO  Thread-2 325597 Actor:185 - Courier invoking listener for Play
+18:40:23 INFO  Thread-2 325597 Courier:289 - got turn = UNKNOWN:DEALER:4F160A6986604CCA
+18:40:23 INFO  Thread-2 325597 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:23 INFO  Thread-2 325597 Actor:185 - Courier waiting for connection on port 8001
+18:40:23 INFO  Thread-2 325597 Actor:185 - Courier accepted connection on port 8001
+18:40:23 INFO  Thread-2 325598 Actor:185 - Courier received message Deal
+18:40:23 INFO  Thread-2 325598 Actor:185 - Courier invoking listener for Deal
+18:40:23 INFO  Thread-2 325598 Courier:280 - received card = null values = 20/20 hid = UNKNOWN:DEALER:4F160A6986604CCA
+18:40:23 INFO  Thread-2 325598 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 42, Null Card
+18:40:23 INFO  Thread-2 325598 Actor:185 - Courier waiting for connection on port 8001
+18:40:23 INFO  Thread-2 325598 Actor:185 - Courier accepted connection on port 8001
+18:40:23 INFO  Thread-2 325599 Actor:185 - Courier received message Lose
+18:40:23 INFO  Thread-2 325599 Actor:185 - Courier invoking listener for Lose
+18:40:23 INFO  Thread-2 325599 Courier:209 - received outcome = Lose
+18:40:23 INFO  Thread-2 325599 ATable:640 - LOSE for hid = UNKNOWN:LEFT:6D912703793F4EAF amt = 5.0
+18:40:23 INFO  Thread-2 325599 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:40:23 INFO  Thread-2 325599 Actor:185 - Courier waiting for connection on port 8001
+18:40:23 INFO  Thread-2 325599 Actor:185 - Courier accepted connection on port 8001
+18:40:23 INFO  Thread-2 325600 Actor:185 - Courier received message GameOver
+18:40:23 INFO  Thread-2 325600 Actor:185 - Courier invoking listener for GameOver
+18:40:23 INFO  Thread-2 325600 Courier:300 - received ending shoe size = 33
+18:40:23 INFO  Thread-2 325600 ATable:807 - num hands = 4 wins = 2 loses = 1 pushes = 0
+18:40:23 INFO  Thread-2 325600 CountingTrap:91 - [CountingTrap.onReceive()] - GameOver: 
+18:40:23 INFO  Thread-2 325601 Actor:185 - Courier waiting for connection on port 8001
+18:40:24 INFO  Thread-95 326616 ATable:260 - side bet = 0
+18:40:24 INFO  Thread-95 326616 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:40:24 INFO  Thread-95 326617 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:40:24 INFO  Thread-2 326619 Actor:185 - Courier accepted connection on port 8001
+18:40:24 INFO  Thread-2 326620 Actor:185 - Courier received message GameStart
+18:40:24 INFO  Thread-2 326620 Actor:185 - Courier invoking listener for GameStart
+18:40:24 INFO  Thread-2 326620 Courier:246 - receive starting shoe size = 33
+18:40:24 INFO  Thread-2 326620 Courier:249 - starting hand: UNKNOWN:RIGHT:5CC9175624A75694
+18:40:24 INFO  Thread-2 326620 Courier:249 - starting hand: UNKNOWN:YOU:41DF4C8ECAA03F88
+18:40:24 INFO  Thread-2 326620 Courier:249 - starting hand: UNKNOWN:LEFT:55AE68721D438C75
+18:40:24 INFO  Thread-2 326620 Courier:249 - starting hand: UNKNOWN:DEALER:61F02B15216C11E8
+18:40:24 INFO  Thread-2 326620 CountingTrap:91 - [CountingTrap.onReceive()] - GameStart: Shoe: 33
+18:40:24 INFO  Thread-2 326621 Actor:185 - Courier waiting for connection on port 8001
+18:40:25 INFO  Thread-2 327626 Actor:185 - Courier accepted connection on port 8001
+18:40:25 INFO  Thread-2 327626 Actor:185 - Courier received message Deal
+18:40:25 INFO  Thread-2 327626 Actor:185 - Courier invoking listener for Deal
+18:40:25 INFO  Thread-2 327626 Courier:280 - received card = H8 values = 8/8 hid = UNKNOWN:RIGHT:5CC9175624A75694
+18:40:25 INFO  Thread-2 327628 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -9, True Count: -14.2, Bet:  1
+18:40:25 INFO  Thread-2 327628 Actor:185 - Courier waiting for connection on port 8001
+18:40:25 INFO  Thread-2 328379 Actor:185 - Courier accepted connection on port 8001
+18:40:25 INFO  Thread-2 328380 Actor:185 - Courier received message Deal
+18:40:25 INFO  Thread-2 328380 Actor:185 - Courier invoking listener for Deal
+18:40:25 INFO  Thread-2 328380 Courier:280 - received card = CK values = 10/10 hid = UNKNOWN:YOU:41DF4C8ECAA03F88
+18:40:25 INFO  Thread-2 328381 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -10, True Count: -15.8, Bet:  1
+18:40:25 INFO  Thread-2 328381 Actor:185 - Courier waiting for connection on port 8001
+18:40:26 INFO  Thread-2 329131 Actor:185 - Courier accepted connection on port 8001
+18:40:26 INFO  Thread-2 329131 Actor:185 - Courier received message Deal
+18:40:26 INFO  Thread-2 329131 Actor:185 - Courier invoking listener for Deal
+18:40:26 INFO  Thread-2 329132 Courier:280 - received card = C6 values = 6/6 hid = UNKNOWN:LEFT:55AE68721D438C75
+18:40:26 INFO  Thread-2 329132 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -9, True Count: -14.2, Bet:  1
+18:40:26 INFO  Thread-2 329132 Actor:185 - Courier waiting for connection on port 8001
+18:40:27 INFO  Thread-2 329883 Actor:185 - Courier accepted connection on port 8001
+18:40:27 INFO  Thread-2 329884 Actor:185 - Courier received message Deal
+18:40:27 INFO  Thread-2 329884 Actor:185 - Courier invoking listener for Deal
+18:40:27 INFO  Thread-2 329884 Courier:280 - received card = H4 values = 0/0 hid = UNKNOWN:DEALER:61F02B15216C11E8
+18:40:27 INFO  Thread-2 329888 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -8, True Count: -12.6, Bet:  1
+18:40:27 INFO  Thread-2 329888 Actor:185 - Courier waiting for connection on port 8001
+18:40:28 INFO  Thread-2 330637 Actor:185 - Courier accepted connection on port 8001
+18:40:28 INFO  Thread-2 330638 Actor:185 - Courier received message Deal
+18:40:28 INFO  Thread-2 330638 Actor:185 - Courier invoking listener for Deal
+18:40:28 INFO  Thread-2 330638 Courier:280 - received card = HA values = 9/19 hid = UNKNOWN:RIGHT:5CC9175624A75694
+18:40:28 INFO  Thread-2 330639 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -9, True Count: -14.2, Bet:  1
+18:40:28 INFO  Thread-2 330639 Actor:185 - Courier waiting for connection on port 8001
+18:40:28 INFO  Thread-2 331390 Actor:185 - Courier accepted connection on port 8001
+18:40:28 INFO  Thread-2 331391 Actor:185 - Courier received message Deal
+18:40:28 INFO  Thread-2 331391 Actor:185 - Courier invoking listener for Deal
+18:40:28 INFO  Thread-2 331391 Courier:280 - received card = S8 values = 18/18 hid = UNKNOWN:YOU:41DF4C8ECAA03F88
+18:40:28 INFO  Thread-2 331392 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -9, True Count: -14.2, Bet:  1
+18:40:28 INFO  Thread-2 331392 Actor:185 - Courier waiting for connection on port 8001
+18:40:29 INFO  Thread-2 332143 Actor:185 - Courier accepted connection on port 8001
+18:40:29 INFO  Thread-2 332144 Actor:185 - Courier received message Deal
+18:40:29 INFO  Thread-2 332144 Actor:185 - Courier invoking listener for Deal
+18:40:29 INFO  Thread-2 332144 Courier:280 - received card = HK values = 16/16 hid = UNKNOWN:LEFT:55AE68721D438C75
+18:40:29 INFO  Thread-2 332144 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -10, True Count: -15.8, Bet:  1
+18:40:29 INFO  Thread-2 332144 Actor:185 - Courier waiting for connection on port 8001
+18:40:30 INFO  Thread-2 332895 Actor:185 - Courier accepted connection on port 8001
+18:40:30 INFO  Thread-2 332896 Actor:185 - Courier received message Deal
+18:40:30 INFO  Thread-2 332896 Actor:185 - Courier invoking listener for Deal
+18:40:30 INFO  Thread-2 332896 Courier:280 - received card = H7 values = 7/7 hid = UNKNOWN:DEALER:61F02B15216C11E8
+18:40:30 INFO  Thread-2 332896 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -10, True Count: -15.8, Bet:  1
+18:40:30 INFO  Thread-2 332896 Actor:185 - Courier waiting for connection on port 8001
+18:40:30 INFO  Thread-2 332896 Actor:185 - Courier accepted connection on port 8001
+18:40:30 INFO  Thread-2 332897 Actor:185 - Courier received message Play
+18:40:30 INFO  Thread-2 332897 Actor:185 - Courier invoking listener for Play
+18:40:30 INFO  Thread-2 332897 Courier:289 - got turn = UNKNOWN:RIGHT:5CC9175624A75694
+18:40:31 INFO  Thread-2 333590 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:31 INFO  Thread-2 333590 Actor:185 - Courier waiting for connection on port 8001
+18:40:32 INFO  Thread-2 334602 Actor:185 - Courier accepted connection on port 8001
+18:40:32 INFO  Thread-2 334603 Actor:185 - Courier received message Play
+18:40:32 INFO  Thread-2 334603 Actor:185 - Courier invoking listener for Play
+18:40:32 INFO  Thread-2 334603 Courier:289 - got turn = UNKNOWN:YOU:41DF4C8ECAA03F88
+18:40:32 INFO  AWT-EventQueue-0 335231 Actor:185 - Courier sending Hit to 127.0.0.1:8501
+18:40:32 INFO  AWT-EventQueue-0 335234 Actor:185 - Courier sent successfully Hit to 127.0.0.1:8501
+18:40:32 INFO  Thread-2 335303 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:32 INFO  Thread-2 335303 Actor:185 - Courier waiting for connection on port 8001
+18:40:32 INFO  Thread-2 335304 Actor:185 - Courier accepted connection on port 8001
+18:40:32 INFO  Thread-2 335304 Actor:185 - Courier received message Deal
+18:40:32 INFO  Thread-2 335304 Actor:185 - Courier invoking listener for Deal
+18:40:32 INFO  Thread-2 335304 Courier:280 - received card = D9 values = 27/27 hid = UNKNOWN:YOU:41DF4C8ECAA03F88
+18:40:32 INFO  Thread-2 335305 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -10, True Count: -15.8, Bet:  1
+18:40:32 INFO  Thread-2 335305 Actor:185 - Courier waiting for connection on port 8001
+18:40:32 INFO  Thread-2 335305 Actor:185 - Courier accepted connection on port 8001
+18:40:32 INFO  Thread-2 335305 Actor:185 - Courier received message Bust
+18:40:32 INFO  Thread-2 335305 Actor:185 - Courier invoking listener for Bust
+18:40:32 INFO  Thread-2 335305 Courier:209 - received outcome = Bust
+18:40:32 INFO  Thread-2 335305 ATable:578 - BUST for hid = UNKNOWN:YOU:41DF4C8ECAA03F88 amt = 25.0
+18:40:34 INFO  Thread-2 337026 CountingTrap:91 - [CountingTrap.onReceive()] - Bust: 
+18:40:34 INFO  Thread-2 337026 Actor:185 - Courier waiting for connection on port 8001
+18:40:34 INFO  Thread-2 337026 Actor:185 - Courier accepted connection on port 8001
+18:40:34 INFO  Thread-2 337027 Actor:185 - Courier received message Play
+18:40:34 INFO  Thread-2 337027 Actor:185 - Courier invoking listener for Play
+18:40:34 INFO  Thread-2 337027 Courier:289 - got turn = UNKNOWN:LEFT:55AE68721D438C75
+18:40:35 INFO  Thread-2 337711 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:35 INFO  Thread-2 337711 Actor:185 - Courier waiting for connection on port 8001
+18:40:35 INFO  Thread-2 337711 Actor:185 - Courier accepted connection on port 8001
+18:40:35 INFO  Thread-2 337712 Actor:185 - Courier received message Play
+18:40:35 INFO  Thread-2 337712 Actor:185 - Courier invoking listener for Play
+18:40:35 INFO  Thread-2 337712 Courier:289 - got turn = UNKNOWN:DEALER:61F02B15216C11E8
+18:40:35 INFO  Thread-2 337712 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:35 INFO  Thread-2 337712 Actor:185 - Courier waiting for connection on port 8001
+18:40:35 INFO  Thread-2 337712 Actor:185 - Courier accepted connection on port 8001
+18:40:35 INFO  Thread-2 337712 Actor:185 - Courier received message Deal
+18:40:35 INFO  Thread-2 337712 Actor:185 - Courier invoking listener for Deal
+18:40:35 INFO  Thread-2 337712 Courier:280 - received card = null values = 11/11 hid = UNKNOWN:DEALER:61F02B15216C11E8
+18:40:35 INFO  Thread-2 337714 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Null Card
+18:40:35 INFO  Thread-2 337714 Actor:185 - Courier waiting for connection on port 8001
+18:40:35 INFO  Thread-2 337714 Actor:185 - Courier accepted connection on port 8001
+18:40:35 INFO  Thread-2 337715 Actor:185 - Courier received message Deal
+18:40:35 INFO  Thread-2 337715 Actor:185 - Courier invoking listener for Deal
+18:40:35 INFO  Thread-2 337715 Courier:280 - received card = HQ values = 21/21 hid = UNKNOWN:DEALER:61F02B15216C11E8
+18:40:35 INFO  Thread-2 337715 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 33, Running Count: -11, True Count: -17.3, Bet:  1
+18:40:35 INFO  Thread-2 337715 Actor:185 - Courier waiting for connection on port 8001
+18:40:35 INFO  Thread-2 337716 Actor:185 - Courier accepted connection on port 8001
+18:40:35 INFO  Thread-2 337716 Actor:185 - Courier received message Lose
+18:40:35 INFO  Thread-2 337716 Actor:185 - Courier invoking listener for Lose
+18:40:35 INFO  Thread-2 337716 Courier:209 - received outcome = Lose
+18:40:35 INFO  Thread-2 337716 ATable:640 - LOSE for hid = UNKNOWN:RIGHT:5CC9175624A75694 amt = 5.0
+18:40:35 INFO  Thread-2 337716 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:40:35 INFO  Thread-2 337716 Actor:185 - Courier waiting for connection on port 8001
+18:40:35 INFO  Thread-2 337716 Actor:185 - Courier accepted connection on port 8001
+18:40:35 INFO  Thread-2 337717 Actor:185 - Courier received message Lose
+18:40:35 INFO  Thread-2 337717 Actor:185 - Courier invoking listener for Lose
+18:40:35 INFO  Thread-2 337717 Courier:209 - received outcome = Lose
+18:40:35 INFO  Thread-2 337717 ATable:640 - LOSE for hid = UNKNOWN:LEFT:55AE68721D438C75 amt = 5.0
+18:40:35 INFO  Thread-2 337717 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:40:35 INFO  Thread-2 337717 Actor:185 - Courier waiting for connection on port 8001
+18:40:35 INFO  Thread-2 337717 Actor:185 - Courier accepted connection on port 8001
+18:40:35 INFO  Thread-2 337718 Actor:185 - Courier received message GameOver
+18:40:35 INFO  Thread-2 337718 Actor:185 - Courier invoking listener for GameOver
+18:40:35 INFO  Thread-2 337718 Courier:300 - received ending shoe size = 23
+18:40:35 INFO  Thread-2 337718 ATable:807 - num hands = 4 wins = 0 loses = 3 pushes = 0
+18:40:36 INFO  Thread-2 338931 CountingTrap:91 - [CountingTrap.onReceive()] - GameOver: 
+18:40:36 INFO  Thread-2 338931 Actor:185 - Courier waiting for connection on port 8001
+18:40:37 INFO  Thread-106 339824 ATable:260 - side bet = 0
+18:40:37 INFO  Thread-106 339824 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:40:37 INFO  Thread-106 339826 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:40:37 INFO  Thread-2 339827 Actor:185 - Courier accepted connection on port 8001
+18:40:37 INFO  Thread-2 339828 Actor:185 - Courier received message GameStart
+18:40:37 INFO  Thread-2 339828 Actor:185 - Courier invoking listener for GameStart
+18:40:37 INFO  Thread-2 339828 Courier:246 - receive starting shoe size = 23
+18:40:37 INFO  Thread-2 339828 Courier:249 - starting hand: UNKNOWN:RIGHT:57AD261A5F58D7D1
+18:40:37 INFO  Thread-2 339828 Courier:249 - starting hand: UNKNOWN:YOU:262EB51B76307F1B
+18:40:37 INFO  Thread-2 339828 Courier:249 - starting hand: UNKNOWN:LEFT:3B97A232BFE6131B
+18:40:37 INFO  Thread-2 339828 Courier:249 - starting hand: UNKNOWN:DEALER:6082A1B0DEBEDBA
+18:40:37 INFO  Thread-2 339829 CountingTrap:91 - [CountingTrap.onReceive()] - GameStart: Shoe: 23
+18:40:37 INFO  Thread-2 339829 Actor:185 - Courier waiting for connection on port 8001
+18:40:38 INFO  Thread-2 340844 Actor:185 - Courier accepted connection on port 8001
+18:40:38 INFO  Thread-2 340845 Actor:185 - Courier received message Deal
+18:40:38 INFO  Thread-2 340845 Actor:185 - Courier invoking listener for Deal
+18:40:38 INFO  Thread-2 340845 Courier:280 - received card = S6 values = 6/6 hid = UNKNOWN:RIGHT:57AD261A5F58D7D1
+18:40:38 INFO  Thread-2 340845 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -10, True Count: -22.6, Bet:  1
+18:40:38 INFO  Thread-2 340845 Actor:185 - Courier waiting for connection on port 8001
+18:40:39 INFO  Thread-2 341596 Actor:185 - Courier accepted connection on port 8001
+18:40:39 INFO  Thread-2 341597 Actor:185 - Courier received message Deal
+18:40:39 INFO  Thread-2 341597 Actor:185 - Courier invoking listener for Deal
+18:40:39 INFO  Thread-2 341597 Courier:280 - received card = C7 values = 7/7 hid = UNKNOWN:YOU:262EB51B76307F1B
+18:40:39 INFO  Thread-2 341597 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -10, True Count: -22.6, Bet:  1
+18:40:39 INFO  Thread-2 341597 Actor:185 - Courier waiting for connection on port 8001
+18:40:39 INFO  Thread-2 342349 Actor:185 - Courier accepted connection on port 8001
+18:40:39 INFO  Thread-2 342350 Actor:185 - Courier received message Deal
+18:40:39 INFO  Thread-2 342350 Actor:185 - Courier invoking listener for Deal
+18:40:39 INFO  Thread-2 342350 Courier:280 - received card = S9 values = 9/9 hid = UNKNOWN:LEFT:3B97A232BFE6131B
+18:40:39 INFO  Thread-2 342350 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -10, True Count: -22.6, Bet:  1
+18:40:39 INFO  Thread-2 342350 Actor:185 - Courier waiting for connection on port 8001
+18:40:40 INFO  Thread-2 343102 Actor:185 - Courier accepted connection on port 8001
+18:40:40 INFO  Thread-2 343103 Actor:185 - Courier received message Deal
+18:40:40 INFO  Thread-2 343103 Actor:185 - Courier invoking listener for Deal
+18:40:40 INFO  Thread-2 343103 Courier:280 - received card = D4 values = 0/0 hid = UNKNOWN:DEALER:6082A1B0DEBEDBA
+18:40:40 INFO  Thread-2 343104 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -9, True Count: -20.3, Bet:  1
+18:40:40 INFO  Thread-2 343105 Actor:185 - Courier waiting for connection on port 8001
+18:40:41 INFO  Thread-2 343855 Actor:185 - Courier accepted connection on port 8001
+18:40:41 INFO  Thread-2 343856 Actor:185 - Courier received message Deal
+18:40:41 INFO  Thread-2 343856 Actor:185 - Courier invoking listener for Deal
+18:40:41 INFO  Thread-2 343856 Courier:280 - received card = S3 values = 9/9 hid = UNKNOWN:RIGHT:57AD261A5F58D7D1
+18:40:41 INFO  Thread-2 343856 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -8, True Count: -18.1, Bet:  1
+18:40:41 INFO  Thread-2 343856 Actor:185 - Courier waiting for connection on port 8001
+18:40:41 INFO  Thread-2 343857 Actor:185 - Courier accepted connection on port 8001
+18:40:41 INFO  Thread-2 343857 Actor:185 - Courier received message Shuffle
+18:40:41 INFO  Thread-2 343857 Actor:185 - Courier invoking listener for Shuffle
+18:40:41 INFO  Thread-2 343857 Courier:309 - received shuffle
+18:40:41 INFO  Thread-2 343857 CountingTrap:91 - [CountingTrap.onReceive()] - Shuffle: 
+18:40:41 INFO  Thread-2 343857 Actor:185 - Courier waiting for connection on port 8001
+18:40:42 INFO  Thread-2 344610 Actor:185 - Courier accepted connection on port 8001
+18:40:42 INFO  Thread-2 344610 Actor:185 - Courier received message Deal
+18:40:42 INFO  Thread-2 344611 Actor:185 - Courier invoking listener for Deal
+18:40:42 INFO  Thread-2 344611 Courier:280 - received card = C3 values = 10/10 hid = UNKNOWN:YOU:262EB51B76307F1B
+18:40:42 INFO  Thread-2 344611 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -7, True Count: -15.8, Bet:  1
+18:40:42 INFO  Thread-2 344611 Actor:185 - Courier waiting for connection on port 8001
+18:40:42 INFO  Thread-2 345361 Actor:185 - Courier accepted connection on port 8001
+18:40:42 INFO  Thread-2 345362 Actor:185 - Courier received message Deal
+18:40:42 INFO  Thread-2 345362 Actor:185 - Courier invoking listener for Deal
+18:40:42 INFO  Thread-2 345362 Courier:280 - received card = H6 values = 15/15 hid = UNKNOWN:LEFT:3B97A232BFE6131B
+18:40:42 INFO  Thread-2 345364 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -6, True Count: -13.6, Bet:  1
+18:40:42 INFO  Thread-2 345364 Actor:185 - Courier waiting for connection on port 8001
+18:40:43 INFO  Thread-2 346115 Actor:185 - Courier accepted connection on port 8001
+18:40:43 INFO  Thread-2 346115 Actor:185 - Courier received message Deal
+18:40:43 INFO  Thread-2 346115 Actor:185 - Courier invoking listener for Deal
+18:40:43 INFO  Thread-2 346116 Courier:280 - received card = H9 values = 9/9 hid = UNKNOWN:DEALER:6082A1B0DEBEDBA
+18:40:43 INFO  Thread-2 346116 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -6, True Count: -13.6, Bet:  1
+18:40:43 INFO  Thread-2 346116 Actor:185 - Courier waiting for connection on port 8001
+18:40:43 INFO  Thread-2 346116 Actor:185 - Courier accepted connection on port 8001
+18:40:43 INFO  Thread-2 346117 Actor:185 - Courier received message Play
+18:40:43 INFO  Thread-2 346117 Actor:185 - Courier invoking listener for Play
+18:40:43 INFO  Thread-2 346117 Courier:289 - got turn = UNKNOWN:RIGHT:57AD261A5F58D7D1
+18:40:44 INFO  Thread-2 346815 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:44 INFO  Thread-2 346815 Actor:185 - Courier waiting for connection on port 8001
+18:40:45 INFO  Thread-2 348020 Actor:185 - Courier accepted connection on port 8001
+18:40:45 INFO  Thread-2 348021 Actor:185 - Courier received message Deal
+18:40:45 INFO  Thread-2 348021 Actor:185 - Courier invoking listener for Deal
+18:40:45 INFO  Thread-2 348021 Courier:280 - received card = DA values = 10/20 hid = UNKNOWN:RIGHT:57AD261A5F58D7D1
+18:40:45 INFO  Thread-2 348022 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -7, True Count: -15.8, Bet:  1
+18:40:45 INFO  Thread-2 348023 Actor:185 - Courier waiting for connection on port 8001
+18:40:45 INFO  Thread-2 348284 Actor:185 - Courier accepted connection on port 8001
+18:40:45 INFO  Thread-2 348285 Actor:185 - Courier received message Play
+18:40:45 INFO  Thread-2 348285 Actor:185 - Courier invoking listener for Play
+18:40:45 INFO  Thread-2 348285 Courier:289 - got turn = UNKNOWN:YOU:262EB51B76307F1B
+18:40:46 INFO  AWT-EventQueue-0 348831 Actor:185 - Courier sending Stay to 127.0.0.1:8501
+18:40:46 INFO  AWT-EventQueue-0 348832 Actor:185 - Courier sent successfully Stay to 127.0.0.1:8501
+18:40:46 INFO  Thread-2 348985 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:46 INFO  Thread-2 348985 Actor:185 - Courier waiting for connection on port 8001
+18:40:46 INFO  Thread-2 348985 Actor:185 - Courier accepted connection on port 8001
+18:40:46 INFO  Thread-2 348986 Actor:185 - Courier received message Play
+18:40:46 INFO  Thread-2 348986 Actor:185 - Courier invoking listener for Play
+18:40:46 INFO  Thread-2 348986 Courier:289 - got turn = UNKNOWN:LEFT:3B97A232BFE6131B
+18:40:47 INFO  Thread-2 349685 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:47 INFO  Thread-2 349685 Actor:185 - Courier waiting for connection on port 8001
+18:40:50 INFO  Thread-2 352920 Actor:185 - Courier accepted connection on port 8001
+18:40:50 INFO  Thread-2 352921 Actor:185 - Courier received message Deal
+18:40:50 INFO  Thread-2 352921 Actor:185 - Courier invoking listener for Deal
+18:40:50 INFO  Thread-2 352921 Courier:280 - received card = H2 values = 17/17 hid = UNKNOWN:LEFT:3B97A232BFE6131B
+18:40:50 INFO  Thread-2 352921 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -6, True Count: -13.6, Bet:  1
+18:40:50 INFO  Thread-2 352921 Actor:185 - Courier waiting for connection on port 8001
+18:40:51 INFO  Thread-2 354005 Actor:185 - Courier accepted connection on port 8001
+18:40:51 INFO  Thread-2 354006 Actor:185 - Courier received message Play
+18:40:51 INFO  Thread-2 354007 Actor:185 - Courier invoking listener for Play
+18:40:51 INFO  Thread-2 354007 Courier:289 - got turn = UNKNOWN:DEALER:6082A1B0DEBEDBA
+18:40:51 INFO  Thread-2 354007 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:40:51 INFO  Thread-2 354007 Actor:185 - Courier waiting for connection on port 8001
+18:40:51 INFO  Thread-2 354007 Actor:185 - Courier accepted connection on port 8001
+18:40:51 INFO  Thread-2 354007 Actor:185 - Courier received message Deal
+18:40:51 INFO  Thread-2 354007 Actor:185 - Courier invoking listener for Deal
+18:40:51 INFO  Thread-2 354007 Courier:280 - received card = null values = 13/13 hid = UNKNOWN:DEALER:6082A1B0DEBEDBA
+18:40:51 INFO  Thread-2 354008 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Null Card
+18:40:51 INFO  Thread-2 354008 Actor:185 - Courier waiting for connection on port 8001
+18:40:52 INFO  Thread-2 354770 Actor:185 - Courier accepted connection on port 8001
+18:40:52 INFO  Thread-2 354770 Actor:185 - Courier received message Deal
+18:40:52 INFO  Thread-2 354770 Actor:185 - Courier invoking listener for Deal
+18:40:52 INFO  Thread-2 354770 Courier:280 - received card = H5 values = 18/18 hid = UNKNOWN:DEALER:6082A1B0DEBEDBA
+18:40:52 INFO  Thread-2 354775 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 23, Running Count: -5, True Count: -11.3, Bet:  1
+18:40:52 INFO  Thread-2 354776 Actor:185 - Courier waiting for connection on port 8001
+18:40:52 INFO  Thread-2 354776 Actor:185 - Courier accepted connection on port 8001
+18:40:52 INFO  Thread-2 354776 Actor:185 - Courier received message Win
+18:40:52 INFO  Thread-2 354776 Actor:185 - Courier invoking listener for Win
+18:40:52 INFO  Thread-2 354776 Courier:209 - received outcome = Win
+18:40:52 INFO  Thread-2 354776 ATable:610 - WIN for hid = UNKNOWN:RIGHT:57AD261A5F58D7D1 amt = 5.0
+18:40:52 INFO  Thread-2 354776 CountingTrap:91 - [CountingTrap.onReceive()] - Win: 
+18:40:52 INFO  Thread-2 354777 Actor:185 - Courier waiting for connection on port 8001
+18:40:52 INFO  Thread-2 354777 Actor:185 - Courier accepted connection on port 8001
+18:40:52 INFO  Thread-2 354777 Actor:185 - Courier received message Lose
+18:40:52 INFO  Thread-2 354777 Actor:185 - Courier invoking listener for Lose
+18:40:52 INFO  Thread-2 354777 Courier:209 - received outcome = Lose
+18:40:52 INFO  Thread-2 354777 ATable:640 - LOSE for hid = UNKNOWN:YOU:262EB51B76307F1B amt = 25.0
+18:40:52 INFO  Thread-2 354777 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:40:52 INFO  Thread-2 354777 Actor:185 - Courier waiting for connection on port 8001
+18:40:52 INFO  Thread-2 354778 Actor:185 - Courier accepted connection on port 8001
+18:40:52 INFO  Thread-2 354778 Actor:185 - Courier received message Lose
+18:40:52 INFO  Thread-2 354778 Actor:185 - Courier invoking listener for Lose
+18:40:52 INFO  Thread-2 354778 Courier:209 - received outcome = Lose
+18:40:52 INFO  Thread-2 354778 ATable:640 - LOSE for hid = UNKNOWN:LEFT:3B97A232BFE6131B amt = 5.0
+18:40:52 INFO  Thread-2 354778 CountingTrap:91 - [CountingTrap.onReceive()] - Lose: 
+18:40:52 INFO  Thread-2 354779 Actor:185 - Courier waiting for connection on port 8001
+18:40:52 INFO  Thread-2 354779 Actor:185 - Courier accepted connection on port 8001
+18:40:52 INFO  Thread-2 354779 Actor:185 - Courier received message GameOver
+18:40:52 INFO  Thread-2 354779 Actor:185 - Courier invoking listener for GameOver
+18:40:52 INFO  Thread-2 354779 Courier:300 - received ending shoe size = 52
+18:40:52 INFO  Thread-2 354779 ATable:807 - num hands = 4 wins = 1 loses = 2 pushes = 0
+18:40:52 INFO  Thread-2 354780 CountingTrap:91 - [CountingTrap.onReceive()] - GameOver: 
+18:40:52 INFO  Thread-2 354780 Actor:185 - Courier waiting for connection on port 8001
+18:40:58 INFO  Thread-120 361370 ATable:260 - side bet = 0
+18:40:58 INFO  Thread-120 361370 Actor:185 - Courier sending Bet to 127.0.0.1:8501
+18:40:58 INFO  Thread-120 361370 Actor:185 - Courier sent successfully Bet to 127.0.0.1:8501
+18:40:58 INFO  Thread-2 361370 Actor:185 - Courier accepted connection on port 8001
+18:40:58 INFO  Thread-2 361370 Actor:185 - Courier received message GameStart
+18:40:58 INFO  Thread-2 361370 Actor:185 - Courier invoking listener for GameStart
+18:40:58 INFO  Thread-2 361370 Courier:246 - receive starting shoe size = 52
+18:40:58 INFO  Thread-2 361370 Courier:249 - starting hand: UNKNOWN:RIGHT:55D44983C3D7AAB
+18:40:58 INFO  Thread-2 361370 Courier:249 - starting hand: UNKNOWN:YOU:64B076AF4374A390
+18:40:58 INFO  Thread-2 361370 Courier:249 - starting hand: UNKNOWN:LEFT:531AF70223E489B3
+18:40:58 INFO  Thread-2 361370 Courier:249 - starting hand: UNKNOWN:DEALER:347E360DBA65DE74
+18:40:58 INFO  Thread-2 361370 CountingTrap:91 - [CountingTrap.onReceive()] - GameStart: Shoe: 52
+18:40:58 INFO  Thread-2 361370 Actor:185 - Courier waiting for connection on port 8001
+18:40:59 INFO  Thread-2 362390 Actor:185 - Courier accepted connection on port 8001
+18:40:59 INFO  Thread-2 362391 Actor:185 - Courier received message Deal
+18:40:59 INFO  Thread-2 362391 Actor:185 - Courier invoking listener for Deal
+18:40:59 INFO  Thread-2 362391 Courier:280 - received card = SQ values = 10/10 hid = UNKNOWN:RIGHT:55D44983C3D7AAB
+18:40:59 INFO  Thread-2 362392 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -1, True Count: -1, Bet:  1
+18:40:59 INFO  Thread-2 362392 Actor:185 - Courier waiting for connection on port 8001
+18:41:00 INFO  Thread-2 363142 Actor:185 - Courier accepted connection on port 8001
+18:41:00 INFO  Thread-2 363142 Actor:185 - Courier received message Deal
+18:41:00 INFO  Thread-2 363143 Actor:185 - Courier invoking listener for Deal
+18:41:00 INFO  Thread-2 363143 Courier:280 - received card = C7 values = 7/7 hid = UNKNOWN:YOU:64B076AF4374A390
+18:41:00 INFO  Thread-2 363143 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -1, True Count: -1, Bet:  1
+18:41:00 INFO  Thread-2 363143 Actor:185 - Courier waiting for connection on port 8001
+18:41:01 INFO  Thread-2 363896 Actor:185 - Courier accepted connection on port 8001
+18:41:01 INFO  Thread-2 363897 Actor:185 - Courier received message Deal
+18:41:01 INFO  Thread-2 363897 Actor:185 - Courier invoking listener for Deal
+18:41:01 INFO  Thread-2 363897 Courier:280 - received card = HA values = 1/11 hid = UNKNOWN:LEFT:531AF70223E489B3
+18:41:01 INFO  Thread-2 363897 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -2, True Count: -2, Bet:  1
+18:41:01 INFO  Thread-2 363897 Actor:185 - Courier waiting for connection on port 8001
+18:41:02 INFO  Thread-2 364649 Actor:185 - Courier accepted connection on port 8001
+18:41:02 INFO  Thread-2 364650 Actor:185 - Courier received message Deal
+18:41:02 INFO  Thread-2 364650 Actor:185 - Courier invoking listener for Deal
+18:41:02 INFO  Thread-2 364650 Courier:280 - received card = DJ values = 0/0 hid = UNKNOWN:DEALER:347E360DBA65DE74
+18:41:02 INFO  Thread-2 364650 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -3, True Count: -3, Bet:  1
+18:41:02 INFO  Thread-2 364650 Actor:185 - Courier waiting for connection on port 8001
+18:41:02 INFO  Thread-2 365403 Actor:185 - Courier accepted connection on port 8001
+18:41:02 INFO  Thread-2 365403 Actor:185 - Courier received message Deal
+18:41:02 INFO  Thread-2 365403 Actor:185 - Courier invoking listener for Deal
+18:41:02 INFO  Thread-2 365404 Courier:280 - received card = D9 values = 19/19 hid = UNKNOWN:RIGHT:55D44983C3D7AAB
+18:41:02 INFO  Thread-2 365404 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -3, True Count: -3, Bet:  1
+18:41:02 INFO  Thread-2 365404 Actor:185 - Courier waiting for connection on port 8001
+18:41:03 INFO  Thread-2 366156 Actor:185 - Courier accepted connection on port 8001
+18:41:03 INFO  Thread-2 366157 Actor:185 - Courier received message Deal
+18:41:03 INFO  Thread-2 366157 Actor:185 - Courier invoking listener for Deal
+18:41:03 INFO  Thread-2 366157 Courier:280 - received card = D5 values = 12/12 hid = UNKNOWN:YOU:64B076AF4374A390
+18:41:03 INFO  Thread-2 366157 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -2, True Count: -2, Bet:  1
+18:41:03 INFO  Thread-2 366157 Actor:185 - Courier waiting for connection on port 8001
+18:41:04 INFO  Thread-2 366908 Actor:185 - Courier accepted connection on port 8001
+18:41:04 INFO  Thread-2 366908 Actor:185 - Courier received message Deal
+18:41:04 INFO  Thread-2 366908 Actor:185 - Courier invoking listener for Deal
+18:41:04 INFO  Thread-2 366908 Courier:280 - received card = D2 values = 3/13 hid = UNKNOWN:LEFT:531AF70223E489B3
+18:41:04 INFO  Thread-2 366909 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: -1, True Count: -1, Bet:  1
+18:41:04 INFO  Thread-2 366909 Actor:185 - Courier waiting for connection on port 8001
+18:41:05 INFO  Thread-2 367660 Actor:185 - Courier accepted connection on port 8001
+18:41:05 INFO  Thread-2 367661 Actor:185 - Courier received message Deal
+18:41:05 INFO  Thread-2 367661 Actor:185 - Courier invoking listener for Deal
+18:41:05 INFO  Thread-2 367661 Courier:280 - received card = C2 values = 2/2 hid = UNKNOWN:DEALER:347E360DBA65DE74
+18:41:05 INFO  Thread-2 367661 CountingTrap:91 - [CountingTrap.onReceive()] - Deal: Shoe: 52, Running Count: 0, True Count: 0, Bet:  1
+18:41:05 INFO  Thread-2 367661 Actor:185 - Courier waiting for connection on port 8001
+18:41:05 INFO  Thread-2 367661 Actor:185 - Courier accepted connection on port 8001
+18:41:05 INFO  Thread-2 367662 Actor:185 - Courier received message Play
+18:41:05 INFO  Thread-2 367662 Actor:185 - Courier invoking listener for Play
+18:41:05 INFO  Thread-2 367662 Courier:289 - got turn = UNKNOWN:RIGHT:55D44983C3D7AAB
+18:41:05 INFO  Thread-2 368367 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:41:05 INFO  Thread-2 368367 Actor:185 - Courier waiting for connection on port 8001
+18:41:06 INFO  Thread-2 369351 Actor:185 - Courier accepted connection on port 8001
+18:41:06 INFO  Thread-2 369352 Actor:185 - Courier received message Play
+18:41:06 INFO  Thread-2 369352 Actor:185 - Courier invoking listener for Play
+18:41:06 INFO  Thread-2 369352 Courier:289 - got turn = UNKNOWN:YOU:64B076AF4374A390
+18:41:07 INFO  Thread-2 370045 CountingTrap:91 - [CountingTrap.onReceive()] - Play: 
+18:41:07 INFO  Thread-2 370045 Actor:185 - Courier waiting for connection on port 8001

@@ -1,0 +1,922 @@
+18:34:55 INFO  main 0 GameServer:65 - game server started
+18:34:55 INFO  main 8 GameServer:76 - house started
+18:34:55 INFO  Thread-0 36 Actor:185 - House waiting for connection on port 1235
+18:38:25 INFO  main 210128 ServerAuthenticator:78 - got login
+18:38:25 INFO  main 210132 ServerAuthenticator:83 - validated ticket BB20B45FD4D95138 login successful!
+18:38:25 INFO  main 210135 Actor:185 - ServerAuthenticator sent ticket to client
+18:38:25 INFO  Thread-0 210146 Actor:185 - House accepted connection on port 1235
+18:38:25 INFO  Thread-0 210165 Actor:185 - House received message Arrival
+18:38:25 INFO  Thread-0 210165 Actor:185 - House invoking listener for Arrival
+18:38:25 INFO  Thread-0 210166 House:101 - validated ticket = BB20B45FD4D95138
+18:38:25 INFO  Thread-0 210166 House:105 - arrival from LAPTOP-MR10D0GP/10.96.235.23
+18:38:25 INFO  Thread-0 210166 Dealer:91 - using scenario = 'charlie.server.MyShoe01'
+18:38:25 INFO  Thread-0 210166 Shoe:102 - shuffling burn index = 35
+18:38:25 INFO  Thread-0 210166 Dealer:97 - shoe = charlie.server.MyShoe01: C6 S6 D8 SK D9 D3 HA SQ C7 CJ HQ D7 C4 S3 H2 
+18:38:25 INFO  Thread-0 210184 Dealer:810 - successfully loaded side bet rule
+18:38:25 INFO  Thread-0 210201 Actor:185 - RealPlayer sending Ready to 10.96.235.23:8001
+18:38:25 INFO  Thread-1 210201 Actor:185 - RealPlayer waiting for connection on port 8501
+18:38:25 INFO  Thread-0 210215 Actor:185 - RealPlayer sent successfully Ready to 10.96.235.23:8001
+18:38:25 INFO  Thread-0 210216 Actor:185 - House waiting for connection on port 1235
+18:38:36 INFO  Thread-1 221163 Actor:185 - RealPlayer accepted connection on port 8501
+18:38:36 INFO  Thread-1 221173 Actor:185 - RealPlayer received message Bet
+18:38:36 INFO  Thread-1 221173 Actor:185 - RealPlayer invoking listener for Bet
+18:38:36 INFO  Thread-1 221175 Actor:185 - RealPlayer received bet = 25.0
+18:38:36 INFO  Thread-1 221184 Dealer:109 - got new bet = 25.0 side bet = 0.0 from LAPTOP-MR10D0GP/10.96.235.23 for hid = UNKNOWN:YOU:63DE7DB6B4C2E39B
+18:38:36 INFO  Thread-1 221184 Dealer:168 - attempting to spawn bot huey class = charlie.server.bot.Huey
+18:38:36 INFO  Thread-1 221190 Dealer:191 - successfully spawned bot = huey
+18:38:36 INFO  Thread-1 221190 Dealer:168 - attempting to spawn bot dewey class = charlie.server.bot.Dewey
+18:38:36 INFO  Thread-1 221191 Dealer:191 - successfully spawned bot = dewey
+18:38:36 INFO  Thread-1 221191 Dealer:258 - starting a game
+18:38:36 INFO  Thread-1 221192 Dealer:273 - hands at table + dealer = 4
+18:38:36 INFO  Thread-1 221192 Actor:185 - RealPlayer sending GameStart to 10.96.235.23:8001
+18:38:36 INFO  Thread-1 221192 Actor:185 - RealPlayer sent successfully GameStart to 10.96.235.23:8001
+18:38:36 INFO  Thread-1 221453 Shoe:111 - cards size = 52 burn index = 35 index = 0
+18:38:36 INFO  Thread-1 221455 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+18:38:36 INFO  Thread-1 221455 Dealer:352 - dealing to charlie.server.bot.Huey@3bc1d746 card 1 = C6
+18:38:37 INFO  Thread-1 222213 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:37 INFO  Thread-1 222217 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:37 INFO  Thread-1 222217 Shoe:111 - cards size = 52 burn index = 35 index = 1
+18:38:37 INFO  Thread-1 222217 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+18:38:37 INFO  Thread-1 222217 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = S6
+18:38:38 INFO  Thread-1 222969 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:38 INFO  Thread-1 222972 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:38 INFO  Thread-1 222972 Shoe:111 - cards size = 52 burn index = 35 index = 2
+18:38:38 INFO  Thread-1 222972 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+18:38:38 INFO  Thread-1 222973 Dealer:352 - dealing to charlie.server.bot.Dewey@1464614 card 1 = D8
+18:38:38 INFO  Thread-1 223724 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:38 INFO  Thread-1 223726 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:38 INFO  Thread-1 223726 Shoe:111 - cards size = 52 burn index = 35 index = 3
+18:38:38 INFO  Thread-1 223727 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+18:38:39 INFO  Thread-1 224478 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:39 INFO  Thread-1 224480 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:39 INFO  Thread-1 224480 Shoe:111 - cards size = 52 burn index = 35 index = 4
+18:38:39 INFO  Thread-1 224481 Shoe:135 - index = 5 burnIndex = 35 shuffle needed = false
+18:38:39 INFO  Thread-1 224481 Dealer:352 - dealing to charlie.server.bot.Huey@3bc1d746 card 1 = D9
+18:38:40 INFO  Thread-1 225232 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:40 INFO  Thread-1 225234 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:40 INFO  Thread-1 225234 Shoe:111 - cards size = 52 burn index = 35 index = 5
+18:38:40 INFO  Thread-1 225234 Shoe:135 - index = 6 burnIndex = 35 shuffle needed = false
+18:38:40 INFO  Thread-1 225234 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = D3
+18:38:40 ERROR Thread-2 225852 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@3bc1d746
+18:38:41 INFO  Thread-1 225986 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:41 INFO  Thread-1 225988 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:41 INFO  Thread-1 225988 Shoe:111 - cards size = 52 burn index = 35 index = 6
+18:38:41 INFO  Thread-1 225988 Shoe:135 - index = 7 burnIndex = 35 shuffle needed = false
+18:38:41 INFO  Thread-1 225988 Dealer:352 - dealing to charlie.server.bot.Dewey@1464614 card 1 = HA
+18:38:41 INFO  Thread-1 226740 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:41 INFO  Thread-1 226742 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:41 INFO  Thread-1 226742 Shoe:111 - cards size = 52 burn index = 35 index = 7
+18:38:41 INFO  Thread-1 226742 Shoe:135 - index = 8 burnIndex = 35 shuffle needed = false
+18:38:42 ERROR Thread-4 227470 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@3bc1d746
+18:38:42 INFO  Thread-1 227495 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:42 INFO  Thread-1 227497 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:42 INFO  Thread-1 227497 Dealer:567 - going to next hand
+18:38:42 INFO  Thread-1 227497 Dealer:577 - active player = charlie.server.bot.Huey@3bc1d746
+18:38:42 INFO  Thread-1 227498 Dealer:617 - sending turn UNKNOWN:RIGHT:2BFABAB66DAB4F5F to charlie.server.bot.Huey@3bc1d746
+18:38:42 INFO  Thread-1 227498 Dealer:617 - sending turn UNKNOWN:RIGHT:2BFABAB66DAB4F5F to LAPTOP-MR10D0GP/10.96.235.23
+18:38:42 INFO  Thread-1 227498 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:38:42 INFO  Thread-1 227499 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:38:42 INFO  Thread-1 227499 Dealer:617 - sending turn UNKNOWN:RIGHT:2BFABAB66DAB4F5F to charlie.server.bot.Dewey@1464614
+18:38:42 INFO  Thread-1 227500 Actor:185 - RealPlayer waiting for connection on port 8501
+18:38:42 ERROR Thread-5 227863 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@1464614
+18:38:43 ERROR Thread-3 228088 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@1464614
+18:38:44 INFO  Thread-6 229328 Dealer:459 - got STAY for UNKNOWN:RIGHT:2BFABAB66DAB4F5F
+18:38:44 INFO  Thread-6 229328 Dealer:567 - going to next hand
+18:38:44 INFO  Thread-6 229328 Dealer:577 - active player = LAPTOP-MR10D0GP/10.96.235.23
+18:38:44 INFO  Thread-6 229328 Dealer:617 - sending turn UNKNOWN:YOU:63DE7DB6B4C2E39B to charlie.server.bot.Huey@3bc1d746
+18:38:44 INFO  Thread-6 229329 Dealer:617 - sending turn UNKNOWN:YOU:63DE7DB6B4C2E39B to LAPTOP-MR10D0GP/10.96.235.23
+18:38:44 INFO  Thread-6 229329 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:38:44 INFO  Thread-6 229329 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:38:44 INFO  Thread-6 229330 Dealer:617 - sending turn UNKNOWN:YOU:63DE7DB6B4C2E39B to charlie.server.bot.Dewey@1464614
+18:38:45 INFO  Thread-1 230222 Actor:185 - RealPlayer accepted connection on port 8501
+18:38:45 INFO  Thread-1 230222 Actor:185 - RealPlayer received message Stay
+18:38:45 INFO  Thread-1 230222 Actor:185 - RealPlayer invoking listener for Stay
+18:38:45 INFO  Thread-1 230222 Actor:185 - RealPlayer received request = Stay
+18:38:45 INFO  Thread-1 230228 Dealer:459 - got STAY for UNKNOWN:YOU:63DE7DB6B4C2E39B
+18:38:45 INFO  Thread-1 230228 Dealer:567 - going to next hand
+18:38:45 INFO  Thread-1 230229 Dealer:577 - active player = charlie.server.bot.Dewey@1464614
+18:38:45 INFO  Thread-1 230229 Dealer:617 - sending turn UNKNOWN:LEFT:3D0AA8B857EFEA9E to charlie.server.bot.Huey@3bc1d746
+18:38:45 INFO  Thread-1 230229 Dealer:617 - sending turn UNKNOWN:LEFT:3D0AA8B857EFEA9E to LAPTOP-MR10D0GP/10.96.235.23
+18:38:45 INFO  Thread-1 230229 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:38:45 INFO  Thread-1 230229 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:38:45 INFO  Thread-1 230230 Dealer:617 - sending turn UNKNOWN:LEFT:3D0AA8B857EFEA9E to charlie.server.bot.Dewey@1464614
+18:38:45 INFO  Thread-1 230230 Actor:185 - RealPlayer waiting for connection on port 8501
+18:38:49 INFO  Thread-7 234509 Dealer:459 - got STAY for UNKNOWN:LEFT:3D0AA8B857EFEA9E
+18:38:49 INFO  Thread-7 234509 Dealer:567 - going to next hand
+18:38:49 INFO  Thread-7 234509 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234511 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234512 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234513 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234514 SideBetRule:36 - side bet amount = 0.0
+18:38:49 INFO  Thread-7 234514 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234516 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234517 SideBetRule:36 - side bet amount = 0.0
+18:38:49 INFO  Thread-7 234517 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234518 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234518 SideBetRule:36 - side bet amount = 0.0
+18:38:49 INFO  Thread-7 234518 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234519 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234520 Actor:185 - RealPlayer sending GameOver to 10.96.235.23:8001
+18:38:49 INFO  Thread-7 234521 Actor:185 - RealPlayer sent successfully GameOver to 10.96.235.23:8001
+18:38:58 INFO  Thread-1 242983 Actor:185 - RealPlayer accepted connection on port 8501
+18:38:58 INFO  Thread-1 242985 Actor:185 - RealPlayer received message Bet
+18:38:58 INFO  Thread-1 242985 Actor:185 - RealPlayer invoking listener for Bet
+18:38:58 INFO  Thread-1 242985 Actor:185 - RealPlayer received bet = 25.0
+18:38:58 INFO  Thread-1 242985 Dealer:109 - got new bet = 25.0 side bet = 0.0 from LAPTOP-MR10D0GP/10.96.235.23 for hid = UNKNOWN:YOU:507AB77A694C052A
+18:38:58 INFO  Thread-1 242985 Dealer:168 - attempting to spawn bot huey class = charlie.server.bot.Huey
+18:38:58 INFO  Thread-1 242985 Dealer:191 - successfully spawned bot = huey
+18:38:58 INFO  Thread-1 242985 Dealer:168 - attempting to spawn bot dewey class = charlie.server.bot.Dewey
+18:38:58 INFO  Thread-1 242985 Dealer:191 - successfully spawned bot = dewey
+18:38:58 INFO  Thread-1 242985 Dealer:258 - starting a game
+18:38:58 INFO  Thread-1 242986 Dealer:273 - hands at table + dealer = 4
+18:38:58 INFO  Thread-1 242986 Actor:185 - RealPlayer sending GameStart to 10.96.235.23:8001
+18:38:58 INFO  Thread-1 242988 Actor:185 - RealPlayer sent successfully GameStart to 10.96.235.23:8001
+18:38:58 INFO  Thread-1 243251 Shoe:111 - cards size = 52 burn index = 35 index = 8
+18:38:58 INFO  Thread-1 243251 Shoe:135 - index = 9 burnIndex = 35 shuffle needed = false
+18:38:58 INFO  Thread-1 243251 Dealer:352 - dealing to charlie.server.bot.Huey@6681a7b card 1 = C7
+18:38:59 INFO  Thread-1 244011 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:59 INFO  Thread-1 244012 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:59 INFO  Thread-1 244013 Shoe:111 - cards size = 52 burn index = 35 index = 9
+18:38:59 INFO  Thread-1 244013 Shoe:135 - index = 10 burnIndex = 35 shuffle needed = false
+18:38:59 INFO  Thread-1 244013 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = CJ
+18:38:59 INFO  Thread-1 244763 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:38:59 INFO  Thread-1 244765 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:38:59 INFO  Thread-1 244765 Shoe:111 - cards size = 52 burn index = 35 index = 10
+18:38:59 INFO  Thread-1 244765 Shoe:135 - index = 11 burnIndex = 35 shuffle needed = false
+18:38:59 INFO  Thread-1 244765 Dealer:352 - dealing to charlie.server.bot.Dewey@7a48125f card 1 = HQ
+18:39:00 ERROR Thread-8 245334 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@6681a7b
+18:39:00 INFO  Thread-1 245516 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:00 INFO  Thread-1 245517 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:00 INFO  Thread-1 245517 Shoe:111 - cards size = 52 burn index = 35 index = 11
+18:39:00 INFO  Thread-1 245517 Shoe:135 - index = 12 burnIndex = 35 shuffle needed = false
+18:39:01 INFO  Thread-1 246269 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:01 INFO  Thread-1 246270 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:01 INFO  Thread-1 246270 Shoe:111 - cards size = 52 burn index = 35 index = 12
+18:39:01 INFO  Thread-1 246270 Shoe:135 - index = 13 burnIndex = 35 shuffle needed = false
+18:39:01 INFO  Thread-1 246270 Dealer:352 - dealing to charlie.server.bot.Huey@6681a7b card 1 = C4
+18:39:02 INFO  Thread-1 247021 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:02 INFO  Thread-1 247023 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:02 INFO  Thread-1 247023 Shoe:111 - cards size = 52 burn index = 35 index = 13
+18:39:02 INFO  Thread-1 247023 Shoe:135 - index = 14 burnIndex = 35 shuffle needed = false
+18:39:02 INFO  Thread-1 247023 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = S3
+18:39:02 INFO  Thread-1 247775 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:02 INFO  Thread-1 247776 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:02 INFO  Thread-1 247776 Shoe:111 - cards size = 52 burn index = 35 index = 14
+18:39:02 INFO  Thread-1 247776 Shoe:135 - index = 15 burnIndex = 35 shuffle needed = false
+18:39:02 INFO  Thread-1 247776 Dealer:352 - dealing to charlie.server.bot.Dewey@7a48125f card 1 = H2
+18:39:03 INFO  Thread-1 248527 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:03 INFO  Thread-1 248529 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:03 INFO  Thread-1 248529 Shoe:111 - cards size = 52 burn index = 35 index = 15
+18:39:03 INFO  Thread-1 248530 Shoe:135 - index = 16 burnIndex = 35 shuffle needed = false
+18:39:04 ERROR Thread-9 249002 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@7a48125f
+18:39:04 INFO  Thread-1 249281 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:04 INFO  Thread-1 249283 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:04 INFO  Thread-1 249283 Dealer:567 - going to next hand
+18:39:04 INFO  Thread-1 249283 Dealer:577 - active player = charlie.server.bot.Huey@6681a7b
+18:39:04 INFO  Thread-1 249283 Dealer:617 - sending turn UNKNOWN:RIGHT:443692430551D431 to charlie.server.bot.Huey@6681a7b
+18:39:04 INFO  Thread-1 249284 Dealer:617 - sending turn UNKNOWN:RIGHT:443692430551D431 to LAPTOP-MR10D0GP/10.96.235.23
+18:39:04 INFO  Thread-1 249284 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:39:04 INFO  Thread-1 249285 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:39:04 INFO  Thread-1 249285 Dealer:617 - sending turn UNKNOWN:RIGHT:443692430551D431 to charlie.server.bot.Dewey@7a48125f
+18:39:04 INFO  Thread-1 249285 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:05 INFO  Thread-10 249932 Dealer:479 - got double down amt = 5.0 hid = UNKNOWN:RIGHT:443692430551D431
+18:39:05 INFO  Thread-10 249932 Shoe:111 - cards size = 52 burn index = 35 index = 16
+18:39:05 INFO  Thread-10 249932 Shoe:135 - index = 17 burnIndex = 35 shuffle needed = false
+18:39:05 INFO  Thread-10 249933 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:05 INFO  Thread-10 249934 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:05 INFO  Thread-10 249934 Dealer:567 - going to next hand
+18:39:05 INFO  Thread-10 249934 Dealer:577 - active player = LAPTOP-MR10D0GP/10.96.235.23
+18:39:05 INFO  Thread-10 249934 Dealer:617 - sending turn UNKNOWN:YOU:507AB77A694C052A to charlie.server.bot.Huey@6681a7b
+18:39:05 INFO  Thread-10 249934 Dealer:617 - sending turn UNKNOWN:YOU:507AB77A694C052A to LAPTOP-MR10D0GP/10.96.235.23
+18:39:05 INFO  Thread-10 249934 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:39:05 INFO  Thread-10 249935 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:39:05 INFO  Thread-10 249935 Dealer:617 - sending turn UNKNOWN:YOU:507AB77A694C052A to charlie.server.bot.Dewey@7a48125f
+18:39:05 ERROR Thread-12 250656 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@6681a7b
+18:39:05 ERROR Thread-13 250730 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@6681a7b
+18:39:06 INFO  Thread-1 251569 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:06 INFO  Thread-1 251572 Actor:185 - RealPlayer received message Hit
+18:39:06 INFO  Thread-1 251572 Actor:185 - RealPlayer invoking listener for Hit
+18:39:06 INFO  Thread-1 251572 Actor:185 - RealPlayer received request = Hit
+18:39:06 INFO  Thread-1 251572 Shoe:111 - cards size = 52 burn index = 35 index = 17
+18:39:06 INFO  Thread-1 251572 Shoe:135 - index = 18 burnIndex = 35 shuffle needed = false
+18:39:06 INFO  Thread-1 251572 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:06 INFO  Thread-1 251574 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:06 INFO  Thread-1 251574 Dealer:406 - hit hid = UNKNOWN:YOU:507AB77A694C052A with S10
+18:39:06 INFO  Thread-1 251574 SideBetRule:36 - side bet amount = 0.0
+18:39:06 INFO  Thread-1 251575 Actor:185 - RealPlayer sending Bust to 10.96.235.23:8001
+18:39:06 INFO  Thread-1 251577 Actor:185 - RealPlayer sent successfully Bust to 10.96.235.23:8001
+18:39:06 INFO  Thread-1 251577 Dealer:567 - going to next hand
+18:39:06 INFO  Thread-1 251577 Dealer:577 - active player = charlie.server.bot.Dewey@7a48125f
+18:39:06 INFO  Thread-1 251577 Dealer:617 - sending turn UNKNOWN:LEFT:4E33FCCBED27E96C to charlie.server.bot.Huey@6681a7b
+18:39:06 INFO  Thread-1 251577 Dealer:617 - sending turn UNKNOWN:LEFT:4E33FCCBED27E96C to LAPTOP-MR10D0GP/10.96.235.23
+18:39:06 INFO  Thread-1 251577 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:39:06 INFO  Thread-1 251579 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:39:06 INFO  Thread-1 251579 Dealer:617 - sending turn UNKNOWN:LEFT:4E33FCCBED27E96C to charlie.server.bot.Dewey@7a48125f
+18:39:06 INFO  Thread-1 251579 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:07 INFO  Thread-11 252062 Dealer:459 - got STAY for UNKNOWN:LEFT:4E33FCCBED27E96C
+18:39:07 INFO  Thread-11 252062 Dealer:567 - going to next hand
+18:39:07 INFO  Thread-11 252062 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:39:07 INFO  Thread-11 252064 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:39:07 INFO  Thread-11 252064 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:07 INFO  Thread-11 252065 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:07 INFO  Thread-11 252065 Shoe:111 - cards size = 52 burn index = 35 index = 18
+18:39:07 INFO  Thread-11 252065 Shoe:135 - index = 19 burnIndex = 35 shuffle needed = false
+18:39:07 INFO  Thread-11 252817 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:07 INFO  Thread-11 252818 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:07 INFO  Thread-11 252818 Shoe:111 - cards size = 52 burn index = 35 index = 19
+18:39:07 INFO  Thread-11 252818 Shoe:135 - index = 20 burnIndex = 35 shuffle needed = false
+18:39:08 INFO  Thread-11 253571 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:08 INFO  Thread-11 253572 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:08 INFO  Thread-11 253572 SideBetRule:36 - side bet amount = 0.0
+18:39:08 INFO  Thread-11 253572 Actor:185 - RealPlayer sending Win to 10.96.235.23:8001
+18:39:08 INFO  Thread-11 253574 Actor:185 - RealPlayer sent successfully Win to 10.96.235.23:8001
+18:39:08 INFO  Thread-11 253574 SideBetRule:36 - side bet amount = 0.0
+18:39:08 INFO  Thread-11 253574 Actor:185 - RealPlayer sending Win to 10.96.235.23:8001
+18:39:08 INFO  Thread-11 253575 Actor:185 - RealPlayer sent successfully Win to 10.96.235.23:8001
+18:39:08 INFO  Thread-11 253575 Actor:185 - RealPlayer sending GameOver to 10.96.235.23:8001
+18:39:08 INFO  Thread-11 253576 Actor:185 - RealPlayer sent successfully GameOver to 10.96.235.23:8001
+18:39:09 ERROR Thread-14 254675 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@7a48125f
+18:39:10 INFO  Thread-1 255645 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:10 INFO  Thread-1 255646 Actor:185 - RealPlayer received message Bet
+18:39:10 INFO  Thread-1 255646 Actor:185 - RealPlayer invoking listener for Bet
+18:39:10 INFO  Thread-1 255646 Actor:185 - RealPlayer received bet = 25.0
+18:39:10 INFO  Thread-1 255646 Dealer:109 - got new bet = 25.0 side bet = 0.0 from LAPTOP-MR10D0GP/10.96.235.23 for hid = UNKNOWN:YOU:5A27C4A8E0FD64A6
+18:39:10 INFO  Thread-1 255646 Dealer:168 - attempting to spawn bot huey class = charlie.server.bot.Huey
+18:39:10 INFO  Thread-1 255647 Dealer:191 - successfully spawned bot = huey
+18:39:10 INFO  Thread-1 255647 Dealer:168 - attempting to spawn bot dewey class = charlie.server.bot.Dewey
+18:39:10 INFO  Thread-1 255648 Dealer:191 - successfully spawned bot = dewey
+18:39:10 INFO  Thread-1 255648 Dealer:258 - starting a game
+18:39:10 INFO  Thread-1 255648 Dealer:273 - hands at table + dealer = 4
+18:39:10 INFO  Thread-1 255648 Actor:185 - RealPlayer sending GameStart to 10.96.235.23:8001
+18:39:10 INFO  Thread-1 255650 Actor:185 - RealPlayer sent successfully GameStart to 10.96.235.23:8001
+18:39:11 INFO  Thread-1 255914 Shoe:111 - cards size = 52 burn index = 35 index = 20
+18:39:11 INFO  Thread-1 255914 Shoe:135 - index = 21 burnIndex = 35 shuffle needed = false
+18:39:11 INFO  Thread-1 255914 Dealer:352 - dealing to charlie.server.bot.Huey@7fd27ffd card 1 = H7
+18:39:11 INFO  Thread-1 256680 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:11 INFO  Thread-1 256681 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:11 INFO  Thread-1 256681 Shoe:111 - cards size = 52 burn index = 35 index = 21
+18:39:11 INFO  Thread-1 256681 Shoe:135 - index = 22 burnIndex = 35 shuffle needed = false
+18:39:11 INFO  Thread-1 256681 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = C2
+18:39:12 INFO  Thread-1 257433 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:12 INFO  Thread-1 257435 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:12 INFO  Thread-1 257435 Shoe:111 - cards size = 52 burn index = 35 index = 22
+18:39:12 INFO  Thread-1 257435 Shoe:135 - index = 23 burnIndex = 35 shuffle needed = false
+18:39:12 INFO  Thread-1 257435 Dealer:352 - dealing to charlie.server.bot.Dewey@4062d5f card 1 = CK
+18:39:13 INFO  Thread-1 258187 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:13 INFO  Thread-1 258188 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:13 INFO  Thread-1 258189 Shoe:111 - cards size = 52 burn index = 35 index = 23
+18:39:13 INFO  Thread-1 258189 Shoe:135 - index = 24 burnIndex = 35 shuffle needed = false
+18:39:13 ERROR Thread-15 258545 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@7fd27ffd
+18:39:14 INFO  Thread-1 258940 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:14 INFO  Thread-1 258941 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:14 INFO  Thread-1 258941 Shoe:111 - cards size = 52 burn index = 35 index = 24
+18:39:14 INFO  Thread-1 258941 Shoe:135 - index = 25 burnIndex = 35 shuffle needed = false
+18:39:14 INFO  Thread-1 258941 Dealer:352 - dealing to charlie.server.bot.Huey@7fd27ffd card 1 = CQ
+18:39:14 INFO  Thread-1 259692 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:14 INFO  Thread-1 259693 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:14 INFO  Thread-1 259694 Shoe:111 - cards size = 52 burn index = 35 index = 25
+18:39:14 INFO  Thread-1 259694 Shoe:135 - index = 26 burnIndex = 35 shuffle needed = false
+18:39:14 INFO  Thread-1 259694 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = H9
+18:39:15 INFO  Thread-1 260446 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:15 INFO  Thread-1 260447 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:15 INFO  Thread-1 260447 Shoe:111 - cards size = 52 burn index = 35 index = 26
+18:39:15 INFO  Thread-1 260447 Shoe:135 - index = 27 burnIndex = 35 shuffle needed = false
+18:39:15 INFO  Thread-1 260447 Dealer:352 - dealing to charlie.server.bot.Dewey@4062d5f card 1 = D4
+18:39:15 ERROR Thread-16 260527 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@4062d5f
+18:39:16 INFO  Thread-1 261198 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:16 INFO  Thread-1 261199 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:16 INFO  Thread-1 261199 Shoe:111 - cards size = 52 burn index = 35 index = 27
+18:39:16 INFO  Thread-1 261200 Shoe:135 - index = 28 burnIndex = 35 shuffle needed = false
+18:39:16 ERROR Thread-17 261746 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@7fd27ffd
+18:39:16 ERROR Thread-18 261748 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@4062d5f
+18:39:17 INFO  Thread-1 261951 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261953 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261953 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261954 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261954 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261955 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261956 SideBetRule:36 - side bet amount = 0.0
+18:39:17 INFO  Thread-1 261956 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261957 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261957 SideBetRule:36 - side bet amount = 0.0
+18:39:17 INFO  Thread-1 261957 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261958 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261959 SideBetRule:36 - side bet amount = 0.0
+18:39:17 INFO  Thread-1 261959 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261959 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261960 Actor:185 - RealPlayer sending GameOver to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261961 Actor:185 - RealPlayer sent successfully GameOver to 10.96.235.23:8001
+18:39:17 INFO  Thread-1 261961 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:22 INFO  Thread-1 267727 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:22 INFO  Thread-1 267728 Actor:185 - RealPlayer received message Bet
+18:39:22 INFO  Thread-1 267728 Actor:185 - RealPlayer invoking listener for Bet
+18:39:22 INFO  Thread-1 267728 Actor:185 - RealPlayer received bet = 50.0
+18:39:22 INFO  Thread-1 267728 Dealer:109 - got new bet = 50.0 side bet = 0.0 from LAPTOP-MR10D0GP/10.96.235.23 for hid = UNKNOWN:YOU:5E0617905657A113
+18:39:22 INFO  Thread-1 267728 Dealer:168 - attempting to spawn bot huey class = charlie.server.bot.Huey
+18:39:22 INFO  Thread-1 267729 Dealer:191 - successfully spawned bot = huey
+18:39:22 INFO  Thread-1 267729 Dealer:168 - attempting to spawn bot dewey class = charlie.server.bot.Dewey
+18:39:22 INFO  Thread-1 267729 Dealer:191 - successfully spawned bot = dewey
+18:39:22 INFO  Thread-1 267729 Dealer:258 - starting a game
+18:39:22 INFO  Thread-1 267729 Dealer:273 - hands at table + dealer = 4
+18:39:22 INFO  Thread-1 267729 Actor:185 - RealPlayer sending GameStart to 10.96.235.23:8001
+18:39:22 INFO  Thread-1 267731 Actor:185 - RealPlayer sent successfully GameStart to 10.96.235.23:8001
+18:39:23 INFO  Thread-1 267993 Shoe:111 - cards size = 52 burn index = 35 index = 28
+18:39:23 INFO  Thread-1 267993 Shoe:135 - index = 29 burnIndex = 35 shuffle needed = false
+18:39:23 INFO  Thread-1 267993 Dealer:352 - dealing to charlie.server.bot.Huey@4d8d27f0 card 1 = H4
+18:39:23 INFO  Thread-1 268759 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:23 INFO  Thread-1 268761 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:23 INFO  Thread-1 268761 Shoe:111 - cards size = 52 burn index = 35 index = 29
+18:39:23 INFO  Thread-1 268762 Shoe:135 - index = 30 burnIndex = 35 shuffle needed = false
+18:39:23 INFO  Thread-1 268762 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = S4
+18:39:24 INFO  Thread-1 269513 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:24 INFO  Thread-1 269513 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:24 INFO  Thread-1 269514 Shoe:111 - cards size = 52 burn index = 35 index = 30
+18:39:24 INFO  Thread-1 269514 Shoe:135 - index = 31 burnIndex = 35 shuffle needed = false
+18:39:24 INFO  Thread-1 269514 Dealer:352 - dealing to charlie.server.bot.Dewey@237158f1 card 1 = S9
+18:39:25 ERROR Thread-19 269994 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@4d8d27f0
+18:39:25 INFO  Thread-1 270265 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:25 INFO  Thread-1 270266 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:25 INFO  Thread-1 270267 Shoe:111 - cards size = 52 burn index = 35 index = 31
+18:39:25 INFO  Thread-1 270267 Shoe:135 - index = 32 burnIndex = 35 shuffle needed = false
+18:39:26 INFO  Thread-1 271018 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:26 INFO  Thread-1 271020 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:26 INFO  Thread-1 271020 Shoe:111 - cards size = 52 burn index = 35 index = 32
+18:39:26 INFO  Thread-1 271020 Shoe:135 - index = 33 burnIndex = 35 shuffle needed = false
+18:39:26 INFO  Thread-1 271020 Dealer:352 - dealing to charlie.server.bot.Huey@4d8d27f0 card 1 = SJ
+18:39:26 INFO  Thread-1 271771 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:26 INFO  Thread-1 271772 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:26 INFO  Thread-1 271772 Shoe:111 - cards size = 52 burn index = 35 index = 33
+18:39:26 INFO  Thread-1 271772 Shoe:135 - index = 34 burnIndex = 35 shuffle needed = false
+18:39:26 INFO  Thread-1 271772 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = C9
+18:39:27 INFO  Thread-1 272524 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:27 INFO  Thread-1 272525 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:27 INFO  Thread-1 272525 Shoe:111 - cards size = 52 burn index = 35 index = 34
+18:39:27 INFO  Thread-1 272525 Shoe:135 - index = 35 burnIndex = 35 shuffle needed = true
+18:39:27 INFO  Thread-1 272526 Actor:185 - RealPlayer sending Shuffle to 10.96.235.23:8001
+18:39:27 INFO  Thread-1 272527 Actor:185 - RealPlayer sent successfully Shuffle to 10.96.235.23:8001
+18:39:27 INFO  Thread-1 272528 Dealer:352 - dealing to charlie.server.bot.Dewey@237158f1 card 1 = H6
+18:39:28 ERROR Thread-21 273043 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@4d8d27f0
+18:39:28 INFO  Thread-1 273278 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:28 INFO  Thread-1 273280 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:28 INFO  Thread-1 273280 Shoe:111 - cards size = 52 burn index = 35 index = 35
+18:39:28 ERROR Thread-20 273366 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@237158f1
+18:39:29 INFO  Thread-1 274034 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:29 INFO  Thread-1 274036 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:29 INFO  Thread-1 274036 Dealer:567 - going to next hand
+18:39:29 INFO  Thread-1 274036 Dealer:577 - active player = charlie.server.bot.Huey@4d8d27f0
+18:39:29 INFO  Thread-1 274036 Dealer:617 - sending turn UNKNOWN:RIGHT:54477242BAFB1A2A to charlie.server.bot.Huey@4d8d27f0
+18:39:29 INFO  Thread-1 274036 Dealer:617 - sending turn UNKNOWN:RIGHT:54477242BAFB1A2A to LAPTOP-MR10D0GP/10.96.235.23
+18:39:29 INFO  Thread-1 274037 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:39:29 INFO  Thread-1 274038 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:39:29 INFO  Thread-1 274038 Dealer:617 - sending turn UNKNOWN:RIGHT:54477242BAFB1A2A to charlie.server.bot.Dewey@237158f1
+18:39:29 INFO  Thread-1 274038 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:31 ERROR Thread-22 275928 Dealer:392 - got invalid HIT player = charlie.server.bot.Dewey@237158f1
+18:39:31 INFO  Thread-23 276188 Dealer:459 - got STAY for UNKNOWN:RIGHT:54477242BAFB1A2A
+18:39:31 INFO  Thread-23 276188 Dealer:567 - going to next hand
+18:39:31 INFO  Thread-23 276188 Dealer:577 - active player = LAPTOP-MR10D0GP/10.96.235.23
+18:39:31 INFO  Thread-23 276188 Dealer:617 - sending turn UNKNOWN:YOU:5E0617905657A113 to charlie.server.bot.Huey@4d8d27f0
+18:39:31 INFO  Thread-23 276188 Dealer:617 - sending turn UNKNOWN:YOU:5E0617905657A113 to LAPTOP-MR10D0GP/10.96.235.23
+18:39:31 INFO  Thread-23 276188 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:39:31 INFO  Thread-23 276190 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:39:31 INFO  Thread-23 276190 Dealer:617 - sending turn UNKNOWN:YOU:5E0617905657A113 to charlie.server.bot.Dewey@237158f1
+18:39:31 INFO  Thread-1 276864 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:31 INFO  Thread-1 276864 Actor:185 - RealPlayer received message Hit
+18:39:31 INFO  Thread-1 276864 Actor:185 - RealPlayer invoking listener for Hit
+18:39:31 INFO  Thread-1 276864 Actor:185 - RealPlayer received request = Hit
+18:39:31 INFO  Thread-1 276864 Shoe:111 - cards size = 52 burn index = 35 index = 36
+18:39:31 INFO  Thread-1 276864 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:31 INFO  Thread-1 276864 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:31 INFO  Thread-1 276864 Dealer:406 - hit hid = UNKNOWN:YOU:5E0617905657A113 with S2
+18:39:31 INFO  Thread-1 276864 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:33 INFO  Thread-1 278288 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:33 INFO  Thread-1 278289 Actor:185 - RealPlayer received message Hit
+18:39:33 INFO  Thread-1 278289 Actor:185 - RealPlayer invoking listener for Hit
+18:39:33 INFO  Thread-1 278289 Actor:185 - RealPlayer received request = Hit
+18:39:33 INFO  Thread-1 278289 Shoe:111 - cards size = 52 burn index = 35 index = 37
+18:39:33 INFO  Thread-1 278290 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:33 INFO  Thread-1 278291 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:33 INFO  Thread-1 278292 Dealer:406 - hit hid = UNKNOWN:YOU:5E0617905657A113 with DJ
+18:39:33 INFO  Thread-1 278292 SideBetRule:36 - side bet amount = 0.0
+18:39:33 INFO  Thread-1 278292 Actor:185 - RealPlayer sending Bust to 10.96.235.23:8001
+18:39:33 INFO  Thread-1 278293 Actor:185 - RealPlayer sent successfully Bust to 10.96.235.23:8001
+18:39:33 INFO  Thread-1 278293 Dealer:567 - going to next hand
+18:39:33 INFO  Thread-1 278293 Dealer:577 - active player = charlie.server.bot.Dewey@237158f1
+18:39:33 INFO  Thread-1 278293 Dealer:617 - sending turn UNKNOWN:LEFT:501495D7F74BA9C5 to charlie.server.bot.Huey@4d8d27f0
+18:39:33 INFO  Thread-1 278293 Dealer:617 - sending turn UNKNOWN:LEFT:501495D7F74BA9C5 to LAPTOP-MR10D0GP/10.96.235.23
+18:39:33 INFO  Thread-1 278293 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:39:33 INFO  Thread-1 278294 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:39:33 INFO  Thread-1 278295 Dealer:617 - sending turn UNKNOWN:LEFT:501495D7F74BA9C5 to charlie.server.bot.Dewey@237158f1
+18:39:33 INFO  Thread-1 278295 Actor:185 - RealPlayer waiting for connection on port 8501
+18:39:36 INFO  Thread-24 281025 Shoe:111 - cards size = 52 burn index = 35 index = 38
+18:39:36 INFO  Thread-24 281026 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:36 INFO  Thread-24 281027 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:36 INFO  Thread-24 281028 Dealer:406 - hit hid = UNKNOWN:LEFT:501495D7F74BA9C5 with D5
+18:39:38 INFO  Thread-25 283415 Dealer:459 - got STAY for UNKNOWN:LEFT:501495D7F74BA9C5
+18:39:38 INFO  Thread-25 283415 Dealer:567 - going to next hand
+18:39:38 INFO  Thread-25 283415 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:39:38 INFO  Thread-25 283416 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:39:38 INFO  Thread-25 283417 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:38 INFO  Thread-25 283417 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:38 INFO  Thread-25 283418 Shoe:111 - cards size = 52 burn index = 35 index = 39
+18:39:39 INFO  Thread-25 284170 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:39 INFO  Thread-25 284171 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:39 INFO  Thread-25 284172 SideBetRule:36 - side bet amount = 0.0
+18:39:39 INFO  Thread-25 284172 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:39:39 INFO  Thread-25 284172 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:39:39 INFO  Thread-25 284172 SideBetRule:36 - side bet amount = 0.0
+18:39:39 INFO  Thread-25 284172 Actor:185 - RealPlayer sending Push to 10.96.235.23:8001
+18:39:39 INFO  Thread-25 284174 Actor:185 - RealPlayer sent successfully Push to 10.96.235.23:8001
+18:39:39 INFO  Thread-25 284175 Shoe:102 - shuffling burn index = 35
+18:39:39 INFO  Thread-25 284175 Actor:185 - RealPlayer sending GameOver to 10.96.235.23:8001
+18:39:39 INFO  Thread-25 284176 Actor:185 - RealPlayer sent successfully GameOver to 10.96.235.23:8001
+18:39:58 INFO  Thread-1 303838 Actor:185 - RealPlayer accepted connection on port 8501
+18:39:58 INFO  Thread-1 303840 Actor:185 - RealPlayer received message Bet
+18:39:58 INFO  Thread-1 303840 Actor:185 - RealPlayer invoking listener for Bet
+18:39:58 INFO  Thread-1 303840 Actor:185 - RealPlayer received bet = 125.0
+18:39:58 INFO  Thread-1 303840 Dealer:109 - got new bet = 125.0 side bet = 0.0 from LAPTOP-MR10D0GP/10.96.235.23 for hid = UNKNOWN:YOU:5D462CB933F1A58B
+18:39:58 INFO  Thread-1 303840 Dealer:168 - attempting to spawn bot huey class = charlie.server.bot.Huey
+18:39:58 INFO  Thread-1 303841 Dealer:191 - successfully spawned bot = huey
+18:39:58 INFO  Thread-1 303841 Dealer:168 - attempting to spawn bot dewey class = charlie.server.bot.Dewey
+18:39:58 INFO  Thread-1 303841 Dealer:191 - successfully spawned bot = dewey
+18:39:58 INFO  Thread-1 303841 Dealer:258 - starting a game
+18:39:58 INFO  Thread-1 303841 Dealer:273 - hands at table + dealer = 4
+18:39:58 INFO  Thread-1 303841 Actor:185 - RealPlayer sending GameStart to 10.96.235.23:8001
+18:39:58 INFO  Thread-1 303845 Actor:185 - RealPlayer sent successfully GameStart to 10.96.235.23:8001
+18:39:59 INFO  Thread-1 304107 Shoe:111 - cards size = 52 burn index = 35 index = 0
+18:39:59 INFO  Thread-1 304107 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+18:39:59 INFO  Thread-1 304107 Dealer:352 - dealing to charlie.server.bot.Huey@48db658b card 1 = C8
+18:39:59 INFO  Thread-1 304875 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:39:59 INFO  Thread-1 304877 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:39:59 INFO  Thread-1 304877 Shoe:111 - cards size = 52 burn index = 35 index = 1
+18:39:59 INFO  Thread-1 304877 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+18:39:59 INFO  Thread-1 304877 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = D3
+18:40:00 INFO  Thread-1 305627 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:00 INFO  Thread-1 305628 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:00 INFO  Thread-1 305628 Shoe:111 - cards size = 52 burn index = 35 index = 2
+18:40:00 INFO  Thread-1 305628 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+18:40:00 INFO  Thread-1 305628 Dealer:352 - dealing to charlie.server.bot.Dewey@5c58f35c card 1 = CQ
+18:40:00 ERROR Thread-26 305689 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@48db658b
+18:40:01 INFO  Thread-1 306380 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:01 INFO  Thread-1 306382 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:01 INFO  Thread-1 306382 Shoe:111 - cards size = 52 burn index = 35 index = 3
+18:40:01 INFO  Thread-1 306383 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+18:40:02 INFO  Thread-1 307147 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:02 INFO  Thread-1 307148 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:02 INFO  Thread-1 307148 Shoe:111 - cards size = 52 burn index = 35 index = 4
+18:40:02 INFO  Thread-1 307148 Shoe:135 - index = 5 burnIndex = 35 shuffle needed = false
+18:40:02 INFO  Thread-1 307148 Dealer:352 - dealing to charlie.server.bot.Huey@48db658b card 1 = DK
+18:40:02 ERROR Thread-27 307352 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@5c58f35c
+18:40:03 INFO  Thread-1 307899 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:03 INFO  Thread-1 307901 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:03 INFO  Thread-1 307901 Shoe:111 - cards size = 52 burn index = 35 index = 5
+18:40:03 INFO  Thread-1 307901 Shoe:135 - index = 6 burnIndex = 35 shuffle needed = false
+18:40:03 INFO  Thread-1 307901 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = SJ
+18:40:03 ERROR Thread-28 308457 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@48db658b
+18:40:03 INFO  Thread-1 308652 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:03 INFO  Thread-1 308654 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:03 INFO  Thread-1 308654 Shoe:111 - cards size = 52 burn index = 35 index = 6
+18:40:03 INFO  Thread-1 308654 Shoe:135 - index = 7 burnIndex = 35 shuffle needed = false
+18:40:03 INFO  Thread-1 308655 Dealer:352 - dealing to charlie.server.bot.Dewey@5c58f35c card 1 = S7
+18:40:04 INFO  Thread-1 309413 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:04 INFO  Thread-1 309415 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:04 INFO  Thread-1 309415 Shoe:111 - cards size = 52 burn index = 35 index = 7
+18:40:04 INFO  Thread-1 309415 Shoe:135 - index = 8 burnIndex = 35 shuffle needed = false
+18:40:05 INFO  Thread-1 310166 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:05 INFO  Thread-1 310167 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:05 INFO  Thread-1 310167 Dealer:567 - going to next hand
+18:40:05 INFO  Thread-1 310167 Dealer:577 - active player = charlie.server.bot.Huey@48db658b
+18:40:05 INFO  Thread-1 310167 Dealer:617 - sending turn UNKNOWN:RIGHT:5FB4AB87B4AA6A9C to charlie.server.bot.Huey@48db658b
+18:40:05 INFO  Thread-1 310167 Dealer:617 - sending turn UNKNOWN:RIGHT:5FB4AB87B4AA6A9C to LAPTOP-MR10D0GP/10.96.235.23
+18:40:05 INFO  Thread-1 310167 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:05 INFO  Thread-1 310169 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:05 INFO  Thread-1 310169 Dealer:617 - sending turn UNKNOWN:RIGHT:5FB4AB87B4AA6A9C to charlie.server.bot.Dewey@5c58f35c
+18:40:05 INFO  Thread-1 310169 Actor:185 - RealPlayer waiting for connection on port 8501
+18:40:06 ERROR Thread-29 311136 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@5c58f35c
+18:40:06 INFO  Thread-30 311573 Dealer:459 - got STAY for UNKNOWN:RIGHT:5FB4AB87B4AA6A9C
+18:40:06 INFO  Thread-30 311573 Dealer:567 - going to next hand
+18:40:06 INFO  Thread-30 311573 Dealer:577 - active player = LAPTOP-MR10D0GP/10.96.235.23
+18:40:06 INFO  Thread-30 311573 Dealer:617 - sending turn UNKNOWN:YOU:5D462CB933F1A58B to charlie.server.bot.Huey@48db658b
+18:40:06 INFO  Thread-30 311573 Dealer:617 - sending turn UNKNOWN:YOU:5D462CB933F1A58B to LAPTOP-MR10D0GP/10.96.235.23
+18:40:06 INFO  Thread-30 311573 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:06 INFO  Thread-30 311574 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:06 INFO  Thread-30 311575 Dealer:617 - sending turn UNKNOWN:YOU:5D462CB933F1A58B to charlie.server.bot.Dewey@5c58f35c
+18:40:07 INFO  Thread-1 312104 Actor:185 - RealPlayer accepted connection on port 8501
+18:40:07 INFO  Thread-1 312106 Actor:185 - RealPlayer received message DoubleDown
+18:40:07 INFO  Thread-1 312106 Actor:185 - RealPlayer invoking listener for DoubleDown
+18:40:07 INFO  Thread-1 312106 Actor:185 - RealPlayer received request = DoubleDown
+18:40:07 INFO  Thread-1 312106 Dealer:479 - got double down amt = 250.0 hid = UNKNOWN:YOU:5D462CB933F1A58B
+18:40:07 INFO  Thread-1 312106 Shoe:111 - cards size = 52 burn index = 35 index = 8
+18:40:07 INFO  Thread-1 312106 Shoe:135 - index = 9 burnIndex = 35 shuffle needed = false
+18:40:07 INFO  Thread-1 312106 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:07 INFO  Thread-1 312107 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:07 INFO  Thread-1 312108 SideBetRule:36 - side bet amount = 0.0
+18:40:07 INFO  Thread-1 312108 Actor:185 - RealPlayer sending Bust to 10.96.235.23:8001
+18:40:07 INFO  Thread-1 312109 Actor:185 - RealPlayer sent successfully Bust to 10.96.235.23:8001
+18:40:07 INFO  Thread-1 312110 Dealer:567 - going to next hand
+18:40:07 INFO  Thread-1 312110 Dealer:577 - active player = charlie.server.bot.Dewey@5c58f35c
+18:40:07 INFO  Thread-1 312110 Dealer:617 - sending turn UNKNOWN:LEFT:339030FD006A6AFC to charlie.server.bot.Huey@48db658b
+18:40:07 INFO  Thread-1 312110 Dealer:617 - sending turn UNKNOWN:LEFT:339030FD006A6AFC to LAPTOP-MR10D0GP/10.96.235.23
+18:40:07 INFO  Thread-1 312110 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:07 INFO  Thread-1 312111 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:07 INFO  Thread-1 312112 Dealer:617 - sending turn UNKNOWN:LEFT:339030FD006A6AFC to charlie.server.bot.Dewey@5c58f35c
+18:40:07 INFO  Thread-1 312112 Actor:185 - RealPlayer waiting for connection on port 8501
+18:40:07 INFO  Thread-31 312786 Dealer:459 - got STAY for UNKNOWN:LEFT:339030FD006A6AFC
+18:40:07 INFO  Thread-31 312786 Dealer:567 - going to next hand
+18:40:07 INFO  Thread-31 312786 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:07 INFO  Thread-31 312787 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:07 INFO  Thread-31 312787 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:07 INFO  Thread-31 312788 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:07 INFO  Thread-31 312788 Shoe:111 - cards size = 52 burn index = 35 index = 9
+18:40:07 INFO  Thread-31 312788 Shoe:135 - index = 10 burnIndex = 35 shuffle needed = false
+18:40:08 INFO  Thread-31 313541 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:08 INFO  Thread-31 313542 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:08 INFO  Thread-31 313542 SideBetRule:36 - side bet amount = 0.0
+18:40:08 INFO  Thread-31 313542 Actor:185 - RealPlayer sending Win to 10.96.235.23:8001
+18:40:08 INFO  Thread-31 313543 Actor:185 - RealPlayer sent successfully Win to 10.96.235.23:8001
+18:40:08 INFO  Thread-31 313543 SideBetRule:36 - side bet amount = 0.0
+18:40:08 INFO  Thread-31 313543 Actor:185 - RealPlayer sending Win to 10.96.235.23:8001
+18:40:08 INFO  Thread-31 313544 Actor:185 - RealPlayer sent successfully Win to 10.96.235.23:8001
+18:40:08 INFO  Thread-31 313544 Actor:185 - RealPlayer sending GameOver to 10.96.235.23:8001
+18:40:08 INFO  Thread-31 313545 Actor:185 - RealPlayer sent successfully GameOver to 10.96.235.23:8001
+18:40:13 INFO  Thread-1 318728 Actor:185 - RealPlayer accepted connection on port 8501
+18:40:13 INFO  Thread-1 318729 Actor:185 - RealPlayer received message Bet
+18:40:13 INFO  Thread-1 318730 Actor:185 - RealPlayer invoking listener for Bet
+18:40:13 INFO  Thread-1 318730 Actor:185 - RealPlayer received bet = 25.0
+18:40:13 INFO  Thread-1 318730 Dealer:109 - got new bet = 25.0 side bet = 0.0 from LAPTOP-MR10D0GP/10.96.235.23 for hid = UNKNOWN:YOU:3E672CF69722472F
+18:40:13 INFO  Thread-1 318730 Dealer:168 - attempting to spawn bot huey class = charlie.server.bot.Huey
+18:40:13 INFO  Thread-1 318730 Dealer:191 - successfully spawned bot = huey
+18:40:13 INFO  Thread-1 318730 Dealer:168 - attempting to spawn bot dewey class = charlie.server.bot.Dewey
+18:40:13 INFO  Thread-1 318730 Dealer:191 - successfully spawned bot = dewey
+18:40:13 INFO  Thread-1 318730 Dealer:258 - starting a game
+18:40:13 INFO  Thread-1 318730 Dealer:273 - hands at table + dealer = 4
+18:40:13 INFO  Thread-1 318730 Actor:185 - RealPlayer sending GameStart to 10.96.235.23:8001
+18:40:13 INFO  Thread-1 318732 Actor:185 - RealPlayer sent successfully GameStart to 10.96.235.23:8001
+18:40:14 INFO  Thread-1 318987 Shoe:111 - cards size = 52 burn index = 35 index = 10
+18:40:14 INFO  Thread-1 318987 Shoe:135 - index = 11 burnIndex = 35 shuffle needed = false
+18:40:14 INFO  Thread-1 318987 Dealer:352 - dealing to charlie.server.bot.Huey@6bf22501 card 1 = SQ
+18:40:14 INFO  Thread-1 319752 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:14 INFO  Thread-1 319753 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:14 INFO  Thread-1 319753 Shoe:111 - cards size = 52 burn index = 35 index = 11
+18:40:14 INFO  Thread-1 319753 Shoe:135 - index = 12 burnIndex = 35 shuffle needed = false
+18:40:14 INFO  Thread-1 319753 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = CA
+18:40:15 INFO  Thread-1 320504 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:15 INFO  Thread-1 320506 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:15 INFO  Thread-1 320506 Shoe:111 - cards size = 52 burn index = 35 index = 12
+18:40:15 INFO  Thread-1 320506 Shoe:135 - index = 13 burnIndex = 35 shuffle needed = false
+18:40:15 INFO  Thread-1 320506 Dealer:352 - dealing to charlie.server.bot.Dewey@9fa5494 card 1 = D6
+18:40:16 INFO  Thread-1 321259 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:16 INFO  Thread-1 321261 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:16 INFO  Thread-1 321261 Shoe:111 - cards size = 52 burn index = 35 index = 13
+18:40:16 INFO  Thread-1 321261 Shoe:135 - index = 14 burnIndex = 35 shuffle needed = false
+18:40:17 INFO  Thread-1 322013 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:17 INFO  Thread-1 322014 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:17 INFO  Thread-1 322014 Shoe:111 - cards size = 52 burn index = 35 index = 14
+18:40:17 INFO  Thread-1 322014 Shoe:135 - index = 15 burnIndex = 35 shuffle needed = false
+18:40:17 INFO  Thread-1 322015 Dealer:352 - dealing to charlie.server.bot.Huey@6bf22501 card 1 = SA
+18:40:17 ERROR Thread-33 322070 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@9fa5494
+18:40:17 INFO  Thread-1 322766 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:17 INFO  Thread-1 322767 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:17 INFO  Thread-1 322767 SideBetRule:36 - side bet amount = 0.0
+18:40:17 INFO  Thread-1 322767 Actor:185 - RealPlayer sending Blackjack to 10.96.235.23:8001
+18:40:17 INFO  Thread-1 322769 Actor:185 - RealPlayer sent successfully Blackjack to 10.96.235.23:8001
+18:40:17 INFO  Thread-1 322769 Shoe:111 - cards size = 52 burn index = 35 index = 15
+18:40:17 INFO  Thread-1 322769 Shoe:135 - index = 16 burnIndex = 35 shuffle needed = false
+18:40:17 INFO  Thread-1 322769 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = SK
+18:40:18 ERROR Thread-32 323061 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@6bf22501
+18:40:18 ERROR Thread-34 323395 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@6bf22501
+18:40:18 INFO  Thread-1 323522 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:18 INFO  Thread-1 323522 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:18 INFO  Thread-1 323522 SideBetRule:36 - side bet amount = 0.0
+18:40:18 INFO  Thread-1 323522 Actor:185 - RealPlayer sending Blackjack to 10.96.235.23:8001
+18:40:18 INFO  Thread-1 323523 Actor:185 - RealPlayer sent successfully Blackjack to 10.96.235.23:8001
+18:40:18 INFO  Thread-1 323523 Shoe:111 - cards size = 52 burn index = 35 index = 16
+18:40:18 INFO  Thread-1 323523 Shoe:135 - index = 17 burnIndex = 35 shuffle needed = false
+18:40:18 INFO  Thread-1 323523 Dealer:352 - dealing to charlie.server.bot.Dewey@9fa5494 card 1 = D2
+18:40:19 INFO  Thread-1 324276 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:19 INFO  Thread-1 324277 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:19 INFO  Thread-1 324278 Shoe:111 - cards size = 52 burn index = 35 index = 17
+18:40:19 INFO  Thread-1 324278 Shoe:135 - index = 18 burnIndex = 35 shuffle needed = false
+18:40:20 INFO  Thread-1 325043 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:20 INFO  Thread-1 325044 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:20 INFO  Thread-1 325045 Dealer:567 - going to next hand
+18:40:20 INFO  Thread-1 325045 Dealer:577 - active player = charlie.server.bot.Huey@6bf22501
+18:40:20 INFO  Thread-1 325045 Dealer:567 - going to next hand
+18:40:20 INFO  Thread-1 325045 Dealer:577 - active player = LAPTOP-MR10D0GP/10.96.235.23
+18:40:20 INFO  Thread-1 325045 Dealer:567 - going to next hand
+18:40:20 INFO  Thread-1 325045 Dealer:577 - active player = charlie.server.bot.Dewey@9fa5494
+18:40:20 INFO  Thread-1 325045 Dealer:617 - sending turn UNKNOWN:LEFT:6D912703793F4EAF to charlie.server.bot.Huey@6bf22501
+18:40:20 INFO  Thread-1 325045 Dealer:617 - sending turn UNKNOWN:LEFT:6D912703793F4EAF to LAPTOP-MR10D0GP/10.96.235.23
+18:40:20 INFO  Thread-1 325045 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:20 INFO  Thread-1 325046 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:20 INFO  Thread-1 325046 Dealer:617 - sending turn UNKNOWN:LEFT:6D912703793F4EAF to charlie.server.bot.Dewey@9fa5494
+18:40:20 INFO  Thread-1 325046 Actor:185 - RealPlayer waiting for connection on port 8501
+18:40:22 INFO  Thread-35 327084 Shoe:111 - cards size = 52 burn index = 35 index = 18
+18:40:22 INFO  Thread-35 327084 Shoe:135 - index = 19 burnIndex = 35 shuffle needed = false
+18:40:22 INFO  Thread-35 327084 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:22 INFO  Thread-35 327086 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:22 INFO  Thread-35 327087 Dealer:406 - hit hid = UNKNOWN:LEFT:6D912703793F4EAF with S10
+18:40:23 INFO  Thread-36 327982 Dealer:459 - got STAY for UNKNOWN:LEFT:6D912703793F4EAF
+18:40:23 INFO  Thread-36 327982 Dealer:567 - going to next hand
+18:40:23 INFO  Thread-36 327982 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:23 INFO  Thread-36 327984 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:23 INFO  Thread-36 327984 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:23 INFO  Thread-36 327985 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:23 INFO  Thread-36 327985 SideBetRule:36 - side bet amount = 0.0
+18:40:23 INFO  Thread-36 327985 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:40:23 INFO  Thread-36 327986 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:40:23 INFO  Thread-36 327986 Actor:185 - RealPlayer sending GameOver to 10.96.235.23:8001
+18:40:23 INFO  Thread-36 327987 Actor:185 - RealPlayer sent successfully GameOver to 10.96.235.23:8001
+18:40:24 INFO  Thread-1 329004 Actor:185 - RealPlayer accepted connection on port 8501
+18:40:24 INFO  Thread-1 329005 Actor:185 - RealPlayer received message Bet
+18:40:24 INFO  Thread-1 329005 Actor:185 - RealPlayer invoking listener for Bet
+18:40:24 INFO  Thread-1 329005 Actor:185 - RealPlayer received bet = 25.0
+18:40:24 INFO  Thread-1 329005 Dealer:109 - got new bet = 25.0 side bet = 0.0 from LAPTOP-MR10D0GP/10.96.235.23 for hid = UNKNOWN:YOU:41DF4C8ECAA03F88
+18:40:24 INFO  Thread-1 329005 Dealer:168 - attempting to spawn bot huey class = charlie.server.bot.Huey
+18:40:24 INFO  Thread-1 329005 Dealer:191 - successfully spawned bot = huey
+18:40:24 INFO  Thread-1 329005 Dealer:168 - attempting to spawn bot dewey class = charlie.server.bot.Dewey
+18:40:24 INFO  Thread-1 329005 Dealer:191 - successfully spawned bot = dewey
+18:40:24 INFO  Thread-1 329005 Dealer:258 - starting a game
+18:40:24 INFO  Thread-1 329005 Dealer:273 - hands at table + dealer = 4
+18:40:24 INFO  Thread-1 329005 Actor:185 - RealPlayer sending GameStart to 10.96.235.23:8001
+18:40:24 INFO  Thread-1 329006 Actor:185 - RealPlayer sent successfully GameStart to 10.96.235.23:8001
+18:40:24 INFO  Thread-1 329260 Shoe:111 - cards size = 52 burn index = 35 index = 19
+18:40:24 INFO  Thread-1 329260 Shoe:135 - index = 20 burnIndex = 35 shuffle needed = false
+18:40:24 INFO  Thread-1 329260 Dealer:352 - dealing to charlie.server.bot.Huey@798afb61 card 1 = H8
+18:40:25 INFO  Thread-1 330011 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:25 INFO  Thread-1 330013 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:25 INFO  Thread-1 330013 Shoe:111 - cards size = 52 burn index = 35 index = 20
+18:40:25 INFO  Thread-1 330013 Shoe:135 - index = 21 burnIndex = 35 shuffle needed = false
+18:40:25 INFO  Thread-1 330013 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = CK
+18:40:25 ERROR Thread-37 330414 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@9fa5494
+18:40:25 INFO  Thread-1 330765 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:25 INFO  Thread-1 330766 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:25 INFO  Thread-1 330767 Shoe:111 - cards size = 52 burn index = 35 index = 21
+18:40:25 INFO  Thread-1 330767 Shoe:135 - index = 22 burnIndex = 35 shuffle needed = false
+18:40:25 INFO  Thread-1 330767 Dealer:352 - dealing to charlie.server.bot.Dewey@16a4dc2 card 1 = C6
+18:40:26 INFO  Thread-1 331517 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:26 INFO  Thread-1 331518 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:26 INFO  Thread-1 331518 Shoe:111 - cards size = 52 burn index = 35 index = 22
+18:40:26 INFO  Thread-1 331518 Shoe:135 - index = 23 burnIndex = 35 shuffle needed = false
+18:40:27 ERROR Thread-38 332043 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@798afb61
+18:40:27 INFO  Thread-1 332269 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:27 INFO  Thread-1 332270 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:27 INFO  Thread-1 332271 Shoe:111 - cards size = 52 burn index = 35 index = 23
+18:40:27 INFO  Thread-1 332271 Shoe:135 - index = 24 burnIndex = 35 shuffle needed = false
+18:40:27 INFO  Thread-1 332271 Dealer:352 - dealing to charlie.server.bot.Huey@798afb61 card 1 = HA
+18:40:28 INFO  Thread-1 333023 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:28 INFO  Thread-1 333025 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:28 INFO  Thread-1 333025 Shoe:111 - cards size = 52 burn index = 35 index = 24
+18:40:28 INFO  Thread-1 333025 Shoe:135 - index = 25 burnIndex = 35 shuffle needed = false
+18:40:28 INFO  Thread-1 333025 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = S8
+18:40:28 INFO  Thread-1 333776 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:28 INFO  Thread-1 333777 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:28 INFO  Thread-1 333777 Shoe:111 - cards size = 52 burn index = 35 index = 25
+18:40:28 INFO  Thread-1 333778 Shoe:135 - index = 26 burnIndex = 35 shuffle needed = false
+18:40:28 INFO  Thread-1 333778 Dealer:352 - dealing to charlie.server.bot.Dewey@16a4dc2 card 1 = HK
+18:40:29 ERROR Thread-40 334186 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@798afb61
+18:40:29 INFO  Thread-1 334529 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:29 INFO  Thread-1 334530 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:29 INFO  Thread-1 334530 Shoe:111 - cards size = 52 burn index = 35 index = 26
+18:40:29 INFO  Thread-1 334531 Shoe:135 - index = 27 burnIndex = 35 shuffle needed = false
+18:40:30 INFO  Thread-1 335281 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:30 INFO  Thread-1 335282 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:30 INFO  Thread-1 335282 Dealer:567 - going to next hand
+18:40:30 INFO  Thread-1 335282 Dealer:577 - active player = charlie.server.bot.Huey@798afb61
+18:40:30 INFO  Thread-1 335282 Dealer:617 - sending turn UNKNOWN:RIGHT:5CC9175624A75694 to charlie.server.bot.Huey@798afb61
+18:40:30 INFO  Thread-1 335282 Dealer:617 - sending turn UNKNOWN:RIGHT:5CC9175624A75694 to LAPTOP-MR10D0GP/10.96.235.23
+18:40:30 INFO  Thread-1 335282 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:30 INFO  Thread-1 335283 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:30 INFO  Thread-1 335283 Dealer:617 - sending turn UNKNOWN:RIGHT:5CC9175624A75694 to charlie.server.bot.Dewey@16a4dc2
+18:40:30 INFO  Thread-1 335284 Actor:185 - RealPlayer waiting for connection on port 8501
+18:40:31 ERROR Thread-39 335887 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@16a4dc2
+18:40:31 ERROR Thread-41 336814 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@16a4dc2
+18:40:32 INFO  Thread-42 336989 Dealer:459 - got STAY for UNKNOWN:RIGHT:5CC9175624A75694
+18:40:32 INFO  Thread-42 336989 Dealer:567 - going to next hand
+18:40:32 INFO  Thread-42 336989 Dealer:577 - active player = LAPTOP-MR10D0GP/10.96.235.23
+18:40:32 INFO  Thread-42 336989 Dealer:617 - sending turn UNKNOWN:YOU:41DF4C8ECAA03F88 to charlie.server.bot.Huey@798afb61
+18:40:32 INFO  Thread-42 336989 Dealer:617 - sending turn UNKNOWN:YOU:41DF4C8ECAA03F88 to LAPTOP-MR10D0GP/10.96.235.23
+18:40:32 INFO  Thread-42 336989 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:32 INFO  Thread-42 336989 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:32 INFO  Thread-42 336989 Dealer:617 - sending turn UNKNOWN:YOU:41DF4C8ECAA03F88 to charlie.server.bot.Dewey@16a4dc2
+18:40:32 INFO  Thread-1 337621 Actor:185 - RealPlayer accepted connection on port 8501
+18:40:32 INFO  Thread-1 337623 Actor:185 - RealPlayer received message Hit
+18:40:32 INFO  Thread-1 337623 Actor:185 - RealPlayer invoking listener for Hit
+18:40:32 INFO  Thread-1 337623 Actor:185 - RealPlayer received request = Hit
+18:40:32 INFO  Thread-1 337623 Shoe:111 - cards size = 52 burn index = 35 index = 27
+18:40:32 INFO  Thread-1 337623 Shoe:135 - index = 28 burnIndex = 35 shuffle needed = false
+18:40:32 INFO  Thread-1 337623 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:32 INFO  Thread-1 337623 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:32 INFO  Thread-1 337624 Dealer:406 - hit hid = UNKNOWN:YOU:41DF4C8ECAA03F88 with D9
+18:40:32 INFO  Thread-1 337624 SideBetRule:36 - side bet amount = 0.0
+18:40:32 INFO  Thread-1 337624 Actor:185 - RealPlayer sending Bust to 10.96.235.23:8001
+18:40:32 INFO  Thread-1 337625 Actor:185 - RealPlayer sent successfully Bust to 10.96.235.23:8001
+18:40:32 INFO  Thread-1 337625 Dealer:567 - going to next hand
+18:40:32 INFO  Thread-1 337625 Dealer:577 - active player = charlie.server.bot.Dewey@16a4dc2
+18:40:32 INFO  Thread-1 337626 Dealer:617 - sending turn UNKNOWN:LEFT:55AE68721D438C75 to charlie.server.bot.Huey@798afb61
+18:40:32 INFO  Thread-1 337626 Dealer:617 - sending turn UNKNOWN:LEFT:55AE68721D438C75 to LAPTOP-MR10D0GP/10.96.235.23
+18:40:32 INFO  Thread-1 337626 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:32 INFO  Thread-1 337626 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:32 INFO  Thread-1 337627 Dealer:617 - sending turn UNKNOWN:LEFT:55AE68721D438C75 to charlie.server.bot.Dewey@16a4dc2
+18:40:32 INFO  Thread-1 337627 Actor:185 - RealPlayer waiting for connection on port 8501
+18:40:33 INFO  Thread-43 338845 Dealer:459 - got STAY for UNKNOWN:LEFT:55AE68721D438C75
+18:40:33 INFO  Thread-43 338845 Dealer:567 - going to next hand
+18:40:33 INFO  Thread-43 338845 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:33 INFO  Thread-43 338846 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:33 INFO  Thread-43 338846 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:33 INFO  Thread-43 338847 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:33 INFO  Thread-43 338847 Shoe:111 - cards size = 52 burn index = 35 index = 28
+18:40:33 INFO  Thread-43 338847 Shoe:135 - index = 29 burnIndex = 35 shuffle needed = false
+18:40:34 INFO  Thread-43 339600 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:34 INFO  Thread-43 339601 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:34 INFO  Thread-43 339601 SideBetRule:36 - side bet amount = 0.0
+18:40:34 INFO  Thread-43 339601 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:40:34 INFO  Thread-43 339602 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:40:34 INFO  Thread-43 339602 SideBetRule:36 - side bet amount = 0.0
+18:40:34 INFO  Thread-43 339602 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:40:34 INFO  Thread-43 339602 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:40:34 INFO  Thread-43 339603 Actor:185 - RealPlayer sending GameOver to 10.96.235.23:8001
+18:40:34 INFO  Thread-43 339603 Actor:185 - RealPlayer sent successfully GameOver to 10.96.235.23:8001
+18:40:37 INFO  Thread-1 342212 Actor:185 - RealPlayer accepted connection on port 8501
+18:40:37 INFO  Thread-1 342213 Actor:185 - RealPlayer received message Bet
+18:40:37 INFO  Thread-1 342213 Actor:185 - RealPlayer invoking listener for Bet
+18:40:37 INFO  Thread-1 342213 Actor:185 - RealPlayer received bet = 25.0
+18:40:37 INFO  Thread-1 342213 Dealer:109 - got new bet = 25.0 side bet = 0.0 from LAPTOP-MR10D0GP/10.96.235.23 for hid = UNKNOWN:YOU:262EB51B76307F1B
+18:40:37 INFO  Thread-1 342213 Dealer:168 - attempting to spawn bot huey class = charlie.server.bot.Huey
+18:40:37 INFO  Thread-1 342214 Dealer:191 - successfully spawned bot = huey
+18:40:37 INFO  Thread-1 342214 Dealer:168 - attempting to spawn bot dewey class = charlie.server.bot.Dewey
+18:40:37 INFO  Thread-1 342214 Dealer:191 - successfully spawned bot = dewey
+18:40:37 INFO  Thread-1 342214 Dealer:258 - starting a game
+18:40:37 INFO  Thread-1 342214 Dealer:273 - hands at table + dealer = 4
+18:40:37 INFO  Thread-1 342214 Actor:185 - RealPlayer sending GameStart to 10.96.235.23:8001
+18:40:37 INFO  Thread-1 342215 Actor:185 - RealPlayer sent successfully GameStart to 10.96.235.23:8001
+18:40:37 INFO  Thread-1 342478 Shoe:111 - cards size = 52 burn index = 35 index = 29
+18:40:37 INFO  Thread-1 342478 Shoe:135 - index = 30 burnIndex = 35 shuffle needed = false
+18:40:37 INFO  Thread-1 342478 Dealer:352 - dealing to charlie.server.bot.Huey@3de822be card 1 = S6
+18:40:38 INFO  Thread-1 343230 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:38 INFO  Thread-1 343231 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:38 INFO  Thread-1 343231 Shoe:111 - cards size = 52 burn index = 35 index = 30
+18:40:38 INFO  Thread-1 343231 Shoe:135 - index = 31 burnIndex = 35 shuffle needed = false
+18:40:38 INFO  Thread-1 343231 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = C7
+18:40:39 INFO  Thread-1 343982 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:39 INFO  Thread-1 343983 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:39 INFO  Thread-1 343983 Shoe:111 - cards size = 52 burn index = 35 index = 31
+18:40:39 INFO  Thread-1 343983 Shoe:135 - index = 32 burnIndex = 35 shuffle needed = false
+18:40:39 INFO  Thread-1 343983 Dealer:352 - dealing to charlie.server.bot.Dewey@5cd9e3b9 card 1 = S9
+18:40:39 ERROR Thread-44 344294 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@3de822be
+18:40:39 INFO  Thread-1 344734 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:39 INFO  Thread-1 344736 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:39 INFO  Thread-1 344737 Shoe:111 - cards size = 52 burn index = 35 index = 32
+18:40:39 INFO  Thread-1 344737 Shoe:135 - index = 33 burnIndex = 35 shuffle needed = false
+18:40:40 INFO  Thread-1 345489 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:40 INFO  Thread-1 345490 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:40 INFO  Thread-1 345490 Shoe:111 - cards size = 52 burn index = 35 index = 33
+18:40:40 INFO  Thread-1 345490 Shoe:135 - index = 34 burnIndex = 35 shuffle needed = false
+18:40:40 INFO  Thread-1 345490 Dealer:352 - dealing to charlie.server.bot.Huey@3de822be card 1 = S3
+18:40:41 INFO  Thread-1 346241 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:41 INFO  Thread-1 346243 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:41 INFO  Thread-1 346243 Shoe:111 - cards size = 52 burn index = 35 index = 34
+18:40:41 INFO  Thread-1 346243 Shoe:135 - index = 35 burnIndex = 35 shuffle needed = true
+18:40:41 INFO  Thread-1 346243 Actor:185 - RealPlayer sending Shuffle to 10.96.235.23:8001
+18:40:41 INFO  Thread-1 346244 Actor:185 - RealPlayer sent successfully Shuffle to 10.96.235.23:8001
+18:40:41 INFO  Thread-1 346244 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = C3
+18:40:42 INFO  Thread-1 346996 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:42 INFO  Thread-1 346997 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:42 INFO  Thread-1 346997 Shoe:111 - cards size = 52 burn index = 35 index = 35
+18:40:42 INFO  Thread-1 346997 Dealer:352 - dealing to charlie.server.bot.Dewey@5cd9e3b9 card 1 = H6
+18:40:42 ERROR Thread-45 347159 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@5cd9e3b9
+18:40:42 INFO  Thread-1 347747 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:42 INFO  Thread-1 347748 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:42 INFO  Thread-1 347749 Shoe:111 - cards size = 52 burn index = 35 index = 36
+18:40:43 INFO  Thread-1 348501 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:43 INFO  Thread-1 348502 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:43 INFO  Thread-1 348502 Dealer:567 - going to next hand
+18:40:43 INFO  Thread-1 348502 Dealer:577 - active player = charlie.server.bot.Huey@3de822be
+18:40:43 INFO  Thread-1 348502 Dealer:617 - sending turn UNKNOWN:RIGHT:57AD261A5F58D7D1 to charlie.server.bot.Huey@3de822be
+18:40:43 INFO  Thread-1 348502 Dealer:617 - sending turn UNKNOWN:RIGHT:57AD261A5F58D7D1 to LAPTOP-MR10D0GP/10.96.235.23
+18:40:43 INFO  Thread-1 348502 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:43 INFO  Thread-1 348503 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:43 INFO  Thread-1 348504 Dealer:617 - sending turn UNKNOWN:RIGHT:57AD261A5F58D7D1 to charlie.server.bot.Dewey@5cd9e3b9
+18:40:43 INFO  Thread-1 348504 Actor:185 - RealPlayer waiting for connection on port 8501
+18:40:45 INFO  Thread-46 350405 Shoe:111 - cards size = 52 burn index = 35 index = 37
+18:40:45 INFO  Thread-46 350405 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:45 INFO  Thread-46 350408 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:45 INFO  Thread-46 350408 Dealer:406 - hit hid = UNKNOWN:RIGHT:57AD261A5F58D7D1 with DA
+18:40:45 ERROR Thread-47 350647 Dealer:392 - got invalid HIT player = charlie.server.bot.Dewey@5cd9e3b9
+18:40:45 INFO  Thread-48 350670 Dealer:459 - got STAY for UNKNOWN:RIGHT:57AD261A5F58D7D1
+18:40:45 INFO  Thread-48 350670 Dealer:567 - going to next hand
+18:40:45 INFO  Thread-48 350670 Dealer:577 - active player = LAPTOP-MR10D0GP/10.96.235.23
+18:40:45 INFO  Thread-48 350670 Dealer:617 - sending turn UNKNOWN:YOU:262EB51B76307F1B to charlie.server.bot.Huey@3de822be
+18:40:45 INFO  Thread-48 350670 Dealer:617 - sending turn UNKNOWN:YOU:262EB51B76307F1B to LAPTOP-MR10D0GP/10.96.235.23
+18:40:45 INFO  Thread-48 350670 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:45 INFO  Thread-48 350671 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:45 INFO  Thread-48 350672 Dealer:617 - sending turn UNKNOWN:YOU:262EB51B76307F1B to charlie.server.bot.Dewey@5cd9e3b9
+18:40:46 INFO  Thread-1 351219 Actor:185 - RealPlayer accepted connection on port 8501
+18:40:46 INFO  Thread-1 351220 Actor:185 - RealPlayer received message Stay
+18:40:46 INFO  Thread-1 351220 Actor:185 - RealPlayer invoking listener for Stay
+18:40:46 INFO  Thread-1 351220 Actor:185 - RealPlayer received request = Stay
+18:40:46 INFO  Thread-1 351220 Dealer:459 - got STAY for UNKNOWN:YOU:262EB51B76307F1B
+18:40:46 INFO  Thread-1 351220 Dealer:567 - going to next hand
+18:40:46 INFO  Thread-1 351220 Dealer:577 - active player = charlie.server.bot.Dewey@5cd9e3b9
+18:40:46 INFO  Thread-1 351220 Dealer:617 - sending turn UNKNOWN:LEFT:3B97A232BFE6131B to charlie.server.bot.Huey@3de822be
+18:40:46 INFO  Thread-1 351220 Dealer:617 - sending turn UNKNOWN:LEFT:3B97A232BFE6131B to LAPTOP-MR10D0GP/10.96.235.23
+18:40:46 INFO  Thread-1 351221 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:46 INFO  Thread-1 351222 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:46 INFO  Thread-1 351222 Dealer:617 - sending turn UNKNOWN:LEFT:3B97A232BFE6131B to charlie.server.bot.Dewey@5cd9e3b9
+18:40:46 INFO  Thread-1 351222 Actor:185 - RealPlayer waiting for connection on port 8501
+18:40:49 ERROR Thread-49 354834 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@3de822be
+18:40:50 INFO  Thread-50 355305 Shoe:111 - cards size = 52 burn index = 35 index = 38
+18:40:50 INFO  Thread-50 355305 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:50 INFO  Thread-50 355307 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:50 INFO  Thread-50 355308 Dealer:406 - hit hid = UNKNOWN:LEFT:3B97A232BFE6131B with H2
+18:40:51 INFO  Thread-51 356391 Dealer:459 - got STAY for UNKNOWN:LEFT:3B97A232BFE6131B
+18:40:51 INFO  Thread-51 356391 Dealer:567 - going to next hand
+18:40:51 INFO  Thread-51 356391 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:40:51 INFO  Thread-51 356392 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:40:51 INFO  Thread-51 356392 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:51 INFO  Thread-51 356394 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:51 INFO  Thread-51 356394 Shoe:111 - cards size = 52 burn index = 35 index = 39
+18:40:52 INFO  Thread-51 357157 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:52 INFO  Thread-51 357157 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:52 INFO  Thread-51 357157 SideBetRule:36 - side bet amount = 0.0
+18:40:52 INFO  Thread-51 357157 Actor:185 - RealPlayer sending Win to 10.96.235.23:8001
+18:40:52 INFO  Thread-51 357159 Actor:185 - RealPlayer sent successfully Win to 10.96.235.23:8001
+18:40:52 INFO  Thread-51 357159 SideBetRule:36 - side bet amount = 0.0
+18:40:52 INFO  Thread-51 357159 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:40:52 INFO  Thread-51 357160 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:40:52 INFO  Thread-51 357160 SideBetRule:36 - side bet amount = 0.0
+18:40:52 INFO  Thread-51 357160 Actor:185 - RealPlayer sending Lose to 10.96.235.23:8001
+18:40:52 INFO  Thread-51 357160 Actor:185 - RealPlayer sent successfully Lose to 10.96.235.23:8001
+18:40:52 INFO  Thread-51 357161 Shoe:102 - shuffling burn index = 35
+18:40:52 INFO  Thread-51 357161 Actor:185 - RealPlayer sending GameOver to 10.96.235.23:8001
+18:40:52 INFO  Thread-51 357162 Actor:185 - RealPlayer sent successfully GameOver to 10.96.235.23:8001
+18:40:58 INFO  Thread-1 363757 Actor:185 - RealPlayer accepted connection on port 8501
+18:40:58 INFO  Thread-1 363757 Actor:185 - RealPlayer received message Bet
+18:40:58 INFO  Thread-1 363757 Actor:185 - RealPlayer invoking listener for Bet
+18:40:58 INFO  Thread-1 363757 Actor:185 - RealPlayer received bet = 125.0
+18:40:58 INFO  Thread-1 363757 Dealer:109 - got new bet = 125.0 side bet = 0.0 from LAPTOP-MR10D0GP/10.96.235.23 for hid = UNKNOWN:YOU:64B076AF4374A390
+18:40:58 INFO  Thread-1 363757 Dealer:168 - attempting to spawn bot huey class = charlie.server.bot.Huey
+18:40:58 INFO  Thread-1 363757 Dealer:191 - successfully spawned bot = huey
+18:40:58 INFO  Thread-1 363757 Dealer:168 - attempting to spawn bot dewey class = charlie.server.bot.Dewey
+18:40:58 INFO  Thread-1 363757 Dealer:191 - successfully spawned bot = dewey
+18:40:58 INFO  Thread-1 363757 Dealer:258 - starting a game
+18:40:58 INFO  Thread-1 363757 Dealer:273 - hands at table + dealer = 4
+18:40:58 INFO  Thread-1 363757 Actor:185 - RealPlayer sending GameStart to 10.96.235.23:8001
+18:40:58 INFO  Thread-1 363757 Actor:185 - RealPlayer sent successfully GameStart to 10.96.235.23:8001
+18:40:59 INFO  Thread-1 364013 Shoe:111 - cards size = 52 burn index = 35 index = 0
+18:40:59 INFO  Thread-1 364013 Shoe:135 - index = 1 burnIndex = 35 shuffle needed = false
+18:40:59 INFO  Thread-1 364013 Dealer:352 - dealing to charlie.server.bot.Huey@3a9f7263 card 1 = SQ
+18:40:59 INFO  Thread-1 364777 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:40:59 INFO  Thread-1 364777 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:40:59 INFO  Thread-1 364777 Shoe:111 - cards size = 52 burn index = 35 index = 1
+18:40:59 INFO  Thread-1 364777 Shoe:135 - index = 2 burnIndex = 35 shuffle needed = false
+18:40:59 INFO  Thread-1 364777 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = C7
+18:41:00 INFO  Thread-1 365528 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:41:00 INFO  Thread-1 365529 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:41:00 INFO  Thread-1 365529 Shoe:111 - cards size = 52 burn index = 35 index = 2
+18:41:00 INFO  Thread-1 365529 Shoe:135 - index = 3 burnIndex = 35 shuffle needed = false
+18:41:00 INFO  Thread-1 365529 Dealer:352 - dealing to charlie.server.bot.Dewey@32748053 card 1 = HA
+18:41:01 INFO  Thread-1 366282 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:41:01 INFO  Thread-1 366284 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:41:01 INFO  Thread-1 366284 Shoe:111 - cards size = 52 burn index = 35 index = 3
+18:41:01 INFO  Thread-1 366284 Shoe:135 - index = 4 burnIndex = 35 shuffle needed = false
+18:41:01 ERROR Thread-52 366668 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@3a9f7263
+18:41:02 INFO  Thread-1 367036 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:41:02 INFO  Thread-1 367037 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:41:02 INFO  Thread-1 367037 Shoe:111 - cards size = 52 burn index = 35 index = 4
+18:41:02 INFO  Thread-1 367037 Shoe:135 - index = 5 burnIndex = 35 shuffle needed = false
+18:41:02 INFO  Thread-1 367037 Dealer:352 - dealing to charlie.server.bot.Huey@3a9f7263 card 1 = D9
+18:41:02 INFO  Thread-1 367789 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:41:02 INFO  Thread-1 367790 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:41:02 INFO  Thread-1 367791 Shoe:111 - cards size = 52 burn index = 35 index = 5
+18:41:02 INFO  Thread-1 367791 Shoe:135 - index = 6 burnIndex = 35 shuffle needed = false
+18:41:02 INFO  Thread-1 367791 Dealer:352 - dealing to LAPTOP-MR10D0GP/10.96.235.23 card 1 = D5
+18:41:03 ERROR Thread-53 368437 Dealer:455 - got invalid STAY player = charlie.server.bot.Dewey@32748053
+18:41:03 INFO  Thread-1 368542 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:41:03 INFO  Thread-1 368543 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:41:03 INFO  Thread-1 368543 Shoe:111 - cards size = 52 burn index = 35 index = 6
+18:41:03 INFO  Thread-1 368543 Shoe:135 - index = 7 burnIndex = 35 shuffle needed = false
+18:41:03 INFO  Thread-1 368543 Dealer:352 - dealing to charlie.server.bot.Dewey@32748053 card 1 = D2
+18:41:04 INFO  Thread-1 369294 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:41:04 INFO  Thread-1 369295 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:41:04 INFO  Thread-1 369295 Shoe:111 - cards size = 52 burn index = 35 index = 7
+18:41:04 INFO  Thread-1 369295 Shoe:135 - index = 8 burnIndex = 35 shuffle needed = false
+18:41:05 INFO  Thread-1 370046 Actor:185 - RealPlayer sending Deal to 10.96.235.23:8001
+18:41:05 INFO  Thread-1 370047 Actor:185 - RealPlayer sent successfully Deal to 10.96.235.23:8001
+18:41:05 INFO  Thread-1 370047 Dealer:567 - going to next hand
+18:41:05 INFO  Thread-1 370047 Dealer:577 - active player = charlie.server.bot.Huey@3a9f7263
+18:41:05 INFO  Thread-1 370047 Dealer:617 - sending turn UNKNOWN:RIGHT:55D44983C3D7AAB to charlie.server.bot.Huey@3a9f7263
+18:41:05 INFO  Thread-1 370048 Dealer:617 - sending turn UNKNOWN:RIGHT:55D44983C3D7AAB to LAPTOP-MR10D0GP/10.96.235.23
+18:41:05 INFO  Thread-1 370048 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:41:05 INFO  Thread-1 370049 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:41:05 INFO  Thread-1 370049 Dealer:617 - sending turn UNKNOWN:RIGHT:55D44983C3D7AAB to charlie.server.bot.Dewey@32748053
+18:41:05 INFO  Thread-1 370049 Actor:185 - RealPlayer waiting for connection on port 8501
+18:41:06 ERROR Thread-55 370937 Dealer:392 - got invalid HIT player = charlie.server.bot.Dewey@32748053
+18:41:06 INFO  Thread-54 371738 Dealer:459 - got STAY for UNKNOWN:RIGHT:55D44983C3D7AAB
+18:41:06 INFO  Thread-54 371738 Dealer:567 - going to next hand
+18:41:06 INFO  Thread-54 371738 Dealer:577 - active player = LAPTOP-MR10D0GP/10.96.235.23
+18:41:06 INFO  Thread-54 371738 Dealer:617 - sending turn UNKNOWN:YOU:64B076AF4374A390 to charlie.server.bot.Huey@3a9f7263
+18:41:06 INFO  Thread-54 371738 Dealer:617 - sending turn UNKNOWN:YOU:64B076AF4374A390 to LAPTOP-MR10D0GP/10.96.235.23
+18:41:06 INFO  Thread-54 371738 Actor:185 - RealPlayer sending Play to 10.96.235.23:8001
+18:41:06 INFO  Thread-54 371738 Actor:185 - RealPlayer sent successfully Play to 10.96.235.23:8001
+18:41:06 INFO  Thread-54 371738 Dealer:617 - sending turn UNKNOWN:YOU:64B076AF4374A390 to charlie.server.bot.Dewey@32748053
+18:41:08 ERROR Thread-56 373590 Dealer:455 - got invalid STAY player = charlie.server.bot.Huey@3a9f7263

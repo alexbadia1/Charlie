@@ -1,0 +1,17 @@
+charlie.server.login 127.0.0.1:9001
+charlie.server.house 127.0.0.1:1235
+charlie.server.realplayer 127.0.0.1:8501
+charlie.client.courier -1:8001
+#charlie.sounds off
+charlie.debug false
+charlie.shoe charlie.server.MyShoe01
+charlie.advisor charlie.client.HumanAdvisor
+charlie.trap charlie.client.CountingTrap
+charlie.sidebet.rule charlie.sidebet.rule.SideBetRule
+charlie.sidebet.view charlie.sidebet.view.SideBetView
+charlie.advisor charlie.client.Advisor
+charlie.bot.huey charlie.server.bot.Huey
+charlie.bot.dewey charlie.server.bot.Dewey
+#charlie.shoe charlie.bot.test.MyShoe
+charlie.cardcounter charlie.client.HiLoCounter
+charlie.bet.minimum 25
